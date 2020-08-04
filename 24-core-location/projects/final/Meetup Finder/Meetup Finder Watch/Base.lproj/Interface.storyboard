@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="15A279b" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Meetups-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Meetups" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Meetup_Finder_Watch" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="1" alignment="left" hidden="YES" id="3aM-ed-ocg" userLabel="Message Content Group">
+                            <items>
+                                <label width="1" height="1" alignment="left" text=" " textAlignment="center" numberOfLines="0" minimumScaleFactor="0.80000000000000004" id="0x5-Za-4pA" userLabel="Message Label">
+                                    <fontDescription key="font" type="system" pointSize="16"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="UK8-Bq-aXz" userLabel="Meetups Content Group">
+                            <items>
+                                <table alignment="left" id="mEx-1V-5vO">
+                                    <items>
+                                        <tableRow identifier="MeetupRowController" id="bZ8-QF-AuL" customClass="MeetupRowController" customModule="Meetup_Finder_Watch_Extension">
+                                            <group key="rootItem" width="1" height="0.0" alignment="left" radius="6" spacing="0.0" id="gO4-Vp-XO4" userLabel="Container">
+                                                <items>
+                                                    <group width="0.69999999999999996" alignment="left" layout="vertical" radius="0.0" spacing="0.0" id="djG-Sq-LpM" userLabel="Left">
+                                                        <items>
+                                                            <label width="1" alignment="left" text="Group " textAlignment="left" numberOfLines="0" minimumScaleFactor="0.80000000000000004" id="rw6-kr-osA" userLabel="Meetup Group Name">
+                                                                <fontDescription key="font" type="boldSystem" pointSize="14"/>
+                                                            </label>
+                                                            <label width="1" alignment="left" text="City, State" id="CjM-ln-wnW" userLabel="Location">
+                                                                <fontDescription key="font" type="system" weight="light" pointSize="14"/>
+                                                            </label>
+                                                        </items>
+                                                        <edgeInsets key="margins" left="4" right="0.0" top="0.0" bottom="4"/>
+                                                    </group>
+                                                    <group width="0.01" height="0.90000000000000002" alignment="left" verticalAlignment="center" radius="0.0" spacing="0.0" id="ZtN-SA-0EJ" userLabel="Center">
+                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                                                        <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                                    </group>
+                                                    <group width="0.28000000000000003" height="1" alignment="left" layout="vertical" radius="0.0" spacing="0.0" id="jzS-3F-mqQ" userLabel="Right">
+                                                        <items>
+                                                            <label width="1" height="16" alignment="center" verticalAlignment="center" text="23" textAlignment="center" minimumScaleFactor="0.80000000000000004" id="G0g-YT-9Xz" userLabel="Members count">
+                                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                                            </label>
+                                                            <imageView height="18" alignment="center" verticalAlignment="center" image="icon-members-watch" contentMode="scaleAspectFit" id="CAP-AN-BrW"/>
+                                                        </items>
+                                                        <edgeInsets key="margins" left="0.0" right="0.0" top="4" bottom="4"/>
+                                                    </group>
+                                                </items>
+                                                <color key="backgroundColor" red="0.94509803920000002" green="0.15686274510000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                            </group>
+                                            <connections>
+                                                <outlet property="containerGroup" destination="gO4-Vp-XO4" id="pMY-ac-hsN"/>
+                                                <outlet property="meetupGroupNameLabel" destination="rw6-kr-osA" id="t1W-rT-s80"/>
+                                                <outlet property="meetupLocationLabel" destination="CjM-ln-wnW" id="hih-cf-M2M"/>
+                                                <outlet property="meetupMembersLabel" destination="G0g-YT-9Xz" id="0dT-sZ-gAg"/>
+                                            </connections>
+                                        </tableRow>
+                                    </items>
+                                </table>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="interfaceTable" destination="mEx-1V-5vO" id="sBQ-Sc-vm6"/>
+                        <outlet property="meetupsContentGroup" destination="UK8-Bq-aXz" id="oJg-EG-2CD"/>
+                        <outlet property="messageContentGroup" destination="3aM-ed-ocg" id="yLN-8b-Ofp"/>
+                        <outlet property="messageLabel" destination="0x5-Za-4pA" id="Bsg-AG-sR7"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="618" y="245"/>
+        </scene>
+        <!--Meetup-->
+        <scene sceneID="H9a-XX-fFl">
+            <objects>
+                <controller identifier="DetailInterfaceController" title="Meetup" hidesWhenLoading="NO" id="upt-l5-0YF" customClass="DetailInterfaceController" customModule="Meetup_Finder_Watch_Extension">
+                    <items>
+                        <group width="1" alignment="left" radius="0.0" spacing="2" id="J1f-Yx-P6a" userLabel="Title Container Group">
+                            <items>
+                                <group width="0.050000000000000003" height="1" alignment="left" verticalAlignment="center" radius="6" id="QoF-V7-9a2" userLabel="Color Group"/>
+                                <label width="0.94999999999999996" alignment="left" verticalAlignment="center" text="Meetup Group Name" numberOfLines="0" id="iqk-f7-B8W" userLabel="Meetup Group Name">
+                                    <fontDescription key="font" type="boldSystem" pointSize="13"/>
+                                </label>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                        </group>
+                        <group width="1" alignment="left" radius="0.0" spacing="2" id="viy-pr-efP" userLabel="Location Container Group">
+                            <items>
+                                <group width="0.050000000000000003" height="1" alignment="left" verticalAlignment="center" id="3Fu-XJ-YbF" userLabel="Indent Group"/>
+                                <group width="1" alignment="left" layout="vertical" radius="0.0" spacing="0.0" id="KZX-Me-d30">
+                                    <items>
+                                        <label width="0.94999999999999996" alignment="left" verticalAlignment="center" text="City, State" textAlignment="left" numberOfLines="0" id="96O-p3-w4F" userLabel="Location">
+                                            <fontDescription key="font" type="system" weight="light" pointSize="13"/>
+                                        </label>
+                                        <label width="0.94999999999999996" alignment="left" verticalAlignment="center" text="Members" textAlignment="left" numberOfLines="0" id="SBK-Al-qBh" userLabel="Members">
+                                            <fontDescription key="font" type="system" weight="light" pointSize="13"/>
+                                        </label>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                </group>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                        </group>
+                        <group width="1" height="5" alignment="left" id="AtP-2L-PSe" userLabel="Spacer Group"/>
+                        <label width="1" alignment="left" text="Next event" numberOfLines="0" id="NAg-5l-SgX" userLabel="Next Event Label">
+                            <color key="textColor" red="0.1137254902" green="0.49019607840000001" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                        </label>
+                        <group width="1" height="5" alignment="left" id="Zuj-nh-ad3" userLabel="Spacer Group"/>
+                        <group width="1" alignment="left" radius="0.0" spacing="2" id="Y8v-Un-ytI" userLabel="Description Container Group">
+                            <items>
+                                <group width="0.050000000000000003" height="1" alignment="left" verticalAlignment="center" id="UfQ-bs-tDV" userLabel="Indent Group"/>
+                                <label width="1" alignment="left" text="Detail" numberOfLines="0" id="zmM-qM-vH6">
+                                    <fontDescription key="font" type="system" weight="light" pointSize="13"/>
+                                </label>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="groupColorGroup" destination="QoF-V7-9a2" id="uEz-cP-eMG"/>
+                        <outlet property="groupDescriptionLabel" destination="zmM-qM-vH6" id="wrT-pf-gLa"/>
+                        <outlet property="groupLocationLabel" destination="96O-p3-w4F" id="G6w-yK-Iob"/>
+                        <outlet property="groupMembersCount" destination="SBK-Al-qBh" id="VKZ-UK-GRM"/>
+                        <outlet property="groupTitleLable" destination="iqk-f7-B8W" id="iRn-89-UjT"/>
+                        <outlet property="nextEventLabel" destination="NAg-5l-SgX" id="adJ-vO-2rE"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="788" y="245"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.1137254902" green="0.49019607840000001" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+</document>

@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B4789671F4D31BC0011F94E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4789651F4D31BC0011F94E /* Interface.storyboard */; };
+		4B4789691F4D31BC0011F94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4789681F4D31BC0011F94E /* Assets.xcassets */; };
+		4B4789701F4D31BD0011F94E /* TurboMemoWatchExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4B47896F1F4D31BC0011F94E /* TurboMemoWatchExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4B4789751F4D31BD0011F94E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4789741F4D31BD0011F94E /* InterfaceController.swift */; };
+		4B4789771F4D31BD0011F94E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4789761F4D31BD0011F94E /* ExtensionDelegate.swift */; };
+		4B4789791F4D31BD0011F94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4789781F4D31BD0011F94E /* Assets.xcassets */; };
+		4B47897D1F4D31BD0011F94E /* TurboMemoWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4B4789631F4D31BC0011F94E /* TurboMemoWatch.app */; };
+		4B4789861F4D32C40011F94E /* MemoFileNameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9186801F4CFE4A003EF50C /* MemoFileNameHelper.swift */; };
+		4B4789871F4D32C40011F94E /* MemoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9186811F4CFE4A003EF50C /* MemoModels.swift */; };
+		4B4789881F4D32C40011F94E /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9186821F4CFE4A003EF50C /* MemoStore.swift */; };
+		4B4789891F4D32DB0011F94E /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B84BDD41F4CFEB800BF01B0 /* FileManagerExtension.swift */; };
+		4B47898A1F4D33990011F94E /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9186821F4CFE4A003EF50C /* MemoStore.swift */; };
+		4B47898B1F4D34200011F94E /* MemoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9186811F4CFE4A003EF50C /* MemoModels.swift */; };
+		4B47898C1F4D34230011F94E /* MemoFileNameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9186801F4CFE4A003EF50C /* MemoFileNameHelper.swift */; };
+		4B84BDD51F4CFEB800BF01B0 /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B84BDD41F4CFEB800BF01B0 /* FileManagerExtension.swift */; };
+		4B84BDD71F4D104400BF01B0 /* MemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B84BDD61F4D104400BF01B0 /* MemosViewController.swift */; };
+		4B84BDDC1F4D17F900BF01B0 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B84BDDB1F4D17F900BF01B0 /* AudioViewController.swift */; };
+		4B9186661F4CF24F003EF50C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9186651F4CF24F003EF50C /* AppDelegate.swift */; };
+		4B91866B1F4CF24F003EF50C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9186691F4CF24F003EF50C /* Main.storyboard */; };
+		4B91866D1F4CF24F003EF50C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B91866C1F4CF24F003EF50C /* Assets.xcassets */; };
+		4B9186701F4CF24F003EF50C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B91866E1F4CF24F003EF50C /* LaunchScreen.storyboard */; };
+		4B91867A1F4CF581003EF50C /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9186791F4CF581003EF50C /* ThemeManager.swift */; };
+		4BC7687F1F5234DF009A9A0E /* MemoRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47898D1F4D35540011F94E /* MemoRowController.swift */; };
+		4BDBAA2A1F4E21D8004816CA /* AudioPlayerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBAA291F4E21D8004816CA /* AudioPlayerInterfaceController.swift */; };
+		5B1C07361F5B1DF600771EF2 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3232F71F5AE12C00C952C1 /* CircleButton.swift */; };
+		5B1C07371F5B1DF600771EF2 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3232F81F5AE12C00C952C1 /* MemoCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B4789711F4D31BD0011F94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B91865A1F4CF24F003EF50C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B47896E1F4D31BC0011F94E;
+			remoteInfo = "TurboMemoWatch Extension";
+		};
+		4B47897B1F4D31BD0011F94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B91865A1F4CF24F003EF50C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B4789621F4D31BC0011F94E;
+			remoteInfo = TurboMemoWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B4789831F4D31BD0011F94E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4B4789701F4D31BD0011F94E /* TurboMemoWatchExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4789851F4D31BD0011F94E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4B47897D1F4D31BD0011F94E /* TurboMemoWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B4789631F4D31BC0011F94E /* TurboMemoWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurboMemoWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4789661F4D31BC0011F94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4B4789681F4D31BC0011F94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B47896A1F4D31BC0011F94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B47896F1F4D31BC0011F94E /* TurboMemoWatchExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TurboMemoWatchExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4789741F4D31BD0011F94E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4B4789761F4D31BD0011F94E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4B4789781F4D31BD0011F94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B47897A1F4D31BD0011F94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B47898D1F4D35540011F94E /* MemoRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoRowController.swift; sourceTree = "<group>"; };
+		4B84BDD41F4CFEB800BF01B0 /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
+		4B84BDD61F4D104400BF01B0 /* MemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemosViewController.swift; sourceTree = "<group>"; };
+		4B84BDDB1F4D17F900BF01B0 /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		4B9186621F4CF24F003EF50C /* TurboMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurboMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9186651F4CF24F003EF50C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B91866A1F4CF24F003EF50C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B91866C1F4CF24F003EF50C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B91866F1F4CF24F003EF50C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B9186711F4CF250003EF50C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9186791F4CF581003EF50C /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		4B9186801F4CFE4A003EF50C /* MemoFileNameHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFileNameHelper.swift; sourceTree = "<group>"; };
+		4B9186811F4CFE4A003EF50C /* MemoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoModels.swift; sourceTree = "<group>"; };
+		4B9186821F4CFE4A003EF50C /* MemoStore.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; tabWidth = 2; };
+		4BDBAA291F4E21D8004816CA /* AudioPlayerInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerInterfaceController.swift; sourceTree = "<group>"; };
+		5B3232F71F5AE12C00C952C1 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleButton.swift; path = CustomViews/CircleButton.swift; sourceTree = SOURCE_ROOT; };
+		5B3232F81F5AE12C00C952C1 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemoCell.swift; path = CustomViews/MemoCell.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B47896C1F4D31BC0011F94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B91865F1F4CF24F003EF50C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B4789641F4D31BC0011F94E /* TurboMemoWatch */ = {
+			isa = PBXGroup;
+			children = (
+				4B4789651F4D31BC0011F94E /* Interface.storyboard */,
+				4B4789681F4D31BC0011F94E /* Assets.xcassets */,
+				4B47896A1F4D31BC0011F94E /* Info.plist */,
+			);
+			path = TurboMemoWatch;
+			sourceTree = "<group>";
+		};
+		4B4789731F4D31BD0011F94E /* TurboMemoWatchExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4B4789761F4D31BD0011F94E /* ExtensionDelegate.swift */,
+				4B4789741F4D31BD0011F94E /* InterfaceController.swift */,
+				4B47898D1F4D35540011F94E /* MemoRowController.swift */,
+				4BDBAA291F4E21D8004816CA /* AudioPlayerInterfaceController.swift */,
+				4B4789781F4D31BD0011F94E /* Assets.xcassets */,
+				4B47897A1F4D31BD0011F94E /* Info.plist */,
+			);
+			path = TurboMemoWatchExtension;
+			sourceTree = "<group>";
+		};
+		4B84BDD31F4CFEA400BF01B0 /* FoundationExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				4B84BDD41F4CFEB800BF01B0 /* FileManagerExtension.swift */,
+			);
+			path = FoundationExtensions;
+			sourceTree = "<group>";
+		};
+		4B9186591F4CF24F003EF50C = {
+			isa = PBXGroup;
+			children = (
+				4B84BDD31F4CFEA400BF01B0 /* FoundationExtensions */,
+				4B91867B1F4CF5DA003EF50C /* CustomViews */,
+				4B9186781F4CF54A003EF50C /* Theming */,
+				4B9186771F4CF50D003EF50C /* Shared */,
+				4B9186641F4CF24F003EF50C /* TurboMemo */,
+				4B4789641F4D31BC0011F94E /* TurboMemoWatch */,
+				4B4789731F4D31BD0011F94E /* TurboMemoWatchExtension */,
+				4B9186631F4CF24F003EF50C /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		4B9186631F4CF24F003EF50C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B9186621F4CF24F003EF50C /* TurboMemo.app */,
+				4B4789631F4D31BC0011F94E /* TurboMemoWatch.app */,
+				4B47896F1F4D31BC0011F94E /* TurboMemoWatchExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B9186641F4CF24F003EF50C /* TurboMemo */ = {
+			isa = PBXGroup;
+			children = (
+				4B9186651F4CF24F003EF50C /* AppDelegate.swift */,
+				4B84BDD61F4D104400BF01B0 /* MemosViewController.swift */,
+				4B84BDDB1F4D17F900BF01B0 /* AudioViewController.swift */,
+				4B9186691F4CF24F003EF50C /* Main.storyboard */,
+				4B91866C1F4CF24F003EF50C /* Assets.xcassets */,
+				4B91866E1F4CF24F003EF50C /* LaunchScreen.storyboard */,
+				4B9186711F4CF250003EF50C /* Info.plist */,
+			);
+			path = TurboMemo;
+			sourceTree = "<group>";
+		};
+		4B9186771F4CF50D003EF50C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4B9186801F4CFE4A003EF50C /* MemoFileNameHelper.swift */,
+				4B9186811F4CFE4A003EF50C /* MemoModels.swift */,
+				4B9186821F4CFE4A003EF50C /* MemoStore.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4B9186781F4CF54A003EF50C /* Theming */ = {
+			isa = PBXGroup;
+			children = (
+				4B9186791F4CF581003EF50C /* ThemeManager.swift */,
+			);
+			path = Theming;
+			sourceTree = "<group>";
+		};
+		4B91867B1F4CF5DA003EF50C /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				5B3232F71F5AE12C00C952C1 /* CircleButton.swift */,
+				5B3232F81F5AE12C00C952C1 /* MemoCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B4789621F4D31BC0011F94E /* TurboMemoWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4789841F4D31BD0011F94E /* Build configuration list for PBXNativeTarget "TurboMemoWatch" */;
+			buildPhases = (
+				4B4789611F4D31BC0011F94E /* Resources */,
+				4B4789831F4D31BD0011F94E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B4789721F4D31BD0011F94E /* PBXTargetDependency */,
+			);
+			name = TurboMemoWatch;
+			productName = TurboMemoWatch;
+			productReference = 4B4789631F4D31BC0011F94E /* TurboMemoWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4B47896E1F4D31BC0011F94E /* TurboMemoWatchExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4789821F4D31BD0011F94E /* Build configuration list for PBXNativeTarget "TurboMemoWatchExtension" */;
+			buildPhases = (
+				4B47896B1F4D31BC0011F94E /* Sources */,
+				4B47896C1F4D31BC0011F94E /* Frameworks */,
+				4B47896D1F4D31BC0011F94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurboMemoWatchExtension;
+			productName = "TurboMemoWatch Extension";
+			productReference = 4B47896F1F4D31BC0011F94E /* TurboMemoWatchExtension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		4B9186611F4CF24F003EF50C /* TurboMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9186741F4CF250003EF50C /* Build configuration list for PBXNativeTarget "TurboMemo" */;
+			buildPhases = (
+				4B91865E1F4CF24F003EF50C /* Sources */,
+				4B91865F1F4CF24F003EF50C /* Frameworks */,
+				4B9186601F4CF24F003EF50C /* Resources */,
+				4B4789851F4D31BD0011F94E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B47897C1F4D31BD0011F94E /* PBXTargetDependency */,
+			);
+			name = TurboMemo;
+			productName = TurboMemo;
+			productReference = 4B9186621F4CF24F003EF50C /* TurboMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B91865A1F4CF24F003EF50C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Razeware;
+				TargetAttributes = {
+					4B4789621F4D31BC0011F94E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					4B47896E1F4D31BC0011F94E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 1;
+							};
+						};
+					};
+					4B9186611F4CF24F003EF50C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4B91865D1F4CF24F003EF50C /* Build configuration list for PBXProject "TurboMemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B9186591F4CF24F003EF50C;
+			productRefGroup = 4B9186631F4CF24F003EF50C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B9186611F4CF24F003EF50C /* TurboMemo */,
+				4B4789621F4D31BC0011F94E /* TurboMemoWatch */,
+				4B47896E1F4D31BC0011F94E /* TurboMemoWatchExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B4789611F4D31BC0011F94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4789691F4D31BC0011F94E /* Assets.xcassets in Resources */,
+				4B4789671F4D31BC0011F94E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B47896D1F4D31BC0011F94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4789791F4D31BD0011F94E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9186601F4CF24F003EF50C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9186701F4CF24F003EF50C /* LaunchScreen.storyboard in Resources */,
+				4B91866D1F4CF24F003EF50C /* Assets.xcassets in Resources */,
+				4B91866B1F4CF24F003EF50C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B47896B1F4D31BC0011F94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4789771F4D31BD0011F94E /* ExtensionDelegate.swift in Sources */,
+				4B4789891F4D32DB0011F94E /* FileManagerExtension.swift in Sources */,
+				4BDBAA2A1F4E21D8004816CA /* AudioPlayerInterfaceController.swift in Sources */,
+				4B4789871F4D32C40011F94E /* MemoModels.swift in Sources */,
+				4BC7687F1F5234DF009A9A0E /* MemoRowController.swift in Sources */,
+				4B4789861F4D32C40011F94E /* MemoFileNameHelper.swift in Sources */,
+				4B4789881F4D32C40011F94E /* MemoStore.swift in Sources */,
+				4B4789751F4D31BD0011F94E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B91865E1F4CF24F003EF50C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B84BDD51F4CFEB800BF01B0 /* FileManagerExtension.swift in Sources */,
+				5B1C07371F5B1DF600771EF2 /* MemoCell.swift in Sources */,
+				4B84BDD71F4D104400BF01B0 /* MemosViewController.swift in Sources */,
+				4B9186661F4CF24F003EF50C /* AppDelegate.swift in Sources */,
+				5B1C07361F5B1DF600771EF2 /* CircleButton.swift in Sources */,
+				4B91867A1F4CF581003EF50C /* ThemeManager.swift in Sources */,
+				4B47898B1F4D34200011F94E /* MemoModels.swift in Sources */,
+				4B47898A1F4D33990011F94E /* MemoStore.swift in Sources */,
+				4B47898C1F4D34230011F94E /* MemoFileNameHelper.swift in Sources */,
+				4B84BDDC1F4D17F900BF01B0 /* AudioViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B4789721F4D31BD0011F94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B47896E1F4D31BC0011F94E /* TurboMemoWatchExtension */;
+			targetProxy = 4B4789711F4D31BD0011F94E /* PBXContainerItemProxy */;
+		};
+		4B47897C1F4D31BD0011F94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B4789621F4D31BC0011F94E /* TurboMemoWatch */;
+			targetProxy = 4B47897B1F4D31BD0011F94E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B4789651F4D31BC0011F94E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4789661F4D31BC0011F94E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		4B9186691F4CF24F003EF50C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B91866A1F4CF24F003EF50C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B91866E1F4CF24F003EF50C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B91866F1F4CF24F003EF50C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B47897E1F4D31BD0011F94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = TurboMemoWatch_Extension;
+				INFOPLIST_FILE = TurboMemoWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.turbomemo.TurboMemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		4B47897F1F4D31BD0011F94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = TurboMemoWatch_Extension;
+				INFOPLIST_FILE = TurboMemoWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.turbomemo.TurboMemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		4B4789801F4D31BD0011F94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TurboMemoWatchExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.turbomemo.TurboMemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		4B4789811F4D31BD0011F94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TurboMemoWatchExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.turbomemo.TurboMemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		4B9186721F4CF250003EF50C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B9186731F4CF250003EF50C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B9186751F4CF250003EF50C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TurboMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.turbomemo.TurboMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4B9186761F4CF250003EF50C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TurboMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.turbomemo.TurboMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B4789821F4D31BD0011F94E /* Build configuration list for PBXNativeTarget "TurboMemoWatchExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4789801F4D31BD0011F94E /* Debug */,
+				4B4789811F4D31BD0011F94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4789841F4D31BD0011F94E /* Build configuration list for PBXNativeTarget "TurboMemoWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B47897E1F4D31BD0011F94E /* Debug */,
+				4B47897F1F4D31BD0011F94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B91865D1F4CF24F003EF50C /* Build configuration list for PBXProject "TurboMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9186721F4CF250003EF50C /* Debug */,
+				4B9186731F4CF250003EF50C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9186741F4CF250003EF50C /* Build configuration list for PBXNativeTarget "TurboMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9186751F4CF250003EF50C /* Debug */,
+				4B9186761F4CF250003EF50C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B91865A1F4CF24F003EF50C /* Project object */;
+}

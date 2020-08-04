@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D384F391B43A22800026C38 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98B09E1B3F3D2B00F59162 /* Task.swift */; };
+		4D384F3A1B43A22800026C38 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98B09F1B3F3D2B00F59162 /* TaskList.swift */; };
+		4D384F3B1B43A22800026C38 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98B0A21B3F3D3200F59162 /* Theme.swift */; };
+		4D7796031B3F7F0F00088274 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7796021B3F7F0F00088274 /* TaskCell.swift */; };
+		4D7796051B3FB0A100088274 /* TasksInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7796041B3FB0A100088274 /* TasksInterfaceController.swift */; };
+		4D7796091B3FB15800088274 /* OngoingTaskRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7796081B3FB15800088274 /* OngoingTaskRowController.swift */; };
+		4D7796201B3FB75400088274 /* CompletedTaskRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D77961F1B3FB75400088274 /* CompletedTaskRowController.swift */; };
+		4D7796221B3FB85F00088274 /* NewTaskInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7796211B3FB85F00088274 /* NewTaskInterfaceController.swift */; };
+		4D98B0381B3F3C0800F59162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98B0371B3F3C0800F59162 /* AppDelegate.swift */; };
+		4D98B03D1B3F3C0800F59162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D98B03B1B3F3C0800F59162 /* Main.storyboard */; };
+		4D98B03F1B3F3C0800F59162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D98B03E1B3F3C0800F59162 /* Assets.xcassets */; };
+		4D98B0421B3F3C0800F59162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D98B0401B3F3C0800F59162 /* LaunchScreen.storyboard */; };
+		4D98B0471B3F3C0800F59162 /* Woodpecker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D98B0461B3F3C0800F59162 /* Woodpecker WatchKit App.app */; };
+		4D98B04D1B3F3C0800F59162 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D98B04B1B3F3C0800F59162 /* Interface.storyboard */; };
+		4D98B04F1B3F3C0800F59162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D98B04E1B3F3C0800F59162 /* Assets.xcassets */; };
+		4D98B0561B3F3C0800F59162 /* Woodpecker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D98B0551B3F3C0800F59162 /* Woodpecker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D98B05D1B3F3C0800F59162 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98B05C1B3F3C0800F59162 /* ExtensionDelegate.swift */; };
+		4D98B05F1B3F3C0800F59162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D98B05E1B3F3C0800F59162 /* Assets.xcassets */; };
+		4D98B09D1B3F3CF500F59162 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98B09C1B3F3CF500F59162 /* TasksViewController.swift */; };
+		4D98B0A51B3F46EF00F59162 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98B0A41B3F46EF00F59162 /* ProgressView.swift */; };
+		4D98B0A91B3F747100F59162 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98B0A81B3F747100F59162 /* ColorCell.swift */; };
+		4DA932001B4033A300092F06 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98B09E1B3F3D2B00F59162 /* Task.swift */; };
+		4DA932011B4033A300092F06 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98B09F1B3F3D2B00F59162 /* TaskList.swift */; };
+		4DA932021B4033A300092F06 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98B0A21B3F3D3200F59162 /* Theme.swift */; };
+		4DABE37D1B63443A00C2E369 /* NewTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DABE37C1B63443A00C2E369 /* NewTaskCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D98B0481B3F3C0800F59162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D98B02C1B3F3C0800F59162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D98B0451B3F3C0800F59162;
+			remoteInfo = "Woodpecker WatchKit App";
+		};
+		4D98B0571B3F3C0800F59162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D98B02C1B3F3C0800F59162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D98B0541B3F3C0800F59162;
+			remoteInfo = "Woodpecker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D98B0661B3F3C0800F59162 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4D98B0561B3F3C0800F59162 /* Woodpecker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D98B06A1B3F3C0800F59162 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4D98B0471B3F3C0800F59162 /* Woodpecker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D98B0961B3F3CA100F59162 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D7796021B3F7F0F00088274 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		4D7796041B3FB0A100088274 /* TasksInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksInterfaceController.swift; sourceTree = "<group>"; };
+		4D7796081B3FB15800088274 /* OngoingTaskRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OngoingTaskRowController.swift; sourceTree = "<group>"; };
+		4D77961F1B3FB75400088274 /* CompletedTaskRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedTaskRowController.swift; sourceTree = "<group>"; };
+		4D7796211B3FB85F00088274 /* NewTaskInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = NewTaskInterfaceController.swift; sourceTree = "<group>"; tabWidth = 2; };
+		4D98B0341B3F3C0800F59162 /* Woodpecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woodpecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D98B0371B3F3C0800F59162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D98B03C1B3F3C0800F59162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D98B03E1B3F3C0800F59162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D98B0411B3F3C0800F59162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D98B0431B3F3C0800F59162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D98B0461B3F3C0800F59162 /* Woodpecker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Woodpecker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D98B04C1B3F3C0800F59162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4D98B04E1B3F3C0800F59162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D98B0501B3F3C0800F59162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D98B0551B3F3C0800F59162 /* Woodpecker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Woodpecker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D98B05C1B3F3C0800F59162 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4D98B05E1B3F3C0800F59162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D98B0601B3F3C0800F59162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D98B09C1B3F3CF500F59162 /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		4D98B09E1B3F3D2B00F59162 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		4D98B09F1B3F3D2B00F59162 /* TaskList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		4D98B0A21B3F3D3200F59162 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		4D98B0A41B3F46EF00F59162 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		4D98B0A81B3F747100F59162 /* ColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		4DABE37C1B63443A00C2E369 /* NewTaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTaskCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D98B0311B3F3C0800F59162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D98B0521B3F3C0800F59162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D7796071B3FB13900088274 /* Row Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D7796081B3FB15800088274 /* OngoingTaskRowController.swift */,
+				4D77961F1B3FB75400088274 /* CompletedTaskRowController.swift */,
+			);
+			path = "Row Controllers";
+			sourceTree = "<group>";
+		};
+		4D98B02B1B3F3C0800F59162 = {
+			isa = PBXGroup;
+			children = (
+				4D98B0361B3F3C0800F59162 /* Woodpecker */,
+				4D98B07D1B3F3CA100F59162 /* Shared */,
+				4D98B0591B3F3C0800F59162 /* Woodpecker WatchKit Extension */,
+				4D98B04A1B3F3C0800F59162 /* Woodpecker WatchKit App */,
+				4D98B0351B3F3C0800F59162 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		4D98B0351B3F3C0800F59162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D98B0341B3F3C0800F59162 /* Woodpecker.app */,
+				4D98B0461B3F3C0800F59162 /* Woodpecker WatchKit App.app */,
+				4D98B0551B3F3C0800F59162 /* Woodpecker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D98B0361B3F3C0800F59162 /* Woodpecker */ = {
+			isa = PBXGroup;
+			children = (
+				4D98B06F1B3F3C2600F59162 /* Classes */,
+				4D98B06E1B3F3C1600F59162 /* Resources */,
+			);
+			path = Woodpecker;
+			sourceTree = "<group>";
+		};
+		4D98B04A1B3F3C0800F59162 /* Woodpecker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4D98B04B1B3F3C0800F59162 /* Interface.storyboard */,
+				4D98B04E1B3F3C0800F59162 /* Assets.xcassets */,
+				4D98B0501B3F3C0800F59162 /* Info.plist */,
+			);
+			path = "Woodpecker WatchKit App";
+			sourceTree = "<group>";
+		};
+		4D98B0591B3F3C0800F59162 /* Woodpecker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4D98B0741B3F3C8400F59162 /* Controllers */,
+				4D7796071B3FB13900088274 /* Row Controllers */,
+				4D98B05C1B3F3C0800F59162 /* ExtensionDelegate.swift */,
+				4D98B05E1B3F3C0800F59162 /* Assets.xcassets */,
+				4D98B0601B3F3C0800F59162 /* Info.plist */,
+			);
+			path = "Woodpecker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4D98B06E1B3F3C1600F59162 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D98B03E1B3F3C0800F59162 /* Assets.xcassets */,
+				4D98B0401B3F3C0800F59162 /* LaunchScreen.storyboard */,
+				4D98B0431B3F3C0800F59162 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4D98B06F1B3F3C2600F59162 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4D98B0371B3F3C0800F59162 /* AppDelegate.swift */,
+				4D98B03B1B3F3C0800F59162 /* Main.storyboard */,
+				4D98B0701B3F3C3400F59162 /* Controllers */,
+				4D98B0711B3F3C3400F59162 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4D98B0701B3F3C3400F59162 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D98B09C1B3F3CF500F59162 /* TasksViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D98B0711B3F3C3400F59162 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D98B0A41B3F46EF00F59162 /* ProgressView.swift */,
+				4D7796021B3F7F0F00088274 /* TaskCell.swift */,
+				4D98B0A81B3F747100F59162 /* ColorCell.swift */,
+				4DABE37C1B63443A00C2E369 /* NewTaskCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D98B0741B3F3C8400F59162 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D7796041B3FB0A100088274 /* TasksInterfaceController.swift */,
+				4D7796211B3FB85F00088274 /* NewTaskInterfaceController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D98B07D1B3F3CA100F59162 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4D98B09B1B3F3CB900F59162 /* Models */,
+				4D98B09A1B3F3CB900F59162 /* Helpers */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4D98B09A1B3F3CB900F59162 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4D98B0A21B3F3D3200F59162 /* Theme.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4D98B09B1B3F3CB900F59162 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D98B09E1B3F3D2B00F59162 /* Task.swift */,
+				4D98B09F1B3F3D2B00F59162 /* TaskList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D98B0331B3F3C0800F59162 /* Woodpecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D98B06B1B3F3C0800F59162 /* Build configuration list for PBXNativeTarget "Woodpecker" */;
+			buildPhases = (
+				4D98B0301B3F3C0800F59162 /* Sources */,
+				4D98B0311B3F3C0800F59162 /* Frameworks */,
+				4D98B0321B3F3C0800F59162 /* Resources */,
+				4D98B06A1B3F3C0800F59162 /* Embed Watch Content */,
+				4D98B0961B3F3CA100F59162 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D98B0491B3F3C0800F59162 /* PBXTargetDependency */,
+			);
+			name = Woodpecker;
+			productName = Woodpecker;
+			productReference = 4D98B0341B3F3C0800F59162 /* Woodpecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D98B0451B3F3C0800F59162 /* Woodpecker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D98B0671B3F3C0800F59162 /* Build configuration list for PBXNativeTarget "Woodpecker WatchKit App" */;
+			buildPhases = (
+				4D98B0441B3F3C0800F59162 /* Resources */,
+				4D98B0661B3F3C0800F59162 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D98B0581B3F3C0800F59162 /* PBXTargetDependency */,
+			);
+			name = "Woodpecker WatchKit App";
+			productName = "Woodpecker WatchKit App";
+			productReference = 4D98B0461B3F3C0800F59162 /* Woodpecker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4D98B0541B3F3C0800F59162 /* Woodpecker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D98B0631B3F3C0800F59162 /* Build configuration list for PBXNativeTarget "Woodpecker WatchKit Extension" */;
+			buildPhases = (
+				4D98B0511B3F3C0800F59162 /* Sources */,
+				4D98B0521B3F3C0800F59162 /* Frameworks */,
+				4D98B0531B3F3C0800F59162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Woodpecker WatchKit Extension";
+			productName = "Woodpecker WatchKit Extension";
+			productReference = 4D98B0551B3F3C0800F59162 /* Woodpecker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D98B02C1B3F3C0800F59162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Razeware;
+				TargetAttributes = {
+					4D98B0331B3F3C0800F59162 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+					};
+					4D98B0451B3F3C0800F59162 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+					};
+					4D98B0541B3F3C0800F59162 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 4D98B02F1B3F3C0800F59162 /* Build configuration list for PBXProject "Woodpecker" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D98B02B1B3F3C0800F59162;
+			productRefGroup = 4D98B0351B3F3C0800F59162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D98B0331B3F3C0800F59162 /* Woodpecker */,
+				4D98B0451B3F3C0800F59162 /* Woodpecker WatchKit App */,
+				4D98B0541B3F3C0800F59162 /* Woodpecker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D98B0321B3F3C0800F59162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D98B0421B3F3C0800F59162 /* LaunchScreen.storyboard in Resources */,
+				4D98B03F1B3F3C0800F59162 /* Assets.xcassets in Resources */,
+				4D98B03D1B3F3C0800F59162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D98B0441B3F3C0800F59162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D98B04F1B3F3C0800F59162 /* Assets.xcassets in Resources */,
+				4D98B04D1B3F3C0800F59162 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D98B0531B3F3C0800F59162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D98B05F1B3F3C0800F59162 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D98B0301B3F3C0800F59162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DABE37D1B63443A00C2E369 /* NewTaskCell.swift in Sources */,
+				4D384F3B1B43A22800026C38 /* Theme.swift in Sources */,
+				4D384F3A1B43A22800026C38 /* TaskList.swift in Sources */,
+				4D98B0381B3F3C0800F59162 /* AppDelegate.swift in Sources */,
+				4D98B09D1B3F3CF500F59162 /* TasksViewController.swift in Sources */,
+				4D98B0A91B3F747100F59162 /* ColorCell.swift in Sources */,
+				4D7796031B3F7F0F00088274 /* TaskCell.swift in Sources */,
+				4D384F391B43A22800026C38 /* Task.swift in Sources */,
+				4D98B0A51B3F46EF00F59162 /* ProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D98B0511B3F3C0800F59162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA932011B4033A300092F06 /* TaskList.swift in Sources */,
+				4DA932021B4033A300092F06 /* Theme.swift in Sources */,
+				4D7796051B3FB0A100088274 /* TasksInterfaceController.swift in Sources */,
+				4D98B05D1B3F3C0800F59162 /* ExtensionDelegate.swift in Sources */,
+				4D7796221B3FB85F00088274 /* NewTaskInterfaceController.swift in Sources */,
+				4D7796201B3FB75400088274 /* CompletedTaskRowController.swift in Sources */,
+				4DA932001B4033A300092F06 /* Task.swift in Sources */,
+				4D7796091B3FB15800088274 /* OngoingTaskRowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D98B0491B3F3C0800F59162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D98B0451B3F3C0800F59162 /* Woodpecker WatchKit App */;
+			targetProxy = 4D98B0481B3F3C0800F59162 /* PBXContainerItemProxy */;
+		};
+		4D98B0581B3F3C0800F59162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D98B0541B3F3C0800F59162 /* Woodpecker WatchKit Extension */;
+			targetProxy = 4D98B0571B3F3C0800F59162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D98B03B1B3F3C0800F59162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D98B03C1B3F3C0800F59162 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4D98B0401B3F3C0800F59162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D98B0411B3F3C0800F59162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4D98B04B1B3F3C0800F59162 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D98B04C1B3F3C0800F59162 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D98B0611B3F3C0800F59162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		4D98B0621B3F3C0800F59162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		4D98B0641B3F3C0800F59162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Woodpecker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Woodpecker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		4D98B0651B3F3C0800F59162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Woodpecker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Woodpecker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		4D98B0681B3F3C0800F59162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = Woodpecker_WatchKit_Extension;
+				INFOPLIST_FILE = "Woodpecker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Woodpecker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		4D98B0691B3F3C0800F59162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = Woodpecker_WatchKit_Extension;
+				INFOPLIST_FILE = "Woodpecker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Woodpecker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		4D98B06C1B3F3C0800F59162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Woodpecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Woodpecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4D98B06D1B3F3C0800F59162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Woodpecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Woodpecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D98B02F1B3F3C0800F59162 /* Build configuration list for PBXProject "Woodpecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D98B0611B3F3C0800F59162 /* Debug */,
+				4D98B0621B3F3C0800F59162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D98B0631B3F3C0800F59162 /* Build configuration list for PBXNativeTarget "Woodpecker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D98B0641B3F3C0800F59162 /* Debug */,
+				4D98B0651B3F3C0800F59162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D98B0671B3F3C0800F59162 /* Build configuration list for PBXNativeTarget "Woodpecker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D98B0681B3F3C0800F59162 /* Debug */,
+				4D98B0691B3F3C0800F59162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D98B06B1B3F3C0800F59162 /* Build configuration list for PBXNativeTarget "Woodpecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D98B06C1B3F3C0800F59162 /* Debug */,
+				4D98B06D1B3F3C0800F59162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D98B02C1B3F3C0800F59162 /* Project object */;
+}

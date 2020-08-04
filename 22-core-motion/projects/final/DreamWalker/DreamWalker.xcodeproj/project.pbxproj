@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		400368C71BA90658000659A5 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409584BE1B645F3700949FF7 /* Walk.swift */; };
+		401ECCA41B9D590300392E1B /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401ECCA31B9D590300392E1B /* Calendar.swift */; };
+		40709D571BB4DE2600BB5583 /* WalkMK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40709D561BB4DE2600BB5583 /* WalkMK.swift */; };
+		409584821B645E6B00949FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409584811B645E6B00949FF7 /* AppDelegate.swift */; };
+		409584871B645E6B00949FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409584851B645E6B00949FF7 /* Main.storyboard */; };
+		409584891B645E6B00949FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409584881B645E6B00949FF7 /* Assets.xcassets */; };
+		4095848C1B645E6B00949FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4095848A1B645E6B00949FF7 /* LaunchScreen.storyboard */; };
+		409584911B645E6B00949FF7 /* DreamWalker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 409584901B645E6B00949FF7 /* DreamWalker WatchKit App.app */; };
+		409584971B645E6B00949FF7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409584951B645E6B00949FF7 /* Interface.storyboard */; };
+		409584991B645E6B00949FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409584981B645E6B00949FF7 /* Assets.xcassets */; };
+		409584A01B645E6C00949FF7 /* DreamWalker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4095849F1B645E6C00949FF7 /* DreamWalker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		409584A71B645E6C00949FF7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409584A61B645E6C00949FF7 /* ExtensionDelegate.swift */; };
+		409584A91B645E6C00949FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409584A81B645E6C00949FF7 /* Assets.xcassets */; };
+		409584B91B645EC300949FF7 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409584B81B645EC300949FF7 /* ProgressBarView.swift */; };
+		409584BB1B645EFD00949FF7 /* WalksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409584BA1B645EFD00949FF7 /* WalksTableViewController.swift */; };
+		409584BD1B645F1D00949FF7 /* DayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409584BC1B645F1D00949FF7 /* DayData.swift */; };
+		409584BF1B645F3700949FF7 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409584BE1B645F3700949FF7 /* Walk.swift */; };
+		409584C21B645F9700949FF7 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409584C11B645F9700949FF7 /* HistoryTableViewController.swift */; };
+		409584C41B645FB900949FF7 /* WalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409584C31B645FB900949FF7 /* WalkViewController.swift */; };
+		409584C81B64605A00949FF7 /* Walks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 409584C71B64605A00949FF7 /* Walks.plist */; };
+		409584C91B64605A00949FF7 /* Walks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 409584C71B64605A00949FF7 /* Walks.plist */; };
+		409584CD1B6460FD00949FF7 /* MainInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409584CA1B6460FD00949FF7 /* MainInterfaceController.swift */; };
+		409584CE1B6460FD00949FF7 /* PageInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409584CB1B6460FD00949FF7 /* PageInterfaceController.swift */; };
+		409584CF1B6460FD00949FF7 /* PedometerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409584CC1B6460FD00949FF7 /* PedometerData.swift */; };
+		40D473671BA4F696001D660D /* WalkRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D473661BA4F696001D660D /* WalkRowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		409584921B645E6B00949FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409584761B645E6B00949FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4095848F1B645E6B00949FF7;
+			remoteInfo = "DreamWalker WatchKit App";
+		};
+		409584A11B645E6C00949FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409584761B645E6B00949FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4095849E1B645E6C00949FF7;
+			remoteInfo = "DreamWalker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		409584B01B645E6C00949FF7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				409584A01B645E6C00949FF7 /* DreamWalker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409584B41B645E6C00949FF7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				409584911B645E6B00949FF7 /* DreamWalker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		401ECCA31B9D590300392E1B /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		40709D561BB4DE2600BB5583 /* WalkMK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkMK.swift; sourceTree = "<group>"; };
+		4095847E1B645E6B00949FF7 /* DreamWalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamWalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		409584811B645E6B00949FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		409584861B645E6B00949FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		409584881B645E6B00949FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4095848B1B645E6B00949FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4095848D1B645E6B00949FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409584901B645E6B00949FF7 /* DreamWalker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DreamWalker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		409584961B645E6B00949FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		409584981B645E6B00949FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4095849A1B645E6B00949FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4095849F1B645E6C00949FF7 /* DreamWalker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DreamWalker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		409584A61B645E6C00949FF7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		409584A81B645E6C00949FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		409584AA1B645E6C00949FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409584B81B645EC300949FF7 /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		409584BA1B645EFD00949FF7 /* WalksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalksTableViewController.swift; sourceTree = "<group>"; };
+		409584BC1B645F1D00949FF7 /* DayData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayData.swift; sourceTree = "<group>"; };
+		409584BE1B645F3700949FF7 /* Walk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walk.swift; sourceTree = "<group>"; };
+		409584C11B645F9700949FF7 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		409584C31B645FB900949FF7 /* WalkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkViewController.swift; sourceTree = "<group>"; };
+		409584C71B64605A00949FF7 /* Walks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Walks.plist; sourceTree = "<group>"; };
+		409584CA1B6460FD00949FF7 /* MainInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInterfaceController.swift; sourceTree = "<group>"; };
+		409584CB1B6460FD00949FF7 /* PageInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageInterfaceController.swift; sourceTree = "<group>"; };
+		409584CC1B6460FD00949FF7 /* PedometerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedometerData.swift; sourceTree = "<group>"; };
+		40D473661BA4F696001D660D /* WalkRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkRowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4095847B1B645E6B00949FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4095849C1B645E6C00949FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		409584751B645E6B00949FF7 = {
+			isa = PBXGroup;
+			children = (
+				409584801B645E6B00949FF7 /* DreamWalker */,
+				409584C61B645FE800949FF7 /* Shared */,
+				409584941B645E6B00949FF7 /* DreamWalker WatchKit App */,
+				409584A31B645E6C00949FF7 /* DreamWalker WatchKit Extension */,
+				4095847F1B645E6B00949FF7 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		4095847F1B645E6B00949FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4095847E1B645E6B00949FF7 /* DreamWalker.app */,
+				409584901B645E6B00949FF7 /* DreamWalker WatchKit App.app */,
+				4095849F1B645E6C00949FF7 /* DreamWalker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		409584801B645E6B00949FF7 /* DreamWalker */ = {
+			isa = PBXGroup;
+			children = (
+				409584811B645E6B00949FF7 /* AppDelegate.swift */,
+				409584B81B645EC300949FF7 /* ProgressBarView.swift */,
+				409584C51B645FD400949FF7 /* Controllers */,
+				409584C01B645F4A00949FF7 /* Model */,
+				409584851B645E6B00949FF7 /* Main.storyboard */,
+				409584881B645E6B00949FF7 /* Assets.xcassets */,
+				4095848A1B645E6B00949FF7 /* LaunchScreen.storyboard */,
+				4095848D1B645E6B00949FF7 /* Info.plist */,
+			);
+			path = DreamWalker;
+			sourceTree = "<group>";
+		};
+		409584941B645E6B00949FF7 /* DreamWalker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				409584951B645E6B00949FF7 /* Interface.storyboard */,
+				409584981B645E6B00949FF7 /* Assets.xcassets */,
+				4095849A1B645E6B00949FF7 /* Info.plist */,
+			);
+			path = "DreamWalker WatchKit App";
+			sourceTree = "<group>";
+		};
+		409584A31B645E6C00949FF7 /* DreamWalker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				409584CC1B6460FD00949FF7 /* PedometerData.swift */,
+				401ECCA31B9D590300392E1B /* Calendar.swift */,
+				409584CA1B6460FD00949FF7 /* MainInterfaceController.swift */,
+				40D473661BA4F696001D660D /* WalkRowController.swift */,
+				409584CB1B6460FD00949FF7 /* PageInterfaceController.swift */,
+				409584A61B645E6C00949FF7 /* ExtensionDelegate.swift */,
+				409584A81B645E6C00949FF7 /* Assets.xcassets */,
+				409584AA1B645E6C00949FF7 /* Info.plist */,
+			);
+			path = "DreamWalker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		409584C01B645F4A00949FF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40709D561BB4DE2600BB5583 /* WalkMK.swift */,
+				409584BC1B645F1D00949FF7 /* DayData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		409584C51B645FD400949FF7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				409584BA1B645EFD00949FF7 /* WalksTableViewController.swift */,
+				409584C11B645F9700949FF7 /* HistoryTableViewController.swift */,
+				409584C31B645FB900949FF7 /* WalkViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		409584C61B645FE800949FF7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				409584BE1B645F3700949FF7 /* Walk.swift */,
+				409584C71B64605A00949FF7 /* Walks.plist */,
+			);
+			name = Shared;
+			path = DreamWalker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4095847D1B645E6B00949FF7 /* DreamWalker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409584B51B645E6C00949FF7 /* Build configuration list for PBXNativeTarget "DreamWalker" */;
+			buildPhases = (
+				4095847A1B645E6B00949FF7 /* Sources */,
+				4095847B1B645E6B00949FF7 /* Frameworks */,
+				4095847C1B645E6B00949FF7 /* Resources */,
+				409584B41B645E6C00949FF7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409584931B645E6B00949FF7 /* PBXTargetDependency */,
+			);
+			name = DreamWalker;
+			productName = DreamWalker;
+			productReference = 4095847E1B645E6B00949FF7 /* DreamWalker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4095848F1B645E6B00949FF7 /* DreamWalker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409584B11B645E6C00949FF7 /* Build configuration list for PBXNativeTarget "DreamWalker WatchKit App" */;
+			buildPhases = (
+				4095848E1B645E6B00949FF7 /* Resources */,
+				409584B01B645E6C00949FF7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409584A21B645E6C00949FF7 /* PBXTargetDependency */,
+			);
+			name = "DreamWalker WatchKit App";
+			productName = "DreamWalker WatchKit App";
+			productReference = 409584901B645E6B00949FF7 /* DreamWalker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4095849E1B645E6C00949FF7 /* DreamWalker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409584AD1B645E6C00949FF7 /* Build configuration list for PBXNativeTarget "DreamWalker WatchKit Extension" */;
+			buildPhases = (
+				4095849B1B645E6C00949FF7 /* Sources */,
+				4095849C1B645E6C00949FF7 /* Frameworks */,
+				4095849D1B645E6C00949FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DreamWalker WatchKit Extension";
+			productName = "DreamWalker WatchKit Extension";
+			productReference = 4095849F1B645E6C00949FF7 /* DreamWalker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		409584761B645E6B00949FF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					4095847D1B645E6B00949FF7 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
+					};
+					4095848F1B645E6B00949FF7 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+					};
+					4095849E1B645E6C00949FF7 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 409584791B645E6B00949FF7 /* Build configuration list for PBXProject "DreamWalker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 409584751B645E6B00949FF7;
+			productRefGroup = 4095847F1B645E6B00949FF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4095847D1B645E6B00949FF7 /* DreamWalker */,
+				4095848F1B645E6B00949FF7 /* DreamWalker WatchKit App */,
+				4095849E1B645E6C00949FF7 /* DreamWalker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4095847C1B645E6B00949FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4095848C1B645E6B00949FF7 /* LaunchScreen.storyboard in Resources */,
+				409584891B645E6B00949FF7 /* Assets.xcassets in Resources */,
+				409584871B645E6B00949FF7 /* Main.storyboard in Resources */,
+				409584C81B64605A00949FF7 /* Walks.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4095848E1B645E6B00949FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409584991B645E6B00949FF7 /* Assets.xcassets in Resources */,
+				409584971B645E6B00949FF7 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4095849D1B645E6C00949FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409584A91B645E6C00949FF7 /* Assets.xcassets in Resources */,
+				409584C91B64605A00949FF7 /* Walks.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4095847A1B645E6B00949FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409584C41B645FB900949FF7 /* WalkViewController.swift in Sources */,
+				409584BD1B645F1D00949FF7 /* DayData.swift in Sources */,
+				409584B91B645EC300949FF7 /* ProgressBarView.swift in Sources */,
+				409584BB1B645EFD00949FF7 /* WalksTableViewController.swift in Sources */,
+				409584C21B645F9700949FF7 /* HistoryTableViewController.swift in Sources */,
+				409584BF1B645F3700949FF7 /* Walk.swift in Sources */,
+				40709D571BB4DE2600BB5583 /* WalkMK.swift in Sources */,
+				409584821B645E6B00949FF7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4095849B1B645E6C00949FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409584CD1B6460FD00949FF7 /* MainInterfaceController.swift in Sources */,
+				40D473671BA4F696001D660D /* WalkRowController.swift in Sources */,
+				409584A71B645E6C00949FF7 /* ExtensionDelegate.swift in Sources */,
+				409584CF1B6460FD00949FF7 /* PedometerData.swift in Sources */,
+				409584CE1B6460FD00949FF7 /* PageInterfaceController.swift in Sources */,
+				400368C71BA90658000659A5 /* Walk.swift in Sources */,
+				401ECCA41B9D590300392E1B /* Calendar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		409584931B645E6B00949FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4095848F1B645E6B00949FF7 /* DreamWalker WatchKit App */;
+			targetProxy = 409584921B645E6B00949FF7 /* PBXContainerItemProxy */;
+		};
+		409584A21B645E6C00949FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4095849E1B645E6C00949FF7 /* DreamWalker WatchKit Extension */;
+			targetProxy = 409584A11B645E6C00949FF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		409584851B645E6B00949FF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409584861B645E6B00949FF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4095848A1B645E6B00949FF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4095848B1B645E6B00949FF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		409584951B645E6B00949FF7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409584961B645E6B00949FF7 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		409584AB1B645E6C00949FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		409584AC1B645E6C00949FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		409584AE1B645E6C00949FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "DreamWalker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.DreamWalker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		409584AF1B645E6C00949FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "DreamWalker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.DreamWalker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		409584B21B645E6C00949FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = DreamWalker_WatchKit_Extension;
+				INFOPLIST_FILE = "DreamWalker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.DreamWalker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		409584B31B645E6C00949FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = DreamWalker_WatchKit_Extension;
+				INFOPLIST_FILE = "DreamWalker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.DreamWalker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		409584B61B645E6C00949FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DreamWalker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.DreamWalker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		409584B71B645E6C00949FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DreamWalker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.DreamWalker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409584791B645E6B00949FF7 /* Build configuration list for PBXProject "DreamWalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409584AB1B645E6C00949FF7 /* Debug */,
+				409584AC1B645E6C00949FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409584AD1B645E6C00949FF7 /* Build configuration list for PBXNativeTarget "DreamWalker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409584AE1B645E6C00949FF7 /* Debug */,
+				409584AF1B645E6C00949FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409584B11B645E6C00949FF7 /* Build configuration list for PBXNativeTarget "DreamWalker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409584B21B645E6C00949FF7 /* Debug */,
+				409584B31B645E6C00949FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409584B51B645E6C00949FF7 /* Build configuration list for PBXNativeTarget "DreamWalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409584B61B645E6C00949FF7 /* Debug */,
+				409584B71B645E6C00949FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 409584761B645E6B00949FF7 /* Project object */;
+}

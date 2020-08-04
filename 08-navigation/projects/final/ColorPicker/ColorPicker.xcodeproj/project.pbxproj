@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022044B91D4D6193005BC70F /* ColorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022044B81D4D6193005BC70F /* ColorController.swift */; };
+		022044BB1D4D6430005BC70F /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022044BA1D4D6430005BC70F /* DetailController.swift */; };
+		29D52D0C1B4889A900EDE6C0 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBDBAA1B3F5EA500085149 /* ColorManager.swift */; };
+		29D52D0E1B489B9E00EDE6C0 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D52D0D1B489B9E00EDE6C0 /* ColorCell.swift */; };
+		29D52D101B489BF600EDE6C0 /* ColorTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D52D0F1B489BF600EDE6C0 /* ColorTableController.swift */; };
+		29D52D121B489C0500EDE6C0 /* ColorDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D52D111B489C0500EDE6C0 /* ColorDetailController.swift */; };
+		29EBDB741B3F5C9A00085149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBDB731B3F5C9A00085149 /* AppDelegate.swift */; };
+		29EBDB791B3F5C9A00085149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EBDB771B3F5C9A00085149 /* Main.storyboard */; };
+		29EBDB7B1B3F5C9A00085149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EBDB7A1B3F5C9A00085149 /* Assets.xcassets */; };
+		29EBDB7E1B3F5C9A00085149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EBDB7C1B3F5C9A00085149 /* LaunchScreen.storyboard */; };
+		29EBDB831B3F5C9A00085149 /* ColorPicker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 29EBDB821B3F5C9A00085149 /* ColorPicker WatchKit App.app */; };
+		29EBDB891B3F5C9A00085149 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EBDB871B3F5C9A00085149 /* Interface.storyboard */; };
+		29EBDB8B1B3F5C9A00085149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EBDB8A1B3F5C9A00085149 /* Assets.xcassets */; };
+		29EBDB921B3F5C9A00085149 /* ColorPicker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 29EBDB911B3F5C9A00085149 /* ColorPicker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		29EBDB971B3F5C9A00085149 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBDB961B3F5C9A00085149 /* InterfaceController.swift */; };
+		29EBDB991B3F5C9A00085149 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBDB981B3F5C9A00085149 /* ExtensionDelegate.swift */; };
+		29EBDB9B1B3F5C9A00085149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EBDB9A1B3F5C9A00085149 /* Assets.xcassets */; };
+		29EBDBAB1B3F5EA500085149 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBDBAA1B3F5EA500085149 /* ColorManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29EBDB841B3F5C9A00085149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29EBDB681B3F5C9A00085149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29EBDB811B3F5C9A00085149;
+			remoteInfo = "ColorPicker WatchKit App";
+		};
+		29EBDB931B3F5C9A00085149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29EBDB681B3F5C9A00085149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29EBDB901B3F5C9A00085149;
+			remoteInfo = "ColorPicker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		29EBDBA21B3F5C9A00085149 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				29EBDB921B3F5C9A00085149 /* ColorPicker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29EBDBA61B3F5C9A00085149 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				29EBDB831B3F5C9A00085149 /* ColorPicker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		022044B81D4D6193005BC70F /* ColorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorController.swift; sourceTree = "<group>"; };
+		022044BA1D4D6430005BC70F /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		29D52D0D1B489B9E00EDE6C0 /* ColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		29D52D0F1B489BF600EDE6C0 /* ColorTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTableController.swift; sourceTree = "<group>"; };
+		29D52D111B489C0500EDE6C0 /* ColorDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorDetailController.swift; sourceTree = "<group>"; };
+		29EBDB701B3F5C9A00085149 /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EBDB731B3F5C9A00085149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29EBDB781B3F5C9A00085149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29EBDB7A1B3F5C9A00085149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29EBDB7D1B3F5C9A00085149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29EBDB7F1B3F5C9A00085149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29EBDB821B3F5C9A00085149 /* ColorPicker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorPicker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EBDB881B3F5C9A00085149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		29EBDB8A1B3F5C9A00085149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29EBDB8C1B3F5C9A00085149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29EBDB911B3F5C9A00085149 /* ColorPicker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ColorPicker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EBDB961B3F5C9A00085149 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		29EBDB981B3F5C9A00085149 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		29EBDB9A1B3F5C9A00085149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29EBDB9C1B3F5C9A00085149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29EBDBAA1B3F5EA500085149 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29EBDB6D1B3F5C9A00085149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29EBDB8E1B3F5C9A00085149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29D52D0B1B48899E00EDE6C0 /* ColorPickerKit */ = {
+			isa = PBXGroup;
+			children = (
+				29EBDBAA1B3F5EA500085149 /* ColorManager.swift */,
+			);
+			name = ColorPickerKit;
+			path = "ColorPicker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		29EBDB671B3F5C9A00085149 = {
+			isa = PBXGroup;
+			children = (
+				29EBDB721B3F5C9A00085149 /* ColorPicker */,
+				29EBDB861B3F5C9A00085149 /* ColorPicker WatchKit App */,
+				29EBDB951B3F5C9A00085149 /* ColorPicker WatchKit Extension */,
+				29D52D0B1B48899E00EDE6C0 /* ColorPickerKit */,
+				29EBDB711B3F5C9A00085149 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29EBDB711B3F5C9A00085149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29EBDB701B3F5C9A00085149 /* ColorPicker.app */,
+				29EBDB821B3F5C9A00085149 /* ColorPicker WatchKit App.app */,
+				29EBDB911B3F5C9A00085149 /* ColorPicker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29EBDB721B3F5C9A00085149 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				29D52D0F1B489BF600EDE6C0 /* ColorTableController.swift */,
+				29D52D111B489C0500EDE6C0 /* ColorDetailController.swift */,
+				29EBDB731B3F5C9A00085149 /* AppDelegate.swift */,
+				29D52D0D1B489B9E00EDE6C0 /* ColorCell.swift */,
+				29EBDB771B3F5C9A00085149 /* Main.storyboard */,
+				29EBDB7A1B3F5C9A00085149 /* Assets.xcassets */,
+				29EBDB7C1B3F5C9A00085149 /* LaunchScreen.storyboard */,
+				29EBDB7F1B3F5C9A00085149 /* Info.plist */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		29EBDB861B3F5C9A00085149 /* ColorPicker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				29EBDB871B3F5C9A00085149 /* Interface.storyboard */,
+				29EBDB8A1B3F5C9A00085149 /* Assets.xcassets */,
+				29EBDB8C1B3F5C9A00085149 /* Info.plist */,
+			);
+			path = "ColorPicker WatchKit App";
+			sourceTree = "<group>";
+		};
+		29EBDB951B3F5C9A00085149 /* ColorPicker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				29EBDB961B3F5C9A00085149 /* InterfaceController.swift */,
+				29EBDB981B3F5C9A00085149 /* ExtensionDelegate.swift */,
+				022044B81D4D6193005BC70F /* ColorController.swift */,
+				022044BA1D4D6430005BC70F /* DetailController.swift */,
+				29EBDB9A1B3F5C9A00085149 /* Assets.xcassets */,
+				29EBDB9C1B3F5C9A00085149 /* Info.plist */,
+			);
+			path = "ColorPicker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29EBDB6F1B3F5C9A00085149 /* ColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29EBDBA71B3F5C9A00085149 /* Build configuration list for PBXNativeTarget "ColorPicker" */;
+			buildPhases = (
+				29EBDB6C1B3F5C9A00085149 /* Sources */,
+				29EBDB6D1B3F5C9A00085149 /* Frameworks */,
+				29EBDB6E1B3F5C9A00085149 /* Resources */,
+				29EBDBA61B3F5C9A00085149 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29EBDB851B3F5C9A00085149 /* PBXTargetDependency */,
+			);
+			name = ColorPicker;
+			productName = ColorPicker;
+			productReference = 29EBDB701B3F5C9A00085149 /* ColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29EBDB811B3F5C9A00085149 /* ColorPicker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29EBDBA31B3F5C9A00085149 /* Build configuration list for PBXNativeTarget "ColorPicker WatchKit App" */;
+			buildPhases = (
+				29EBDB801B3F5C9A00085149 /* Resources */,
+				29EBDBA21B3F5C9A00085149 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29EBDB941B3F5C9A00085149 /* PBXTargetDependency */,
+			);
+			name = "ColorPicker WatchKit App";
+			productName = "ColorPicker WatchKit App";
+			productReference = 29EBDB821B3F5C9A00085149 /* ColorPicker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		29EBDB901B3F5C9A00085149 /* ColorPicker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29EBDB9F1B3F5C9A00085149 /* Build configuration list for PBXNativeTarget "ColorPicker WatchKit Extension" */;
+			buildPhases = (
+				29EBDB8D1B3F5C9A00085149 /* Sources */,
+				29EBDB8E1B3F5C9A00085149 /* Frameworks */,
+				29EBDB8F1B3F5C9A00085149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ColorPicker WatchKit Extension";
+			productName = "ColorPicker WatchKit Extension";
+			productReference = 29EBDB911B3F5C9A00085149 /* ColorPicker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29EBDB681B3F5C9A00085149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ray Wenderlich";
+				TargetAttributes = {
+					29EBDB6F1B3F5C9A00085149 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
+					};
+					29EBDB811B3F5C9A00085149 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+					};
+					29EBDB901B3F5C9A00085149 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 29EBDB6B1B3F5C9A00085149 /* Build configuration list for PBXProject "ColorPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29EBDB671B3F5C9A00085149;
+			productRefGroup = 29EBDB711B3F5C9A00085149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29EBDB6F1B3F5C9A00085149 /* ColorPicker */,
+				29EBDB811B3F5C9A00085149 /* ColorPicker WatchKit App */,
+				29EBDB901B3F5C9A00085149 /* ColorPicker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29EBDB6E1B3F5C9A00085149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EBDB7E1B3F5C9A00085149 /* LaunchScreen.storyboard in Resources */,
+				29EBDB7B1B3F5C9A00085149 /* Assets.xcassets in Resources */,
+				29EBDB791B3F5C9A00085149 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29EBDB801B3F5C9A00085149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EBDB8B1B3F5C9A00085149 /* Assets.xcassets in Resources */,
+				29EBDB891B3F5C9A00085149 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29EBDB8F1B3F5C9A00085149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EBDB9B1B3F5C9A00085149 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29EBDB6C1B3F5C9A00085149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D52D101B489BF600EDE6C0 /* ColorTableController.swift in Sources */,
+				29D52D0C1B4889A900EDE6C0 /* ColorManager.swift in Sources */,
+				29D52D0E1B489B9E00EDE6C0 /* ColorCell.swift in Sources */,
+				29D52D121B489C0500EDE6C0 /* ColorDetailController.swift in Sources */,
+				29EBDB741B3F5C9A00085149 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29EBDB8D1B3F5C9A00085149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EBDBAB1B3F5EA500085149 /* ColorManager.swift in Sources */,
+				29EBDB991B3F5C9A00085149 /* ExtensionDelegate.swift in Sources */,
+				29EBDB971B3F5C9A00085149 /* InterfaceController.swift in Sources */,
+				022044BB1D4D6430005BC70F /* DetailController.swift in Sources */,
+				022044B91D4D6193005BC70F /* ColorController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29EBDB851B3F5C9A00085149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29EBDB811B3F5C9A00085149 /* ColorPicker WatchKit App */;
+			targetProxy = 29EBDB841B3F5C9A00085149 /* PBXContainerItemProxy */;
+		};
+		29EBDB941B3F5C9A00085149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29EBDB901B3F5C9A00085149 /* ColorPicker WatchKit Extension */;
+			targetProxy = 29EBDB931B3F5C9A00085149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29EBDB771B3F5C9A00085149 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29EBDB781B3F5C9A00085149 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29EBDB7C1B3F5C9A00085149 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29EBDB7D1B3F5C9A00085149 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		29EBDB871B3F5C9A00085149 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29EBDB881B3F5C9A00085149 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29EBDB9D1B3F5C9A00085149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		29EBDB9E1B3F5C9A00085149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		29EBDBA01B3F5C9A00085149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ColorPicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.ColorPicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		29EBDBA11B3F5C9A00085149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ColorPicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.ColorPicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		29EBDBA41B3F5C9A00085149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = ColorPicker_WatchKit_Extension;
+				INFOPLIST_FILE = "ColorPicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.ColorPicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		29EBDBA51B3F5C9A00085149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = ColorPicker_WatchKit_Extension;
+				INFOPLIST_FILE = "ColorPicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.ColorPicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		29EBDBA81B3F5C9A00085149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.ColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		29EBDBA91B3F5C9A00085149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.ColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29EBDB6B1B3F5C9A00085149 /* Build configuration list for PBXProject "ColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EBDB9D1B3F5C9A00085149 /* Debug */,
+				29EBDB9E1B3F5C9A00085149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29EBDB9F1B3F5C9A00085149 /* Build configuration list for PBXNativeTarget "ColorPicker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EBDBA01B3F5C9A00085149 /* Debug */,
+				29EBDBA11B3F5C9A00085149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29EBDBA31B3F5C9A00085149 /* Build configuration list for PBXNativeTarget "ColorPicker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EBDBA41B3F5C9A00085149 /* Debug */,
+				29EBDBA51B3F5C9A00085149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29EBDBA71B3F5C9A00085149 /* Build configuration list for PBXNativeTarget "ColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EBDBA81B3F5C9A00085149 /* Debug */,
+				29EBDBA91B3F5C9A00085149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29EBDB681B3F5C9A00085149 /* Project object */;
+}

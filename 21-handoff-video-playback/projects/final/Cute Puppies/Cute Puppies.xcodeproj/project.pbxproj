@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B02CD241F1AAB24008968B1 /* HandoffHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02CD231F1AAB24008968B1 /* HandoffHelper.swift */; };
+		4B02CD251F1AAB24008968B1 /* HandoffHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02CD231F1AAB24008968B1 /* HandoffHelper.swift */; };
+		4B02CD281F1ABD71008968B1 /* UIAlertControllerAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02CD271F1ABD71008968B1 /* UIAlertControllerAdditions.swift */; };
+		4B031AF71D88F93400F6D3A9 /* clip1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B031AF41D88F93400F6D3A9 /* clip1.mp4 */; };
+		4B031AF81D88F93400F6D3A9 /* clip2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B031AF51D88F93400F6D3A9 /* clip2.mp4 */; };
+		4B031AF91D88F93400F6D3A9 /* clip3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B031AF61D88F93400F6D3A9 /* clip3.mp4 */; };
+		4B031AFA1D88FBE300F6D3A9 /* clip1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B031AF41D88F93400F6D3A9 /* clip1.mp4 */; };
+		4B031AFB1D88FBE300F6D3A9 /* clip2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B031AF51D88F93400F6D3A9 /* clip2.mp4 */; };
+		4B031AFC1D88FBE300F6D3A9 /* clip3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B031AF61D88F93400F6D3A9 /* clip3.mp4 */; };
+		4B278E421D446D68001D85EC /* PlayerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B278E411D446D68001D85EC /* PlayerInterfaceController.swift */; };
+		4B5ABBB41D31E46B009155A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5ABBB31D31E46B009155A4 /* AppDelegate.swift */; };
+		4B5ABBB91D31E46B009155A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5ABBB71D31E46B009155A4 /* Main.storyboard */; };
+		4B5ABBBB1D31E46B009155A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5ABBBA1D31E46B009155A4 /* Assets.xcassets */; };
+		4B5ABBBE1D31E46B009155A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5ABBBC1D31E46B009155A4 /* LaunchScreen.storyboard */; };
+		4B5ABBE91D31E497009155A4 /* VideoClipProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5ABBD71D31E497009155A4 /* VideoClipProvider.swift */; };
+		4B5ABBEA1D31E497009155A4 /* VideoUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5ABBD81D31E497009155A4 /* VideoUtilities.swift */; };
+		4B5ABBEC1D31E4CC009155A4 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5ABBEB1D31E4CC009155A4 /* BrowserViewController.swift */; };
+		4B5ABBEF1D31E4E4009155A4 /* PreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5ABBEE1D31E4E4009155A4 /* PreviewCell.swift */; };
+		4B5ABBF61D31E57A009155A4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5ABBF41D31E57A009155A4 /* Interface.storyboard */; };
+		4B5ABBF81D31E57A009155A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5ABBF71D31E57A009155A4 /* Assets.xcassets */; };
+		4B5ABBFF1D31E57A009155A4 /* Cute Puppies Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4B5ABBFE1D31E57A009155A4 /* Cute Puppies Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4B5ABC061D31E57A009155A4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5ABC051D31E57A009155A4 /* InterfaceController.swift */; };
+		4B5ABC081D31E57A009155A4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5ABC071D31E57A009155A4 /* ExtensionDelegate.swift */; };
+		4B5ABC0C1D31E57A009155A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5ABC0B1D31E57A009155A4 /* Assets.xcassets */; };
+		4B5ABC101D31E57A009155A4 /* Cute Puppies Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4B5ABBF21D31E57A009155A4 /* Cute Puppies Watch.app */; };
+		4B5ABC1B1D31E5B0009155A4 /* VideoRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5ABC1A1D31E5B0009155A4 /* VideoRowController.swift */; };
+		4B5ABC2C1D31E5C0009155A4 /* VideoClipProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5ABBD71D31E497009155A4 /* VideoClipProvider.swift */; };
+		4BB3E0811D44740500FD7771 /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3E07F1D44740500FD7771 /* ConnectivityManager.swift */; };
+		4BB3E0821D44740500FD7771 /* PosterImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3E0801D44740500FD7771 /* PosterImageProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B5ABC001D31E57A009155A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B5ABBA81D31E46B009155A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5ABBFD1D31E57A009155A4;
+			remoteInfo = "Cute Puppies Watch Extension";
+		};
+		4B5ABC0E1D31E57A009155A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B5ABBA81D31E46B009155A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5ABBF11D31E57A009155A4;
+			remoteInfo = "Cute Puppies Watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B5ABC141D31E57A009155A4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4B5ABBFF1D31E57A009155A4 /* Cute Puppies Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5ABC181D31E57A009155A4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4B5ABC101D31E57A009155A4 /* Cute Puppies Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B02CD231F1AAB24008968B1 /* HandoffHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandoffHelper.swift; sourceTree = "<group>"; };
+		4B02CD271F1ABD71008968B1 /* UIAlertControllerAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerAdditions.swift; sourceTree = "<group>"; };
+		4B031AF41D88F93400F6D3A9 /* clip1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = clip1.mp4; sourceTree = "<group>"; };
+		4B031AF51D88F93400F6D3A9 /* clip2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = clip2.mp4; sourceTree = "<group>"; };
+		4B031AF61D88F93400F6D3A9 /* clip3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = clip3.mp4; sourceTree = "<group>"; };
+		4B278E411D446D68001D85EC /* PlayerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerInterfaceController.swift; sourceTree = "<group>"; };
+		4B5ABBB01D31E46B009155A4 /* Cute Puppies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cute Puppies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5ABBB31D31E46B009155A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B5ABBB81D31E46B009155A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B5ABBBA1D31E46B009155A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B5ABBBD1D31E46B009155A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B5ABBBF1D31E46B009155A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5ABBD71D31E497009155A4 /* VideoClipProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoClipProvider.swift; sourceTree = "<group>"; };
+		4B5ABBD81D31E497009155A4 /* VideoUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoUtilities.swift; sourceTree = "<group>"; };
+		4B5ABBEB1D31E4CC009155A4 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		4B5ABBEE1D31E4E4009155A4 /* PreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewCell.swift; sourceTree = "<group>"; };
+		4B5ABBF21D31E57A009155A4 /* Cute Puppies Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cute Puppies Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5ABBF51D31E57A009155A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4B5ABBF71D31E57A009155A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B5ABBF91D31E57A009155A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5ABBFE1D31E57A009155A4 /* Cute Puppies Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Cute Puppies Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5ABC041D31E57A009155A4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4B5ABC051D31E57A009155A4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4B5ABC071D31E57A009155A4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4B5ABC0B1D31E57A009155A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B5ABC0D1D31E57A009155A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5ABC1A1D31E5B0009155A4 /* VideoRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoRowController.swift; sourceTree = "<group>"; };
+		4BB3E07F1D44740500FD7771 /* ConnectivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityManager.swift; sourceTree = "<group>"; };
+		4BB3E0801D44740500FD7771 /* PosterImageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterImageProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B5ABBAD1D31E46B009155A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5ABBFB1D31E57A009155A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B02CD261F1ABD5D008968B1 /* UIKit Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4B02CD271F1ABD71008968B1 /* UIAlertControllerAdditions.swift */,
+			);
+			path = "UIKit Extensions";
+			sourceTree = "<group>";
+		};
+		4B5ABBA71D31E46B009155A4 = {
+			isa = PBXGroup;
+			children = (
+				4B5ABBC51D31E497009155A4 /* Shared */,
+				4B5ABBB21D31E46B009155A4 /* Cute Puppies */,
+				4B5ABBF31D31E57A009155A4 /* Cute Puppies Watch */,
+				4B5ABC021D31E57A009155A4 /* Cute Puppies Watch Extension */,
+				4B5ABBB11D31E46B009155A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B5ABBB11D31E46B009155A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B5ABBB01D31E46B009155A4 /* Cute Puppies.app */,
+				4B5ABBF21D31E57A009155A4 /* Cute Puppies Watch.app */,
+				4B5ABBFE1D31E57A009155A4 /* Cute Puppies Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B5ABBB21D31E46B009155A4 /* Cute Puppies */ = {
+			isa = PBXGroup;
+			children = (
+				4B5ABBED1D31E4E4009155A4 /* Views */,
+				4B02CD261F1ABD5D008968B1 /* UIKit Extensions */,
+				4B5ABBB31D31E46B009155A4 /* AppDelegate.swift */,
+				4B5ABBEB1D31E4CC009155A4 /* BrowserViewController.swift */,
+				4B5ABBB71D31E46B009155A4 /* Main.storyboard */,
+				4B5ABBBA1D31E46B009155A4 /* Assets.xcassets */,
+				4B5ABBBC1D31E46B009155A4 /* LaunchScreen.storyboard */,
+				4B5ABBBF1D31E46B009155A4 /* Info.plist */,
+			);
+			path = "Cute Puppies";
+			sourceTree = "<group>";
+		};
+		4B5ABBC51D31E497009155A4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4B5ABBC61D31E497009155A4 /* Clips */,
+				4B5ABBD71D31E497009155A4 /* VideoClipProvider.swift */,
+				4B5ABBD81D31E497009155A4 /* VideoUtilities.swift */,
+				4B02CD231F1AAB24008968B1 /* HandoffHelper.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4B5ABBC61D31E497009155A4 /* Clips */ = {
+			isa = PBXGroup;
+			children = (
+				4B031AF41D88F93400F6D3A9 /* clip1.mp4 */,
+				4B031AF51D88F93400F6D3A9 /* clip2.mp4 */,
+				4B031AF61D88F93400F6D3A9 /* clip3.mp4 */,
+			);
+			path = Clips;
+			sourceTree = "<group>";
+		};
+		4B5ABBED1D31E4E4009155A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B5ABBEE1D31E4E4009155A4 /* PreviewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B5ABBF31D31E57A009155A4 /* Cute Puppies Watch */ = {
+			isa = PBXGroup;
+			children = (
+				4B5ABBF41D31E57A009155A4 /* Interface.storyboard */,
+				4B5ABBF71D31E57A009155A4 /* Assets.xcassets */,
+				4B5ABBF91D31E57A009155A4 /* Info.plist */,
+			);
+			path = "Cute Puppies Watch";
+			sourceTree = "<group>";
+		};
+		4B5ABC021D31E57A009155A4 /* Cute Puppies Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4B5ABC071D31E57A009155A4 /* ExtensionDelegate.swift */,
+				4B5ABC051D31E57A009155A4 /* InterfaceController.swift */,
+				4B278E411D446D68001D85EC /* PlayerInterfaceController.swift */,
+				4B5ABC0B1D31E57A009155A4 /* Assets.xcassets */,
+				4B5ABC0D1D31E57A009155A4 /* Info.plist */,
+				4BB3E07E1D44740500FD7771 /* Utilities */,
+				4B5ABC191D31E5B0009155A4 /* RowControllers */,
+				4B5ABC031D31E57A009155A4 /* Supporting Files */,
+			);
+			path = "Cute Puppies Watch Extension";
+			sourceTree = "<group>";
+		};
+		4B5ABC031D31E57A009155A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B5ABC041D31E57A009155A4 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B5ABC191D31E5B0009155A4 /* RowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B5ABC1A1D31E5B0009155A4 /* VideoRowController.swift */,
+			);
+			path = RowControllers;
+			sourceTree = "<group>";
+		};
+		4BB3E07E1D44740500FD7771 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4BB3E07F1D44740500FD7771 /* ConnectivityManager.swift */,
+				4BB3E0801D44740500FD7771 /* PosterImageProvider.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B5ABBAF1D31E46B009155A4 /* Cute Puppies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5ABBC21D31E46B009155A4 /* Build configuration list for PBXNativeTarget "Cute Puppies" */;
+			buildPhases = (
+				4B5ABBAC1D31E46B009155A4 /* Sources */,
+				4B5ABBAD1D31E46B009155A4 /* Frameworks */,
+				4B5ABBAE1D31E46B009155A4 /* Resources */,
+				4B5ABC181D31E57A009155A4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B5ABC0F1D31E57A009155A4 /* PBXTargetDependency */,
+			);
+			name = "Cute Puppies";
+			productName = "Cute Puppies";
+			productReference = 4B5ABBB01D31E46B009155A4 /* Cute Puppies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B5ABBF11D31E57A009155A4 /* Cute Puppies Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5ABC151D31E57A009155A4 /* Build configuration list for PBXNativeTarget "Cute Puppies Watch" */;
+			buildPhases = (
+				4B5ABBF01D31E57A009155A4 /* Resources */,
+				4B5ABC141D31E57A009155A4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B5ABC011D31E57A009155A4 /* PBXTargetDependency */,
+			);
+			name = "Cute Puppies Watch";
+			productName = "Cute Puppies Watch";
+			productReference = 4B5ABBF21D31E57A009155A4 /* Cute Puppies Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4B5ABBFD1D31E57A009155A4 /* Cute Puppies Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5ABC111D31E57A009155A4 /* Build configuration list for PBXNativeTarget "Cute Puppies Watch Extension" */;
+			buildPhases = (
+				4B5ABBFA1D31E57A009155A4 /* Sources */,
+				4B5ABBFB1D31E57A009155A4 /* Frameworks */,
+				4B5ABBFC1D31E57A009155A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cute Puppies Watch Extension";
+			productName = "Cute Puppies Watch Extension";
+			productReference = 4B5ABBFE1D31E57A009155A4 /* Cute Puppies Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B5ABBA81D31E46B009155A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Soheil Azarpour";
+				TargetAttributes = {
+					4B5ABBAF1D31E46B009155A4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeamName = "Soheil Moayedi Azarpour";
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					4B5ABBF11D31E57A009155A4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeamName = "Soheil Moayedi Azarpour";
+						ProvisioningStyle = Automatic;
+					};
+					4B5ABBFD1D31E57A009155A4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeamName = "Soheil Moayedi Azarpour";
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4B5ABBAB1D31E46B009155A4 /* Build configuration list for PBXProject "Cute Puppies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B5ABBA71D31E46B009155A4;
+			productRefGroup = 4B5ABBB11D31E46B009155A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B5ABBAF1D31E46B009155A4 /* Cute Puppies */,
+				4B5ABBF11D31E57A009155A4 /* Cute Puppies Watch */,
+				4B5ABBFD1D31E57A009155A4 /* Cute Puppies Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B5ABBAE1D31E46B009155A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5ABBBE1D31E46B009155A4 /* LaunchScreen.storyboard in Resources */,
+				4B5ABBBB1D31E46B009155A4 /* Assets.xcassets in Resources */,
+				4B031AF71D88F93400F6D3A9 /* clip1.mp4 in Resources */,
+				4B5ABBB91D31E46B009155A4 /* Main.storyboard in Resources */,
+				4B031AF91D88F93400F6D3A9 /* clip3.mp4 in Resources */,
+				4B031AF81D88F93400F6D3A9 /* clip2.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5ABBF01D31E57A009155A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5ABBF81D31E57A009155A4 /* Assets.xcassets in Resources */,
+				4B5ABBF61D31E57A009155A4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5ABBFC1D31E57A009155A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B031AFB1D88FBE300F6D3A9 /* clip2.mp4 in Resources */,
+				4B5ABC0C1D31E57A009155A4 /* Assets.xcassets in Resources */,
+				4B031AFA1D88FBE300F6D3A9 /* clip1.mp4 in Resources */,
+				4B031AFC1D88FBE300F6D3A9 /* clip3.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B5ABBAC1D31E46B009155A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B02CD281F1ABD71008968B1 /* UIAlertControllerAdditions.swift in Sources */,
+				4B02CD241F1AAB24008968B1 /* HandoffHelper.swift in Sources */,
+				4B5ABBE91D31E497009155A4 /* VideoClipProvider.swift in Sources */,
+				4B5ABBEF1D31E4E4009155A4 /* PreviewCell.swift in Sources */,
+				4B5ABBEC1D31E4CC009155A4 /* BrowserViewController.swift in Sources */,
+				4B5ABBEA1D31E497009155A4 /* VideoUtilities.swift in Sources */,
+				4B5ABBB41D31E46B009155A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5ABBFA1D31E57A009155A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB3E0811D44740500FD7771 /* ConnectivityManager.swift in Sources */,
+				4B278E421D446D68001D85EC /* PlayerInterfaceController.swift in Sources */,
+				4B5ABC2C1D31E5C0009155A4 /* VideoClipProvider.swift in Sources */,
+				4B5ABC081D31E57A009155A4 /* ExtensionDelegate.swift in Sources */,
+				4B02CD251F1AAB24008968B1 /* HandoffHelper.swift in Sources */,
+				4B5ABC1B1D31E5B0009155A4 /* VideoRowController.swift in Sources */,
+				4BB3E0821D44740500FD7771 /* PosterImageProvider.swift in Sources */,
+				4B5ABC061D31E57A009155A4 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B5ABC011D31E57A009155A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B5ABBFD1D31E57A009155A4 /* Cute Puppies Watch Extension */;
+			targetProxy = 4B5ABC001D31E57A009155A4 /* PBXContainerItemProxy */;
+		};
+		4B5ABC0F1D31E57A009155A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B5ABBF11D31E57A009155A4 /* Cute Puppies Watch */;
+			targetProxy = 4B5ABC0E1D31E57A009155A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B5ABBB71D31E46B009155A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B5ABBB81D31E46B009155A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B5ABBBC1D31E46B009155A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B5ABBBD1D31E46B009155A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4B5ABBF41D31E57A009155A4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B5ABBF51D31E57A009155A4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B5ABBC01D31E46B009155A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4B5ABBC11D31E46B009155A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B5ABBC31D31E46B009155A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Cute Puppies/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Cute-Puppies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B5ABBC41D31E46B009155A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Cute Puppies/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Cute-Puppies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B5ABC121D31E57A009155A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Cute Puppies Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Cute-Puppies.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		4B5ABC131D31E57A009155A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Cute Puppies Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Cute-Puppies.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		4B5ABC161D31E57A009155A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = Cute_Puppies_Watch_Extension;
+				INFOPLIST_FILE = "Cute Puppies Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Cute-Puppies.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		4B5ABC171D31E57A009155A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = Cute_Puppies_Watch_Extension;
+				INFOPLIST_FILE = "Cute Puppies Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Cute-Puppies.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B5ABBAB1D31E46B009155A4 /* Build configuration list for PBXProject "Cute Puppies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5ABBC01D31E46B009155A4 /* Debug */,
+				4B5ABBC11D31E46B009155A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5ABBC21D31E46B009155A4 /* Build configuration list for PBXNativeTarget "Cute Puppies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5ABBC31D31E46B009155A4 /* Debug */,
+				4B5ABBC41D31E46B009155A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5ABC111D31E57A009155A4 /* Build configuration list for PBXNativeTarget "Cute Puppies Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5ABC121D31E57A009155A4 /* Debug */,
+				4B5ABC131D31E57A009155A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5ABC151D31E57A009155A4 /* Build configuration list for PBXNativeTarget "Cute Puppies Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5ABC161D31E57A009155A4 /* Debug */,
+				4B5ABC171D31E57A009155A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B5ABBA81D31E46B009155A4 /* Project object */;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13168.3" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13042.2"/>
+    </dependencies>
+    <scenes>
+        <!--Cute Puppies!-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="InterfaceController" title="Cute Pups!" spacing="0.0" alwaysBounce="YES" id="AgC-eL-Hgc" userLabel="Cute Puppies!" customClass="InterfaceController" customModule="Cute_Puppies_Watch_Extension">
+                    <items>
+                        <table alignment="center" spacing="6" id="e83-yS-25C">
+                            <items>
+                                <tableRow identifier="VideoRowController" id="TjO-V2-2v7" customClass="VideoRowController" customModule="Cute_Puppies_Watch_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" spacing="0.0" id="rhd-T1-VIR">
+                                        <items>
+                                            <group width="1" height="90" alignment="left" layout="vertical" spacing="0.0" id="SWq-4g-ItY">
+                                                <items>
+                                                    <imageView width="1" height="1" alignment="left" contentMode="scaleAspectFill" id="9LK-jf-zgp"/>
+                                                    <label width="1" height="1" alignment="center" verticalAlignment="center" textAlignment="center" id="pjK-Ko-tQ3"/>
+                                                </items>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                                        <edgeInsets key="margins" left="4" right="4" top="4" bottom="4"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="image" destination="9LK-jf-zgp" id="bo5-81-oHQ"/>
+                                        <outlet property="textLabel" destination="pjK-Ko-tQ3" id="Z3C-tS-KaO"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="e83-yS-25C" id="chw-cF-iSa"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="171" y="302"/>
+        </scene>
+    </scenes>
+</document>

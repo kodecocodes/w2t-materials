@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76B867561B6FCBD100B07789 /* WatchGraphGeneratorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B867551B6FCBD100B07789 /* WatchGraphGeneratorSettings.swift */; };
+		76B867581B6FCC0D00B07789 /* CardGraphGeneratorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B867571B6FCC0D00B07789 /* CardGraphGeneratorSettings.swift */; };
+		76EC271B1B6F2B60006D4FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76EC27191B6F2B60006D4FAE /* Main.storyboard */; };
+		76EC271D1B6F2B60006D4FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EC271C1B6F2B60006D4FAE /* Assets.xcassets */; };
+		76EC27201B6F2B60006D4FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76EC271E1B6F2B60006D4FAE /* LaunchScreen.storyboard */; };
+		76EC272A1B6F2B79006D4FAE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC27271B6F2B79006D4FAE /* TableViewController.swift */; };
+		76EC272B1B6F2B79006D4FAE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC27281B6F2B79006D4FAE /* TableViewCell.swift */; };
+		76EC272C1B6F2B79006D4FAE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC27291B6F2B79006D4FAE /* CardView.swift */; };
+		76EC27331B6F2BED006D4FAE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76EC27311B6F2BED006D4FAE /* Interface.storyboard */; };
+		76EC27351B6F2BED006D4FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EC27341B6F2BED006D4FAE /* Assets.xcassets */; };
+		76EC273C1B6F2BED006D4FAE /* BigMovers WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 76EC273B1B6F2BED006D4FAE /* BigMovers WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		76EC27431B6F2BED006D4FAE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC27421B6F2BED006D4FAE /* ExtensionDelegate.swift */; };
+		76EC27451B6F2BED006D4FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EC27441B6F2BED006D4FAE /* Assets.xcassets */; };
+		76EC27491B6F2BED006D4FAE /* BigMovers WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 76EC272F1B6F2BED006D4FAE /* BigMovers WatchKit App.app */; };
+		76EC27541B6F2C02006D4FAE /* PageInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC27521B6F2C02006D4FAE /* PageInterfaceController.swift */; };
+		76EC27551B6F2C02006D4FAE /* InitialInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC27531B6F2C02006D4FAE /* InitialInterfaceController.swift */; };
+		76EC275A1B6F2C1F006D4FAE /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC27571B6F2C1F006D4FAE /* Stock.swift */; };
+		76EC275B1B6F2C1F006D4FAE /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC27571B6F2C1F006D4FAE /* Stock.swift */; };
+		76EC275C1B6F2C1F006D4FAE /* GraphGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC27581B6F2C1F006D4FAE /* GraphGenerator.swift */; };
+		76EC275D1B6F2C1F006D4FAE /* GraphGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC27581B6F2C1F006D4FAE /* GraphGenerator.swift */; };
+		76EC275E1B6F2C1F006D4FAE /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC27591B6F2C1F006D4FAE /* UIColorHex.swift */; };
+		76EC275F1B6F2C1F006D4FAE /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC27591B6F2C1F006D4FAE /* UIColorHex.swift */; };
+		76EC27611B6F2E8E006D4FAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC27601B6F2E8E006D4FAE /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76EC273D1B6F2BED006D4FAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76EC270A1B6F2B60006D4FAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76EC273A1B6F2BED006D4FAE;
+			remoteInfo = "BigMovers for watchOS Extension";
+		};
+		76EC27471B6F2BED006D4FAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76EC270A1B6F2B60006D4FAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76EC272E1B6F2BED006D4FAE;
+			remoteInfo = "BigMovers for watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76EC274D1B6F2BED006D4FAE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				76EC273C1B6F2BED006D4FAE /* BigMovers WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EC27511B6F2BED006D4FAE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				76EC27491B6F2BED006D4FAE /* BigMovers WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		76B867551B6FCBD100B07789 /* WatchGraphGeneratorSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchGraphGeneratorSettings.swift; sourceTree = "<group>"; };
+		76B867571B6FCC0D00B07789 /* CardGraphGeneratorSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardGraphGeneratorSettings.swift; sourceTree = "<group>"; };
+		76EC27121B6F2B60006D4FAE /* BigMovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigMovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EC271A1B6F2B60006D4FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76EC271C1B6F2B60006D4FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76EC271F1B6F2B60006D4FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76EC27211B6F2B60006D4FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76EC27271B6F2B79006D4FAE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		76EC27281B6F2B79006D4FAE /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		76EC27291B6F2B79006D4FAE /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		76EC272F1B6F2BED006D4FAE /* BigMovers WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BigMovers WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EC27321B6F2BED006D4FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		76EC27341B6F2BED006D4FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76EC27361B6F2BED006D4FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76EC273B1B6F2BED006D4FAE /* BigMovers WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BigMovers WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EC27421B6F2BED006D4FAE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		76EC27441B6F2BED006D4FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76EC27461B6F2BED006D4FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76EC27521B6F2C02006D4FAE /* PageInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageInterfaceController.swift; sourceTree = "<group>"; };
+		76EC27531B6F2C02006D4FAE /* InitialInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialInterfaceController.swift; sourceTree = "<group>"; };
+		76EC27571B6F2C1F006D4FAE /* Stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		76EC27581B6F2C1F006D4FAE /* GraphGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphGenerator.swift; sourceTree = "<group>"; };
+		76EC27591B6F2C1F006D4FAE /* UIColorHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		76EC27601B6F2E8E006D4FAE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76EC270F1B6F2B60006D4FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EC27381B6F2BED006D4FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76EC27091B6F2B60006D4FAE = {
+			isa = PBXGroup;
+			children = (
+				76EC27141B6F2B60006D4FAE /* BigMovers */,
+				76EC27301B6F2BED006D4FAE /* BigMovers WatchKit App */,
+				76EC273F1B6F2BED006D4FAE /* BigMovers WatchKit Extension */,
+				76EC27561B6F2C08006D4FAE /* Shared */,
+				76EC27131B6F2B60006D4FAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76EC27131B6F2B60006D4FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76EC27121B6F2B60006D4FAE /* BigMovers.app */,
+				76EC272F1B6F2BED006D4FAE /* BigMovers WatchKit App.app */,
+				76EC273B1B6F2BED006D4FAE /* BigMovers WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76EC27141B6F2B60006D4FAE /* BigMovers */ = {
+			isa = PBXGroup;
+			children = (
+				76EC27601B6F2E8E006D4FAE /* AppDelegate.swift */,
+				76EC27271B6F2B79006D4FAE /* TableViewController.swift */,
+				76EC27281B6F2B79006D4FAE /* TableViewCell.swift */,
+				76EC27291B6F2B79006D4FAE /* CardView.swift */,
+				76B867571B6FCC0D00B07789 /* CardGraphGeneratorSettings.swift */,
+				76EC27191B6F2B60006D4FAE /* Main.storyboard */,
+				76EC271C1B6F2B60006D4FAE /* Assets.xcassets */,
+				76EC271E1B6F2B60006D4FAE /* LaunchScreen.storyboard */,
+				76EC27211B6F2B60006D4FAE /* Info.plist */,
+			);
+			path = BigMovers;
+			sourceTree = "<group>";
+		};
+		76EC27301B6F2BED006D4FAE /* BigMovers WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				76EC27311B6F2BED006D4FAE /* Interface.storyboard */,
+				76EC27341B6F2BED006D4FAE /* Assets.xcassets */,
+				76EC27361B6F2BED006D4FAE /* Info.plist */,
+			);
+			name = "BigMovers WatchKit App";
+			path = "BigMovers for watchOS";
+			sourceTree = "<group>";
+		};
+		76EC273F1B6F2BED006D4FAE /* BigMovers WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				76EC27521B6F2C02006D4FAE /* PageInterfaceController.swift */,
+				76EC27531B6F2C02006D4FAE /* InitialInterfaceController.swift */,
+				76EC27421B6F2BED006D4FAE /* ExtensionDelegate.swift */,
+				76B867551B6FCBD100B07789 /* WatchGraphGeneratorSettings.swift */,
+				76EC27441B6F2BED006D4FAE /* Assets.xcassets */,
+				76EC27461B6F2BED006D4FAE /* Info.plist */,
+			);
+			name = "BigMovers WatchKit Extension";
+			path = "BigMovers for watchOS Extension";
+			sourceTree = "<group>";
+		};
+		76EC27561B6F2C08006D4FAE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				76EC27571B6F2C1F006D4FAE /* Stock.swift */,
+				76EC27581B6F2C1F006D4FAE /* GraphGenerator.swift */,
+				76EC27591B6F2C1F006D4FAE /* UIColorHex.swift */,
+			);
+			name = Shared;
+			path = "BigMovers for watchOS Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76EC27111B6F2B60006D4FAE /* BigMovers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76EC27241B6F2B60006D4FAE /* Build configuration list for PBXNativeTarget "BigMovers" */;
+			buildPhases = (
+				76EC270E1B6F2B60006D4FAE /* Sources */,
+				76EC270F1B6F2B60006D4FAE /* Frameworks */,
+				76EC27101B6F2B60006D4FAE /* Resources */,
+				76EC27511B6F2BED006D4FAE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76EC27481B6F2BED006D4FAE /* PBXTargetDependency */,
+			);
+			name = BigMovers;
+			productName = BigMovers;
+			productReference = 76EC27121B6F2B60006D4FAE /* BigMovers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76EC272E1B6F2BED006D4FAE /* BigMovers WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76EC274E1B6F2BED006D4FAE /* Build configuration list for PBXNativeTarget "BigMovers WatchKit App" */;
+			buildPhases = (
+				76EC272D1B6F2BED006D4FAE /* Resources */,
+				76EC274D1B6F2BED006D4FAE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76EC273E1B6F2BED006D4FAE /* PBXTargetDependency */,
+			);
+			name = "BigMovers WatchKit App";
+			productName = "BigMovers for watchOS";
+			productReference = 76EC272F1B6F2BED006D4FAE /* BigMovers WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		76EC273A1B6F2BED006D4FAE /* BigMovers WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76EC274A1B6F2BED006D4FAE /* Build configuration list for PBXNativeTarget "BigMovers WatchKit Extension" */;
+			buildPhases = (
+				76EC27371B6F2BED006D4FAE /* Sources */,
+				76EC27381B6F2BED006D4FAE /* Frameworks */,
+				76EC27391B6F2BED006D4FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BigMovers WatchKit Extension";
+			productName = "BigMovers for watchOS Extension";
+			productReference = 76EC273B1B6F2BED006D4FAE /* BigMovers WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76EC270A1B6F2B60006D4FAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = temporary;
+				TargetAttributes = {
+					76EC27111B6F2B60006D4FAE = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+					};
+					76EC272E1B6F2BED006D4FAE = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+					};
+					76EC273A1B6F2BED006D4FAE = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 76EC270D1B6F2B60006D4FAE /* Build configuration list for PBXProject "BigMovers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76EC27091B6F2B60006D4FAE;
+			productRefGroup = 76EC27131B6F2B60006D4FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76EC27111B6F2B60006D4FAE /* BigMovers */,
+				76EC272E1B6F2BED006D4FAE /* BigMovers WatchKit App */,
+				76EC273A1B6F2BED006D4FAE /* BigMovers WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76EC27101B6F2B60006D4FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EC27201B6F2B60006D4FAE /* LaunchScreen.storyboard in Resources */,
+				76EC271D1B6F2B60006D4FAE /* Assets.xcassets in Resources */,
+				76EC271B1B6F2B60006D4FAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EC272D1B6F2BED006D4FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EC27351B6F2BED006D4FAE /* Assets.xcassets in Resources */,
+				76EC27331B6F2BED006D4FAE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EC27391B6F2BED006D4FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EC27451B6F2BED006D4FAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76EC270E1B6F2B60006D4FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EC275E1B6F2C1F006D4FAE /* UIColorHex.swift in Sources */,
+				76EC275C1B6F2C1F006D4FAE /* GraphGenerator.swift in Sources */,
+				76EC272B1B6F2B79006D4FAE /* TableViewCell.swift in Sources */,
+				76EC272A1B6F2B79006D4FAE /* TableViewController.swift in Sources */,
+				76EC27611B6F2E8E006D4FAE /* AppDelegate.swift in Sources */,
+				76EC275A1B6F2C1F006D4FAE /* Stock.swift in Sources */,
+				76B867581B6FCC0D00B07789 /* CardGraphGeneratorSettings.swift in Sources */,
+				76EC272C1B6F2B79006D4FAE /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EC27371B6F2BED006D4FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EC275F1B6F2C1F006D4FAE /* UIColorHex.swift in Sources */,
+				76EC275D1B6F2C1F006D4FAE /* GraphGenerator.swift in Sources */,
+				76EC27551B6F2C02006D4FAE /* InitialInterfaceController.swift in Sources */,
+				76EC27541B6F2C02006D4FAE /* PageInterfaceController.swift in Sources */,
+				76EC27431B6F2BED006D4FAE /* ExtensionDelegate.swift in Sources */,
+				76EC275B1B6F2C1F006D4FAE /* Stock.swift in Sources */,
+				76B867561B6FCBD100B07789 /* WatchGraphGeneratorSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76EC273E1B6F2BED006D4FAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76EC273A1B6F2BED006D4FAE /* BigMovers WatchKit Extension */;
+			targetProxy = 76EC273D1B6F2BED006D4FAE /* PBXContainerItemProxy */;
+		};
+		76EC27481B6F2BED006D4FAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76EC272E1B6F2BED006D4FAE /* BigMovers WatchKit App */;
+			targetProxy = 76EC27471B6F2BED006D4FAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76EC27191B6F2B60006D4FAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76EC271A1B6F2B60006D4FAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76EC271E1B6F2B60006D4FAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76EC271F1B6F2B60006D4FAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		76EC27311B6F2BED006D4FAE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76EC27321B6F2BED006D4FAE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76EC27221B6F2B60006D4FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76EC27231B6F2B60006D4FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76EC27251B6F2B60006D4FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BigMovers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.BigMovers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		76EC27261B6F2B60006D4FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BigMovers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.BigMovers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		76EC274B1B6F2BED006D4FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "BigMovers for watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.BigMovers.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		76EC274C1B6F2BED006D4FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "BigMovers for watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.BigMovers.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		76EC274F1B6F2BED006D4FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = BigMovers_for_watchOS_Extension;
+				INFOPLIST_FILE = "BigMovers for watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.BigMovers.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		76EC27501B6F2BED006D4FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = BigMovers_for_watchOS_Extension;
+				INFOPLIST_FILE = "BigMovers for watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.BigMovers.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76EC270D1B6F2B60006D4FAE /* Build configuration list for PBXProject "BigMovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76EC27221B6F2B60006D4FAE /* Debug */,
+				76EC27231B6F2B60006D4FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76EC27241B6F2B60006D4FAE /* Build configuration list for PBXNativeTarget "BigMovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76EC27251B6F2B60006D4FAE /* Debug */,
+				76EC27261B6F2B60006D4FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76EC274A1B6F2BED006D4FAE /* Build configuration list for PBXNativeTarget "BigMovers WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76EC274B1B6F2BED006D4FAE /* Debug */,
+				76EC274C1B6F2BED006D4FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76EC274E1B6F2BED006D4FAE /* Build configuration list for PBXNativeTarget "BigMovers WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76EC274F1B6F2BED006D4FAE /* Debug */,
+				76EC27501B6F2BED006D4FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76EC270A1B6F2B60006D4FAE /* Project object */;
+}

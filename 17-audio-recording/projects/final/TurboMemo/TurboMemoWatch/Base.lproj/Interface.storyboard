@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13189.4" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tf8-be-psk">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13049.2"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="6f4-86-hEh">
+            <objects>
+                <controller id="tf8-be-psk" customClass="InterfaceController" customModule="TurboMemoWatchExtension">
+                    <items>
+                        <group width="1" alignment="left" id="Ki1-Gy-kOD" userLabel="Valid Content Group">
+                            <items>
+                                <table alignment="left" id="VAd-Ws-VOl">
+                                    <items>
+                                        <tableRow identifier="MemoRowController" id="FlI-rU-ulM" userLabel="MemoRowController" customClass="MemoRowController" customModule="TurboMemoWatchExtension">
+                                            <group key="rootItem" width="1" height="54" alignment="left" radius="0.0" spacing="0.0" id="XJR-MN-aIB" userLabel="Container Group">
+                                                <items>
+                                                    <imageView width="0.40000000000000002" height="1" alignment="left" verticalAlignment="center" image="voice-icon" contentMode="scaleAspectFit" id="cdS-Ty-reL"/>
+                                                    <label width="0.59999999999999998" height="1" alignment="center" verticalAlignment="center" textAlignment="right" numberOfLines="0" id="emg-ap-p9V">
+                                                        <string key="text">7:34PM
+07/25/2015</string>
+                                                        <fontDescription key="font" type="system" pointSize="13"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.10980392160000001" green="0.4941176471" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                            </group>
+                                            <connections>
+                                                <outlet property="previewImage" destination="cdS-Ty-reL" id="52p-N5-lfA"/>
+                                                <outlet property="textLabel" destination="emg-ap-p9V" id="fsu-pz-8Nl"/>
+                                            </connections>
+                                        </tableRow>
+                                    </items>
+                                </table>
+                            </items>
+                        </group>
+                        <group width="1" height="1" alignment="left" layout="vertical" spacing="4" id="T12-ig-QLg" userLabel="Invalid Content Group">
+                            <items>
+                                <label width="1" height="1" alignment="left" text="No memo :[" textAlignment="center" numberOfLines="0" id="O65-hD-dG1"/>
+                            </items>
+                        </group>
+                    </items>
+                    <menu key="menu" id="wOx-hw-jQU">
+                        <items>
+                            <menuItem title="+ Voice" icon="add" id="6bG-1A-4Ue">
+                                <connections>
+                                    <action selector="addVoiceMemoMenuItemTapped" destination="tf8-be-psk" id="p4D-p7-I6c"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="interfaceTable" destination="VAd-Ws-VOl" id="NXy-oX-tdu"/>
+                        <outlet property="invalidContentGroup" destination="T12-ig-QLg" id="ekW-bj-bee"/>
+                        <outlet property="validContentGroup" destination="Ki1-Gy-kOD" id="Bgk-sH-LNt"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-113" y="-34"/>
+        </scene>
+        <!--AudioPlayerInterfaceController-->
+        <scene sceneID="XmC-xq-fYD">
+            <objects>
+                <controller identifier="AudioPlayerInterfaceController" hidesWhenLoading="NO" id="Wov-Y2-L5a" customClass="AudioPlayerInterfaceController" customModule="TurboMemoWatchExtension">
+                    <items>
+                        <label width="1" alignment="left" textAlignment="center" numberOfLines="0" minimumScaleFactor="0.5" id="o3Z-qs-4bg">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <button width="1" alignment="left" title="Play" id="E9t-pz-kBh">
+                            <connections>
+                                <action selector="playButtonTapped" destination="Wov-Y2-L5a" id="T9y-PR-ySP"/>
+                            </connections>
+                        </button>
+                        <group width="1" alignment="left" id="hDf-GR-A7T">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Time lapsed:" id="0Cy-CV-bMg">
+                                    <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                </label>
+                                <timer alignment="right" previewedSeconds="0" id="lsD-v4-VxW">
+                                    <calendarUnit key="units" second="YES"/>
+                                </timer>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="interfaceTimer" destination="lsD-v4-VxW" id="GHf-ry-IfN"/>
+                        <outlet property="playButton" destination="E9t-pz-kBh" id="lqb-wi-DfU"/>
+                        <outlet property="titleLabel" destination="o3Z-qs-4bg" id="gBS-bW-7q1"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="125" y="-61"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4025427A1D503143004A6987 /* FloCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DA6811D4855BC00A1E1F9 /* FloCalendar.swift */; };
+		40368A491D5BF959006D01AB /* FloData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40368A481D5BF959006D01AB /* FloData.swift */; };
+		40368A4A1D5BF959006D01AB /* FloData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40368A481D5BF959006D01AB /* FloData.swift */; };
+		404DA67E1D4851E900A1E1F9 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404DA67D1D4851E900A1E1F9 /* CloudKit.framework */; };
+		404DA6801D48524500A1E1F9 /* CloudKitCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DA67F1D48524500A1E1F9 /* CloudKitCentral.swift */; };
+		404DA6821D4855BC00A1E1F9 /* FloCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DA6811D4855BC00A1E1F9 /* FloCalendar.swift */; };
+		405639751D4AD752005C2F97 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405639731D4AD752005C2F97 /* Interface.storyboard */; };
+		405639771D4AD752005C2F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405639761D4AD752005C2F97 /* Assets.xcassets */; };
+		4056397E1D4AD752005C2F97 /* FloW Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4056397D1D4AD752005C2F97 /* FloW Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		405639831D4AD752005C2F97 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405639821D4AD752005C2F97 /* InterfaceController.swift */; };
+		405639851D4AD752005C2F97 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405639841D4AD752005C2F97 /* ExtensionDelegate.swift */; };
+		405639871D4AD752005C2F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405639861D4AD752005C2F97 /* Assets.xcassets */; };
+		4056398B1D4AD752005C2F97 /* FloW.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 405639711D4AD752005C2F97 /* FloW.app */; };
+		40909E961F31BD4900CC9883 /* CloudKitCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DA67F1D48524500A1E1F9 /* CloudKitCentral.swift */; };
+		40E80D9F1F31B91400D12B56 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E80D9E1F31B91400D12B56 /* CloudKit.framework */; };
+		827B3CB11ADE121D00E4AA19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827B3CB01ADE121D00E4AA19 /* AppDelegate.swift */; };
+		827B3CB31ADE121D00E4AA19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827B3CB21ADE121D00E4AA19 /* ViewController.swift */; };
+		827B3CB61ADE121D00E4AA19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827B3CB41ADE121D00E4AA19 /* Main.storyboard */; };
+		827B3CB81ADE121D00E4AA19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 827B3CB71ADE121D00E4AA19 /* Images.xcassets */; };
+		827B3CBB1ADE121D00E4AA19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 827B3CB91ADE121D00E4AA19 /* LaunchScreen.xib */; };
+		827B3CD31ADE128500E4AA19 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827B3CD21ADE128500E4AA19 /* PushButtonView.swift */; };
+		827B3CD51ADE180100E4AA19 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827B3CD41ADE180100E4AA19 /* CounterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4056397F1D4AD752005C2F97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 827B3CA31ADE121D00E4AA19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4056397C1D4AD752005C2F97;
+			remoteInfo = "FloW Extension";
+		};
+		405639891D4AD752005C2F97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 827B3CA31ADE121D00E4AA19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 405639701D4AD752005C2F97;
+			remoteInfo = FloW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4056398F1D4AD752005C2F97 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4056397E1D4AD752005C2F97 /* FloW Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405639931D4AD752005C2F97 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4056398B1D4AD752005C2F97 /* FloW.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4007410D1D6304EE00535B8A /* FloW.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FloW.entitlements; sourceTree = "<group>"; };
+		400C50D31F301FE200D5485E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		40368A481D5BF959006D01AB /* FloData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloData.swift; sourceTree = "<group>"; };
+		404DA6791D4851B600A1E1F9 /* Flo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Flo.entitlements; sourceTree = "<group>"; };
+		404DA67D1D4851E900A1E1F9 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		404DA67F1D48524500A1E1F9 /* CloudKitCentral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudKitCentral.swift; path = ../CloudKitCentral.swift; sourceTree = "<group>"; };
+		404DA6811D4855BC00A1E1F9 /* FloCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloCalendar.swift; sourceTree = "<group>"; };
+		405639711D4AD752005C2F97 /* FloW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		405639741D4AD752005C2F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		405639761D4AD752005C2F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		405639781D4AD752005C2F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4056397D1D4AD752005C2F97 /* FloW Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FloW Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		405639821D4AD752005C2F97 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		405639841D4AD752005C2F97 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		405639861D4AD752005C2F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		405639881D4AD752005C2F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405639961D4AF17A005C2F97 /* FloW Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FloW Extension.entitlements"; sourceTree = "<group>"; };
+		40E80D9E1F31B91400D12B56 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.0.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		827B3CAB1ADE121D00E4AA19 /* Flo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		827B3CAF1ADE121D00E4AA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		827B3CB01ADE121D00E4AA19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		827B3CB21ADE121D00E4AA19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		827B3CB51ADE121D00E4AA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		827B3CB71ADE121D00E4AA19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		827B3CBA1ADE121D00E4AA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		827B3CD21ADE128500E4AA19 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		827B3CD41ADE180100E4AA19 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4056397A1D4AD752005C2F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E80D9F1F31B91400D12B56 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827B3CA81ADE121D00E4AA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404DA67E1D4851E900A1E1F9 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40368A4B1D5BF966006D01AB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				404DA67F1D48524500A1E1F9 /* CloudKitCentral.swift */,
+				404DA6811D4855BC00A1E1F9 /* FloCalendar.swift */,
+				40368A481D5BF959006D01AB /* FloData.swift */,
+			);
+			name = Shared;
+			path = Flo;
+			sourceTree = "<group>";
+		};
+		404DA67A1D4851B800A1E1F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40E80D9E1F31B91400D12B56 /* CloudKit.framework */,
+				404DA67D1D4851E900A1E1F9 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		405639721D4AD752005C2F97 /* FloW */ = {
+			isa = PBXGroup;
+			children = (
+				4007410D1D6304EE00535B8A /* FloW.entitlements */,
+				405639731D4AD752005C2F97 /* Interface.storyboard */,
+				405639761D4AD752005C2F97 /* Assets.xcassets */,
+				405639781D4AD752005C2F97 /* Info.plist */,
+			);
+			path = FloW;
+			sourceTree = "<group>";
+		};
+		405639811D4AD752005C2F97 /* FloW Extension */ = {
+			isa = PBXGroup;
+			children = (
+				405639961D4AF17A005C2F97 /* FloW Extension.entitlements */,
+				405639821D4AD752005C2F97 /* InterfaceController.swift */,
+				405639841D4AD752005C2F97 /* ExtensionDelegate.swift */,
+				405639861D4AD752005C2F97 /* Assets.xcassets */,
+				405639881D4AD752005C2F97 /* Info.plist */,
+			);
+			path = "FloW Extension";
+			sourceTree = "<group>";
+		};
+		40A399221F2965E800295128 /* IBDesignables */ = {
+			isa = PBXGroup;
+			children = (
+				827B3CD21ADE128500E4AA19 /* PushButtonView.swift */,
+				827B3CD41ADE180100E4AA19 /* CounterView.swift */,
+			);
+			name = IBDesignables;
+			sourceTree = "<group>";
+		};
+		827B3CA21ADE121D00E4AA19 = {
+			isa = PBXGroup;
+			children = (
+				400C50D31F301FE200D5485E /* README.md */,
+				827B3CAD1ADE121D00E4AA19 /* Flo */,
+				40368A4B1D5BF966006D01AB /* Shared */,
+				405639721D4AD752005C2F97 /* FloW */,
+				405639811D4AD752005C2F97 /* FloW Extension */,
+				827B3CAC1ADE121D00E4AA19 /* Products */,
+				404DA67A1D4851B800A1E1F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		827B3CAC1ADE121D00E4AA19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				827B3CAB1ADE121D00E4AA19 /* Flo.app */,
+				405639711D4AD752005C2F97 /* FloW.app */,
+				4056397D1D4AD752005C2F97 /* FloW Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		827B3CAD1ADE121D00E4AA19 /* Flo */ = {
+			isa = PBXGroup;
+			children = (
+				827B3CB01ADE121D00E4AA19 /* AppDelegate.swift */,
+				827B3CB21ADE121D00E4AA19 /* ViewController.swift */,
+				827B3CB41ADE121D00E4AA19 /* Main.storyboard */,
+				40A399221F2965E800295128 /* IBDesignables */,
+				827B3CAE1ADE121D00E4AA19 /* Supporting Files */,
+			);
+			path = Flo;
+			sourceTree = "<group>";
+		};
+		827B3CAE1ADE121D00E4AA19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				827B3CB71ADE121D00E4AA19 /* Images.xcassets */,
+				404DA6791D4851B600A1E1F9 /* Flo.entitlements */,
+				827B3CB91ADE121D00E4AA19 /* LaunchScreen.xib */,
+				827B3CAF1ADE121D00E4AA19 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		405639701D4AD752005C2F97 /* FloW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405639901D4AD752005C2F97 /* Build configuration list for PBXNativeTarget "FloW" */;
+			buildPhases = (
+				4056396F1D4AD752005C2F97 /* Resources */,
+				4056398F1D4AD752005C2F97 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				405639801D4AD752005C2F97 /* PBXTargetDependency */,
+			);
+			name = FloW;
+			productName = FloW;
+			productReference = 405639711D4AD752005C2F97 /* FloW.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4056397C1D4AD752005C2F97 /* FloW Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4056398C1D4AD752005C2F97 /* Build configuration list for PBXNativeTarget "FloW Extension" */;
+			buildPhases = (
+				405639791D4AD752005C2F97 /* Sources */,
+				4056397A1D4AD752005C2F97 /* Frameworks */,
+				4056397B1D4AD752005C2F97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FloW Extension";
+			productName = "FloW Extension";
+			productReference = 4056397D1D4AD752005C2F97 /* FloW Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		827B3CAA1ADE121D00E4AA19 /* Flo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827B3CCA1ADE121D00E4AA19 /* Build configuration list for PBXNativeTarget "Flo" */;
+			buildPhases = (
+				827B3CA71ADE121D00E4AA19 /* Sources */,
+				827B3CA81ADE121D00E4AA19 /* Frameworks */,
+				827B3CA91ADE121D00E4AA19 /* Resources */,
+				405639931D4AD752005C2F97 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4056398A1D4AD752005C2F97 /* PBXTargetDependency */,
+			);
+			name = Flo;
+			productName = Flo;
+			productReference = 827B3CAB1ADE121D00E4AA19 /* Flo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		827B3CA31ADE121D00E4AA19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Caroline Begbie";
+				TargetAttributes = {
+					405639701D4AD752005C2F97 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeamName = "Audrey Tam";
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes.watchos.app = {
+								enabled = 0;
+							};
+						};
+					};
+					4056397C1D4AD752005C2F97 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeamName = "Audrey Tam";
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					827B3CAA1ADE121D00E4AA19 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeamName = "Audrey Tam";
+						LastSwiftMigration = 0900;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 827B3CA61ADE121D00E4AA19 /* Build configuration list for PBXProject "Flo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 827B3CA21ADE121D00E4AA19;
+			productRefGroup = 827B3CAC1ADE121D00E4AA19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				827B3CAA1ADE121D00E4AA19 /* Flo */,
+				405639701D4AD752005C2F97 /* FloW */,
+				4056397C1D4AD752005C2F97 /* FloW Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4056396F1D4AD752005C2F97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405639771D4AD752005C2F97 /* Assets.xcassets in Resources */,
+				405639751D4AD752005C2F97 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4056397B1D4AD752005C2F97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405639871D4AD752005C2F97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827B3CA91ADE121D00E4AA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827B3CB61ADE121D00E4AA19 /* Main.storyboard in Resources */,
+				827B3CBB1ADE121D00E4AA19 /* LaunchScreen.xib in Resources */,
+				827B3CB81ADE121D00E4AA19 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		405639791D4AD752005C2F97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405639851D4AD752005C2F97 /* ExtensionDelegate.swift in Sources */,
+				405639831D4AD752005C2F97 /* InterfaceController.swift in Sources */,
+				40368A4A1D5BF959006D01AB /* FloData.swift in Sources */,
+				40909E961F31BD4900CC9883 /* CloudKitCentral.swift in Sources */,
+				4025427A1D503143004A6987 /* FloCalendar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827B3CA71ADE121D00E4AA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827B3CB31ADE121D00E4AA19 /* ViewController.swift in Sources */,
+				404DA6821D4855BC00A1E1F9 /* FloCalendar.swift in Sources */,
+				827B3CD31ADE128500E4AA19 /* PushButtonView.swift in Sources */,
+				827B3CB11ADE121D00E4AA19 /* AppDelegate.swift in Sources */,
+				40368A491D5BF959006D01AB /* FloData.swift in Sources */,
+				404DA6801D48524500A1E1F9 /* CloudKitCentral.swift in Sources */,
+				827B3CD51ADE180100E4AA19 /* CounterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		405639801D4AD752005C2F97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4056397C1D4AD752005C2F97 /* FloW Extension */;
+			targetProxy = 4056397F1D4AD752005C2F97 /* PBXContainerItemProxy */;
+		};
+		4056398A1D4AD752005C2F97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 405639701D4AD752005C2F97 /* FloW */;
+			targetProxy = 405639891D4AD752005C2F97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		405639731D4AD752005C2F97 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405639741D4AD752005C2F97 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		827B3CB41ADE121D00E4AA19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				827B3CB51ADE121D00E4AA19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		827B3CB91ADE121D00E4AA19 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				827B3CBA1ADE121D00E4AA19 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4056398D1D4AD752005C2F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = "FloW Extension/FloW Extension.entitlements";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "FloW Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Flo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		4056398E1D4AD752005C2F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = "FloW Extension/FloW Extension.entitlements";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "FloW Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Flo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		405639911D4AD752005C2F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = FloW_Extension;
+				INFOPLIST_FILE = FloW/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Flo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		405639921D4AD752005C2F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = FloW_Extension;
+				INFOPLIST_FILE = FloW/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Flo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		827B3CC81ADE121D00E4AA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		827B3CC91ADE121D00E4AA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		827B3CCB1ADE121D00E4AA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Flo/Flo.entitlements;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Flo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Flo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		827B3CCC1ADE121D00E4AA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Flo/Flo.entitlements;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Flo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Flo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4056398C1D4AD752005C2F97 /* Build configuration list for PBXNativeTarget "FloW Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4056398D1D4AD752005C2F97 /* Debug */,
+				4056398E1D4AD752005C2F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405639901D4AD752005C2F97 /* Build configuration list for PBXNativeTarget "FloW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405639911D4AD752005C2F97 /* Debug */,
+				405639921D4AD752005C2F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827B3CA61ADE121D00E4AA19 /* Build configuration list for PBXProject "Flo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827B3CC81ADE121D00E4AA19 /* Debug */,
+				827B3CC91ADE121D00E4AA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827B3CCA1ADE121D00E4AA19 /* Build configuration list for PBXNativeTarget "Flo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827B3CCB1ADE121D00E4AA19 /* Debug */,
+				827B3CCC1ADE121D00E4AA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 827B3CA31ADE121D00E4AA19 /* Project object */;
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pawsome" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Sk8-lW-zCt">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4Ey-aB-2ee">
+                                    <size key="itemSize" width="101" height="100"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CatCell" id="rMG-Me-1QH" customClass="CatPhotoCell" customModule="Pawsome" customModuleProvider="target">
+                                        <frame key="frameInset" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat01" translatesAutoresizingMaskIntoConstraints="NO" id="HRs-l9-rcJ"/>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="HRs-l9-rcJ" firstAttribute="leading" secondItem="rMG-Me-1QH" secondAttribute="leading" id="EC7-kY-pH6"/>
+                                            <constraint firstAttribute="bottom" secondItem="HRs-l9-rcJ" secondAttribute="bottom" id="L8S-0i-0d7"/>
+                                            <constraint firstItem="HRs-l9-rcJ" firstAttribute="top" secondItem="rMG-Me-1QH" secondAttribute="top" id="TqL-qy-VSZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="HRs-l9-rcJ" secondAttribute="trailing" id="iHs-cl-PvT"/>
+                                        </constraints>
+                                        <size key="customSize" width="100" height="100"/>
+                                        <connections>
+                                            <outlet property="imageView" destination="HRs-l9-rcJ" id="t0f-p0-mwG"/>
+                                            <segue destination="enF-WA-Pl5" kind="presentation" identifier="PhotoViewerSegue" id="8Qf-fJ-bMl"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sk8-lW-zCt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CQ8-lS-LjM"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Sk8-lW-zCt" secondAttribute="bottom" id="Pr6-2s-eHI"/>
+                            <constraint firstItem="Sk8-lW-zCt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bIY-Ob-ID9"/>
+                            <constraint firstAttribute="trailing" secondItem="Sk8-lW-zCt" secondAttribute="trailing" id="t17-KJ-ka1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="Sk8-lW-zCt" id="ePC-mP-jCp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="885" y="657"/>
+        </scene>
+        <!--Photo View Controller-->
+        <scene sceneID="ubW-k8-Trh">
+            <objects>
+                <viewController id="enF-WA-Pl5" customClass="PhotoViewController" customModule="Pawsome" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IVo-01-dHT"/>
+                        <viewControllerLayoutGuide type="bottom" id="KVc-W0-JO4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FEK-LL-s8a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat01" translatesAutoresizingMaskIntoConstraints="NO" id="fzR-pf-A7L"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap To Dismiss" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puS-0u-QOt">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13725490870000001" green="0.1215686277" blue="0.12549020350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="fzR-pf-A7L" firstAttribute="leading" secondItem="FEK-LL-s8a" secondAttribute="leading" id="0iG-Wd-kyV"/>
+                            <constraint firstItem="fzR-pf-A7L" firstAttribute="top" secondItem="FEK-LL-s8a" secondAttribute="top" id="BWj-xj-bds"/>
+                            <constraint firstAttribute="trailing" secondItem="fzR-pf-A7L" secondAttribute="trailing" id="ODC-pG-dl3"/>
+                            <constraint firstItem="KVc-W0-JO4" firstAttribute="top" secondItem="fzR-pf-A7L" secondAttribute="bottom" id="SRv-V7-Bep"/>
+                            <constraint firstItem="KVc-W0-JO4" firstAttribute="top" secondItem="puS-0u-QOt" secondAttribute="bottom" constant="20" id="psO-qz-YpL"/>
+                            <constraint firstItem="puS-0u-QOt" firstAttribute="centerX" secondItem="fzR-pf-A7L" secondAttribute="centerX" id="x88-nA-H5J"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="hwK-sm-d5F" appends="YES" id="V17-xV-OpU"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="fzR-pf-A7L" id="MJI-sc-LNZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rfc-1j-BTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="hwK-sm-d5F">
+                    <connections>
+                        <action selector="didTap:" destination="enF-WA-Pl5" id="FCD-f9-wIZ"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1591" y="657"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cat01" width="1200" height="700"/>
+    </resources>
+</document>

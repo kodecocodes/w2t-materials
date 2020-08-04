@@ -1,0 +1,27 @@
+/* Class = "WKInterfaceLabel"; text = "[500 units]"; ObjectID = "1Rq-ED-A0c"; */
+"1Rq-ED-A0c.text" = "[500 units]";
+
+/* Class = "WKInterfaceLabel"; text = "[OF $7,500]"; ObjectID = "9gh-b4-lkI"; */
+"9gh-b4-lkI.text" = "[OF $7,500]";
+
+/* Class = "WKInterfaceController"; title = "[Today]"; ObjectID = "DXG-kF-5CJ"; */
+"DXG-kF-5CJ.title" = "[Today]";
+
+/* Class = "WKInterfaceLabel"; text = "[9/8/15]"; ObjectID = "Iqe-Ka-Tww"; */
+"Iqe-Ka-Tww.text" = "[9/8/15]";
+
+/* Class = "WKInterfaceLabel"; text = "date"; ObjectID = "MDy-Ox-NCo"; */
+"MDy-Ox-NCo.text" = "fecha";
+
+/* Class = "WKInterfaceLabel"; text = "units sold"; ObjectID = "hIX-JX-irH"; */
+"hIX-JX-irH.text" = "unidades vendidas";
+
+/* Class = "WKInterfaceLabel"; text = "average selling price"; ObjectID = "iUN-qV-iR3"; */
+"iUN-qV-iR3.text" = "precio medio de venta";
+
+/* Class = "WKInterfaceLabel"; text = "[$5,000]"; ObjectID = "prK-lm-cFb"; */
+"prK-lm-cFb.text" = "[$5,000]";
+
+/* Class = "WKInterfaceLabel"; text = "[$50]"; ObjectID = "s21-Oj-wwh"; */
+"s21-Oj-wwh.text" = "[$50]";
+

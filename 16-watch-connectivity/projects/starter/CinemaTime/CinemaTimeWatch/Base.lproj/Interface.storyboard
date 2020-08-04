@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8173.3" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6I9-mD-hwM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8089"/>
+    </dependencies>
+    <scenes>
+        <!--Movies-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Movies" id="AgC-eL-Hgc" customClass="MoviesController" customModule="CinemaTimeWatch_Extension">
+                    <items>
+                        <table alignment="left" id="gaI-64-URH">
+                            <items>
+                                <tableRow identifier="MovieRowType" id="3Rb-Cu-X0S" customClass="MovieRowController" customModule="CinemaTimeWatch_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="Nht-GR-DtK">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Africa Screams" numberOfLines="0" id="yUb-0K-wKs"/>
+                                        </items>
+                                        <connections>
+                                            <segue destination="kJX-VA-Mk9" kind="push" identifier="SegueMoviesToDetails" id="jeu-Ih-MKj"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="movieTitle" destination="yUb-0K-wKs" id="hAQ-bu-Y98"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="gaI-64-URH" id="581-Uj-zp0"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="578" y="726.5"/>
+        </scene>
+        <!--Movie Detail Interface Controller-->
+        <scene sceneID="3dX-Tr-rxk">
+            <objects>
+                <controller hidesWhenLoading="NO" id="kJX-VA-Mk9" customClass="MovieDetailInterfaceController" customModule="CinemaTimeWatch_Extension">
+                    <items>
+                        <label alignment="left" text="Angel On My Shoulder" numberOfLines="0" id="u4Q-9w-gYS"/>
+                        <group width="1" alignment="left" id="AUJ-su-etH">
+                            <items>
+                                <label alignment="left" text="Time:" id="Ryx-pj-d0B">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                                <label alignment="left" text="1:30 PM" id="Zbx-WA-HZm">
+                                    <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                </label>
+                            </items>
+                        </group>
+                        <label alignment="left" text="Director:" id="1Lj-tR-Jde">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="Archie Mayo" numberOfLines="0" id="NBJ-7G-I7I">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                        </label>
+                        <label alignment="left" text="Actors:" id="9HC-fZ-fdH">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="Paul Muni, Anne Baxter, Claude Rains" numberOfLines="0" id="wtE-eZ-6nW">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                        </label>
+                        <button alignment="left" id="9Vx-yT-4lZ">
+                            <group key="contentGroup" width="1" alignment="left" id="SOZ-J0-Icc">
+                                <items>
+                                    <label alignment="left" text="Rating:" id="dpX-vI-KCp">
+                                        <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                    </label>
+                                    <label alignment="left" text="☆☆☆☆☆" id="WnM-lh-JlV">
+                                        <color key="textColor" red="1" green="0.18829162396337151" blue="0.2278621089809163" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                    </label>
+                                </items>
+                            </group>
+                            <connections>
+                                <segue destination="0YL-YY-27E" kind="push" id="1yQ-VE-Cd7"/>
+                            </connections>
+                        </button>
+                        <label alignment="left" text="Synopsis:" id="Hfw-uz-b7g">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="The devil (Claude Rains) offers a deceased gangster (Paul Muni) the chance to return in the body of a judge. Black &amp; White." numberOfLines="0" id="gUS-1Z-k2z">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                        </label>
+                        <button alignment="center" backgroundImage="purchase_tickets" id="2a6-RG-eri">
+                            <color key="titleColor" red="0.0094190677627921104" green="0.39245733618736267" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <segue destination="hO4-Kf-kTr" kind="push" identifier="" id="bBC-gf-2sb"/>
+                            </connections>
+                        </button>
+                        <imageView alignment="left" id="NiR-oh-6Ky"/>
+                    </items>
+                    <connections>
+                        <outlet property="actors" destination="wtE-eZ-6nW" id="pyP-3p-dbL"/>
+                        <outlet property="buyButton" destination="2a6-RG-eri" id="MMj-Bz-25f"/>
+                        <outlet property="director" destination="NBJ-7G-I7I" id="QdW-8Q-Deu"/>
+                        <outlet property="movieTicket" destination="NiR-oh-6Ky" id="9CH-0H-V4l"/>
+                        <outlet property="movieTitle" destination="u4Q-9w-gYS" id="bYu-S6-F6X"/>
+                        <outlet property="rating" destination="WnM-lh-JlV" id="wT6-ge-Txg"/>
+                        <outlet property="synopsis" destination="gUS-1Z-k2z" id="5Pz-b5-al3"/>
+                        <outlet property="time" destination="Zbx-WA-HZm" id="KaL-O3-1hj"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="842" y="540"/>
+        </scene>
+        <!--Movie Purchase Confirmation Controller-->
+        <scene sceneID="pKP-SM-JQU">
+            <objects>
+                <controller hidesWhenLoading="NO" id="hO4-Kf-kTr" customClass="MoviePurchaseConfirmationController" customModule="CinemaTimeWatch_Extension">
+                    <items>
+                        <label alignment="left" text="Are you sure you want to purchase 1 ticket for $8.50?" numberOfLines="0" id="fCD-1V-EfQ"/>
+                        <button alignment="center" backgroundImage="purchase_tickets" id="dJY-qu-eR6">
+                            <color key="titleColor" red="0.0094190677627921104" green="0.39245733618736267" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="buyButtonWasTapped" destination="hO4-Kf-kTr" id="GyJ-RE-keF"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Cancel" id="16e-qn-fSU">
+                            <color key="titleColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="cancelButtonWasTapped" destination="hO4-Kf-kTr" id="U0r-Sr-jQE"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1166" y="399"/>
+        </scene>
+        <!--Movie Rating Controller-->
+        <scene sceneID="l0f-dS-CuE">
+            <objects>
+                <controller hidesWhenLoading="NO" id="0YL-YY-27E" customClass="MovieRatingController" customModule="CinemaTimeWatch_Extension">
+                    <items>
+                        <group width="1" alignment="left" verticalAlignment="center" layout="vertical" spacing="12" id="4Sg-EQ-l67">
+                            <items>
+                                <button alignment="left" id="evU-1m-q1E">
+                                    <group key="contentGroup" width="1" alignment="left" id="Y4j-Cb-LX7">
+                                        <items>
+                                            <label alignment="center" text="★☆☆☆☆" id="pKZ-3g-Bzz">
+                                                <color key="textColor" red="1" green="0.18829162396337151" blue="0.2278621089809163" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <action selector="oneStarWasTapped" destination="0YL-YY-27E" id="JsV-jw-zd3"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" id="yyC-0y-GRy">
+                                    <group key="contentGroup" width="1" alignment="left" id="bNx-Ri-MYF">
+                                        <items>
+                                            <label alignment="center" text="★★☆☆☆" id="EWL-Ov-toa">
+                                                <color key="textColor" red="1" green="0.18829162396337151" blue="0.2278621089809163" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <action selector="twoStarWasTapped" destination="0YL-YY-27E" id="zSK-r6-vkH"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" id="SUn-Bm-rQy">
+                                    <group key="contentGroup" width="1" alignment="left" id="3Te-iV-trw">
+                                        <items>
+                                            <label alignment="center" text="★★★☆☆" id="4de-dP-DRT">
+                                                <color key="textColor" red="1" green="0.18829162396337151" blue="0.2278621089809163" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <action selector="threeStarWasTapped" destination="0YL-YY-27E" id="hha-gs-x5H"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" id="3KU-eR-jNB">
+                                    <group key="contentGroup" width="1" alignment="left" id="XGb-aK-iu2">
+                                        <items>
+                                            <label alignment="center" text="★★★★☆" id="Rf4-ND-uL9">
+                                                <color key="textColor" red="1" green="0.18829162396337151" blue="0.2278621089809163" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <action selector="fourStarWasTapped" destination="0YL-YY-27E" id="46P-ap-y8s"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" id="Iag-FS-iHC">
+                                    <group key="contentGroup" width="1" alignment="left" id="hDl-XU-6KL">
+                                        <items>
+                                            <label alignment="center" text="★★★★★" id="3MY-gn-9Qf">
+                                                <color key="textColor" red="1" green="0.18829162396337151" blue="0.2278621089809163" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <action selector="fiveStarWasTapped" destination="0YL-YY-27E" id="ky7-9o-XqQ"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="6" bottom="0.0"/>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1166" y="742"/>
+        </scene>
+        <!--Tickets-->
+        <scene sceneID="q3F-IK-n9H">
+            <objects>
+                <controller identifier="PurchasedMovieTickets" title="Tickets" hidesWhenLoading="NO" id="6I9-mD-hwM" customClass="TicketsController" customModule="CinemaTimeWatch_Extension">
+                    <items>
+                        <label alignment="left" text="Loading..." id="VzS-HF-xeX"/>
+                        <table alignment="left" id="Us9-A7-UmI">
+                            <items>
+                                <tableRow identifier="MovieRowType" id="osd-N8-Je0" customClass="MovieRowController" customModule="CinemaTimeWatch_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="9bm-xd-bEM">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="1:00 PM Africa Screams" numberOfLines="0" id="q9K-eL-eXJ"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="movieTitle" destination="q9K-eL-eXJ" id="vGe-ZH-nVb"/>
+                                        <segue destination="kJX-VA-Mk9" kind="push" id="pri-xB-iK9"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <button alignment="center" backgroundImage="purchase_tickets" id="MLO-xX-Xlx">
+                            <color key="titleColor" red="0.0094190677627921104" green="0.39245733618736267" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="VJb-Md-dvH"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="loading" destination="VzS-HF-xeX" id="o0F-wh-dx2"/>
+                        <outlet property="table" destination="Us9-A7-UmI" id="q8W-eC-lJc"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="406" y="340.5"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="pri-xB-iK9"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.61568627450980395" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>

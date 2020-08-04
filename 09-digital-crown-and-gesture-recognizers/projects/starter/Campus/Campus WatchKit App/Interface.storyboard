@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
+    </dependencies>
+    <scenes>
+        <!--Campus-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Campus" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Campus_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView alignment="left" id="01V-uj-Y4l"/>
+                    </items>
+                    <menu key="menu" id="0Nx-u7-YVY">
+                        <items>
+                            <menuItem title="Zoom" image="zoom" id="76e-QX-zps"/>
+                            <menuItem title="Move" image="move" id="qhD-6v-8Qb"/>
+                            <menuItem title="Inspect" image="inspect" id="eIT-3I-vFO"/>
+                            <menuItem title="Reset Plot" image="reset" id="WF5-Ns-N2S"/>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="graphImage" destination="01V-uj-Y4l" id="GC3-dy-wQ5"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.3529411764705882" green="0.71372549019607845" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+</document>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13196" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13051"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Layout_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="136" alignment="left" layout="overlap" id="V7w-uT-aK1">
+                            <items>
+                                <imageView alignment="left" image="wwdc" id="faz-Kq-9u2"/>
+                                <group width="1" alignment="left" id="zvO-b0-Ccz">
+                                    <items>
+                                        <label alignment="left" text="@gruber" id="ZTF-nP-cmB">
+                                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                        </label>
+                                        <label alignment="right" text="13m" id="etQ-HO-WAJ">
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                        </label>
+                                    </items>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.49631382042253519" colorSpace="calibratedRGB"/>
+                                    <edgeInsets key="margins" left="4" right="4" top="0.0" bottom="0.0"/>
+                                </group>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="WGI-5v-Ys4">
+                            <items>
+                                <button width="0.5" alignment="left" title="Like" id="wbP-e3-wCa"/>
+                                <button width="0.5" alignment="left" title="Share" id="66Y-dl-n06"/>
+                            </items>
+                        </group>
+                        <button alignment="left" id="4rO-Ej-Xdu">
+                            <group key="contentGroup" width="1" alignment="left" layout="vertical" id="zem-kZ-r7e">
+                                <items>
+                                    <label alignment="left" hidden="YES" text="My first WWDC was awesome! Can’t wait for next year!" numberOfLines="0" id="BDY-VM-wov">
+                                        <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                    </label>
+                                    <label alignment="left" text="My first WWDC was awesome! Can’t wait for next year!" id="SRC-ub-JxH">
+                                        <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                    </label>
+                                    <label alignment="left" text="Tap to view more..." id="ETn-pU-px1">
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                    </label>
+                                </items>
+                            </group>
+                            <connections>
+                                <action selector="onMoreButton" destination="AgC-eL-Hgc" id="6aR-WQ-Pzh"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="collapsedCommentLabel" destination="SRC-ub-JxH" id="Tub-YM-ogx"/>
+                        <outlet property="expandedCommentLabel" destination="BDY-VM-wov" id="fHI-5g-Q6g"/>
+                        <outlet property="moreLabel" destination="ETn-pU-px1" id="mdW-vH-oXS"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="380" y="368"/>
+        </scene>
+    </scenes>
+</document>

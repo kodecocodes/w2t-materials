@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13178.6" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13156.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13045"/>
+    </dependencies>
+    <scenes>
+        <!--Campus-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Campus" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Campus_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView alignment="left" id="01V-uj-Y4l">
+                            <gestureRecognizers>
+                                <tapGestureRecognizer numberOfTapsRequired="2" id="c1g-hv-lfO">
+                                    <connections>
+                                        <action selector="tapGestureRecognized:" destination="AgC-eL-Hgc" id="wqd-zn-j3E"/>
+                                    </connections>
+                                </tapGestureRecognizer>
+                                <panGestureRecognizer id="tYb-G9-DoS">
+                                    <connections>
+                                        <action selector="panGestureRecognized:" destination="AgC-eL-Hgc" id="gf6-GG-AdJ"/>
+                                    </connections>
+                                </panGestureRecognizer>
+                            </gestureRecognizers>
+                        </imageView>
+                    </items>
+                    <menu key="menu" id="0Nx-u7-YVY">
+                        <items>
+                            <menuItem title="Zoom" image="zoom" id="76e-QX-zps">
+                                <connections>
+                                    <action selector="zoomMenuItemPressed" destination="AgC-eL-Hgc" id="aTa-Uv-sg2"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Move" image="move" id="qhD-6v-8Qb">
+                                <connections>
+                                    <action selector="movMenuItemPressed" destination="AgC-eL-Hgc" id="UHV-aX-JvS"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Inspect" image="inspect" id="eIT-3I-vFO">
+                                <connections>
+                                    <action selector="inspectMenuItemPressed" destination="AgC-eL-Hgc" id="Ikj-5k-io6"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Reset Plot" image="reset" id="WF5-Ns-N2S">
+                                <connections>
+                                    <action selector="resetMenuItemPressed" destination="AgC-eL-Hgc" id="975-u2-zam"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="graphImage" destination="01V-uj-Y4l" id="GC3-dy-wQ5"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.3529411764705882" green="0.71372549019607845" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+</document>

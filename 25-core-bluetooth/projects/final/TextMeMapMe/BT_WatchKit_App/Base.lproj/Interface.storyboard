@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13178.6" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13156.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13045"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="BT_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="YpX-mf-muh">
+                            <items>
+                                <button width="0.5" alignment="left" title="wait..." id="6yC-mU-M4g">
+                                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="textMe" destination="AgC-eL-Hgc" id="k1X-R3-p6h"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="wait..." id="do9-Uh-Wa7">
+                                    <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="mapMe" destination="AgC-eL-Hgc" id="IhA-S7-9MK"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label alignment="left" text="Label" numberOfLines="0" id="zQL-kR-J3x">
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <label alignment="left" text="Transferred text appears here" numberOfLines="0" id="NQ2-dU-ARY">
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                    </items>
+                    <menu key="menu" id="s7U-8H-Eyk">
+                        <items>
+                            <menuItem title="Reset" icon="repeat" id="tpb-uM-zyN">
+                                <connections>
+                                    <action selector="resetCentral" destination="AgC-eL-Hgc" id="v4e-9c-01v"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="mapButton" destination="do9-Uh-Wa7" id="E3i-6h-Sbo"/>
+                        <outlet property="statusLabel" destination="zQL-kR-J3x" id="a0A-6l-Bed"/>
+                        <outlet property="textButton" destination="6yC-mU-M4g" id="oaa-3N-CQZ"/>
+                        <outlet property="textLabel" destination="NQ2-dU-ARY" id="saT-gW-bOn"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

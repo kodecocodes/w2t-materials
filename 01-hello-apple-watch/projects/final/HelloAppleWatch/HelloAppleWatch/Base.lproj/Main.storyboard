@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--👋🍎⌚️‼-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="👋🍎⌚️‼" id="BYZ-38-t0r" customClass="ViewController" customModule="HelloAppleWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👋🍎⌚️‼" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tla-Il-DWI">
+                                <rect key="frame" x="0.0" y="20" width="414" height="76.666666666666671"/>
+                                <color key="backgroundColor" red="0.78672960069444442" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cqX-9o-gma">
+                                <rect key="frame" x="57" y="196.66666666666669" width="300" height="200.00000000000006"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qlr-Jc-vXO">
+                                        <rect key="frame" x="98.666666666666671" y="0.0" width="103.00000000000001" height="52.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qyn-Kx-zRD">
+                                        <rect key="frame" x="90" y="149.00000000000003" width="120" height="51"/>
+                                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="nI9-QY-Vss"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <state key="normal" title="🆕 🔮"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="newFortune:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iyT-hi-0xT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="m3h-Uy-WIo"/>
+                                    <constraint firstAttribute="width" constant="300" id="zyZ-Sy-SSy"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tla-Il-DWI" firstAttribute="leading" secondItem="Ufz-ZM-lI0" secondAttribute="leading" id="0h5-vY-vm8"/>
+                            <constraint firstItem="Ufz-ZM-lI0" firstAttribute="trailing" secondItem="tla-Il-DWI" secondAttribute="trailing" id="30S-4h-flr"/>
+                            <constraint firstItem="cqX-9o-gma" firstAttribute="centerX" secondItem="Ufz-ZM-lI0" secondAttribute="centerX" id="XFI-nz-MLB"/>
+                            <constraint firstItem="tla-Il-DWI" firstAttribute="top" secondItem="Ufz-ZM-lI0" secondAttribute="top" id="fFd-39-MlS"/>
+                            <constraint firstItem="cqX-9o-gma" firstAttribute="top" secondItem="tla-Il-DWI" secondAttribute="bottom" constant="100" id="lk0-Jm-Yyo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ufz-ZM-lI0"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Egr-Xc-88T"/>
+                    <connections>
+                        <outlet property="emojiFortuneLabel" destination="Qlr-Jc-vXO" id="nM1-Fm-hxy"/>
+                        <outlet property="emojiHelloLabel" destination="tla-Il-DWI" id="q1q-SY-WTc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="610.14492753623188" y="354.61956521739131"/>
+        </scene>
+    </scenes>
+</document>

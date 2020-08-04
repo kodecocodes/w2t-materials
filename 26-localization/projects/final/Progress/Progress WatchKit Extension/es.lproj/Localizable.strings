@@ -1,0 +1,18 @@
+/* start of a date range: beginning 7/11/11 */
+"dateStartLabelFormat" = "a partir %@";
+
+/* label at the top of report for just today */
+"oneDayTitle" = "Hoy";
+
+/* label at the top of report for past 30 days */
+"oneMonthTitle" = "30 días";
+
+/* label at the top of report for past 7 days */
+"oneWeekTitle" = "7 días";
+
+/* before the total amount, like: of $500 */
+"totalGoalLabel" = "de%@";
+
+/* describing the total number of units sold */
+"totalUnitsLabelFormat" = "%@ unidades";
+

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>10K</string>
+		<key>shortName</key>
+		<string>10K</string>
+		<key>location</key>
+		<string>Lake Merritt USA</string>
+		<key>goal</key>
+		<integer>10</integer>
+		<key>info</key>
+		<string>You can find a 10-kilometer race or fun run almost anywhere.</string>
+		<key>imageName</key>
+		<string>10K.jpg</string>
+		<key>mapCoordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>37.801239</real>
+			<key>longitude</key>
+			<real>-122.258301</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Bay of Fires</string>
+		<key>shortName</key>
+		<string>Bay of Fires</string>
+		<key>location</key>
+		<string>Tasmania Australia</string>
+		<key>goal</key>
+		<integer>26</integer>
+		<key>info</key>
+		<string>The Bay of Fires (indigenous name: larapuna) is a bay on the northeastern coast of Tasmania in Australia, extending from Binalong Bay to Eddystone Point. The bay was given its name in 1773 by Captain Tobias Furneaux in Adventure, who saw the fires of Aboriginal people on the beaches.</string>
+		<key>imageName</key>
+		<string>BayOfFires.jpg</string>
+		<key>mapCoordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>-41.15</real>
+			<key>longitude</key>
+			<real>148.267</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Marathon</string>
+		<key>shortName</key>
+		<string>Marathon</string>
+		<key>location</key>
+		<string>Honolulu USA</string>
+		<key>goal</key>
+		<real>42.195</real>
+		<key>info</key>
+		<string>A long distance running event, usually run as a road race. Instituted in commemoration of the fabled run of Pheidippides from the Battle of Marathon to Athens, in 490 BC.</string>
+		<key>imageName</key>
+		<string>Marathon.jpg</string>
+		<key>mapCoordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>21.2597</real>
+			<key>longitude</key>
+			<real>-157.8118</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Mountains of the Moon</string>
+		<key>shortName</key>
+		<string>Mtns of Moon</string>
+		<key>location</key>
+		<string>Uganda</string>
+		<key>goal</key>
+		<real>61.1551</real>
+		<key>info</key>
+		<string>Mountains of the Moon (Latin, Montes Lunae) is an ancient term referring to a legendary mountain or mountain range in east Africa at the source of the Nile River. Various identifications have been made in modern times, the Rwenzori Mountains of Uganda being the most celebrated.</string>
+		<key>imageName</key>
+		<string>MountainsOfTheMoon.jpg</string>
+		<key>mapCoordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>0.35518</real>
+			<key>longitude</key>
+			<real>29.87757</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Trek to Petra</string>
+		<key>shortName</key>
+		<string>Petra</string>
+		<key>location</key>
+		<string>Jordan</string>
+		<key>goal</key>
+		<real>80.46720000000001</real>
+		<key>info</key>
+		<string>Petra is a historical and archaeological city in the southern Jordanian governorate of Ma&apos;an that is famous for its rock-cut architecture and water conduit system. Another name for Petra is the Rose City due to the color of the stone out of which it is carved. Established possibly as early as 312 BCE as the capital city of the Nabataeans, it is a symbol of Jordan, as well as Jordan&apos;s most-visited tourist attraction. It is believed that Petra was home to roughly 30,000 people and was abandoned in the year 106 A.D. The reasons for the abandonment of Petra still remain unknown today. Petra has been a UNESCO World Heritage Site since 1985. The site featured in the film Indiana Jones and the Last Crusade.</string>
+		<key>imageName</key>
+		<string>Petra.jpg</string>
+		<key>mapCoordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>30.3222</real>
+			<key>longitude</key>
+			<real>35.4793</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Tour du Mont Blanc</string>
+		<key>shortName</key>
+		<string>TMB</string>
+		<key>location</key>
+		<string>Switzerland, Italy, France</string>
+		<key>goal</key>
+		<real>168.9811</real>
+		<key>info</key>
+		<string>Considered one of the classic long distance walking trails. The circular route around the Mont Blanc Massif is normally walked in an anti-clockwise direction in 11 days. It is also the route of an annual mountain marathon in which the winner normally covers the entire distance in less than 24 hours. Usual start points are Les Houches in the Chamonix valley or Les Contamines in the Montjoie valley (in France), Courmayeur from the Italian side, and either Champex or a point near Martigny in Switzerland.</string>
+		<key>imageName</key>
+		<string>MontBlanc.jpg</string>
+		<key>mapCoordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>45.833611</real>
+			<key>longitude</key>
+			<real>6.865</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Snowman Trek</string>
+		<key>shortName</key>
+		<string>Snowman Trek</string>
+		<key>location</key>
+		<string>Bhutan</string>
+		<key>goal</key>
+		<real>321.8688</real>
+		<key>info</key>
+		<string>A challenging trek undertaken by only a handful of trekkers each season, it accesses Lunana, the most remote region of Bhutan. The trek crosses eleven high passes over 4,500m that define the borders of Bhutan and Tibet, with views of Chomolhari and Jichu Drake, from trails through yak herders encampments and isolated farming settlements.</string>
+		<key>imageName</key>
+		<string>SnowmanTrek.jpg</string>
+		<key>mapCoordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>27.49191</real>
+			<key>longitude</key>
+			<real>89.36349</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Scottish National Trail</string>
+		<key>shortName</key>
+		<string>Scottish</string>
+		<key>location</key>
+		<string>Scotland</string>
+		<key>goal</key>
+		<integer>864</integer>
+		<key>info</key>
+		<string>A long distance walking route running the length of Scotland from Kirk Yetholm to Cape Wrath. Devised by outdoors writer and broadcaster Cameron McNeish, the Trail offers very varied walking, following long-established footpaths for much of the distance but becoming progressively more difficult as it heads north, finishing with a tough stretch of backpacking - with some pathless and demanding terrain - on the final stretch of the Cape Wrath Trail.</string>
+		<key>imageName</key>
+		<string>ScottishTrail.jpg</string>
+		<key>mapCoordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>55.464704</real>
+			<key>longitude</key>
+			<real>-2.181851</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Te Araroa Trail</string>
+		<key>shortName</key>
+		<string>Te Araroa</string>
+		<key>location</key>
+		<string>New Zealand</string>
+		<key>goal</key>
+		<integer>3048</integer>
+		<key>info</key>
+		<string>Te Araroa (The Long Pathway) is New Zealand&apos;s newest long distance tramping route, from Cape Reinga to Bluff. The trail has approximately 300 sections ranging from walks of 1–2 hours through to a 9-day route in the South Island where full equipment must be carried. Tramping the full length of the trail takes three to six months. The fastest effort was by British ultramarathon runner Jezz Bragg, who managed 53 days during the 2012-13 season, although he contracted giardia and was lucky to survive being swept away by a river in the Richmond Ranges.</string>
+		<key>imageName</key>
+		<string>TeAraroa.jpg</string>
+		<key>mapCoordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>-43.882367</real>
+			<key>longitude</key>
+			<real>172.965131</real>
+		</dict>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Pacific Crest Trail</string>
+		<key>shortName</key>
+		<string>PCT</string>
+		<key>location</key>
+		<string>West coast of North America</string>
+		<key>goal</key>
+		<integer>4286</integer>
+		<key>info</key>
+		<string>A long-distance hiking and equestrian trail closely aligned with the highest portion of the Sierra Nevada and Cascade mountain ranges. The trail&apos;s southern terminus is on the U.S. border with Mexico, just south of the Campo, California and its northern terminus on the U.S.–Canada border on the edge of Manning Park in British Columbia; its corridor through the U.S. is in the states of California, Oregon, and Washington.</string>
+		<key>imageName</key>
+		<string>PCT.jpg</string>
+		<key>mapCoordinates</key>
+		<dict>
+			<key>latitude</key>
+			<real>34.479887</real>
+			<key>longitude</key>
+			<real>-118.31657</real>
+		</dict>
+	</dict>
+</array>
+</plist>

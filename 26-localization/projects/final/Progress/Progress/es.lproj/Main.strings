@@ -1,0 +1,36 @@
+/* Class = "UILabel"; text = "units sold"; ObjectID = "2tA-Zf-Dxr"; */
+"2tA-Zf-Dxr.text" = "units sold";
+
+/* Class = "UILabel"; text = "$50"; ObjectID = "8BH-KU-c7v"; */
+"8BH-KU-c7v.text" = "$50";
+
+/* Class = "UILabel"; text = "average selling price"; ObjectID = "8qs-gs-AXI"; */
+"8qs-gs-AXI.text" = "average selling price";
+
+/* Class = "UILabel"; text = "of"; ObjectID = "9wS-4R-udp"; */
+"9wS-4R-udp.text" = "of";
+
+/* Class = "UILabel"; text = "[$7,500]"; ObjectID = "Djt-iC-MnG"; */
+"Djt-iC-MnG.text" = "[$7,500]";
+
+/* Class = "UINavigationItem"; title = "History"; ObjectID = "ETH-iH-u0c"; */
+"ETH-iH-u0c.title" = "History";
+
+/* Class = "UILabel"; text = "Mon Dec. 27 2015"; ObjectID = "Fm1-e4-Zdc"; */
+"Fm1-e4-Zdc.text" = "Mon Dec. 27 2015";
+
+/* Class = "UIViewController"; title = "12/5/15"; ObjectID = "U8J-eN-vFO"; */
+"U8J-eN-vFO.title" = "12/5/15";
+
+/* Class = "UILabel"; text = "of $7,500"; ObjectID = "dIX-7L-Nbe"; */
+"dIX-7L-Nbe.text" = "of $7,500";
+
+/* Class = "UILabel"; text = "[$5000]"; ObjectID = "eCD-n6-PsV"; */
+"eCD-n6-PsV.text" = "[$5000]";
+
+/* Class = "UILabel"; text = "500 units"; ObjectID = "f1z-Ne-zSi"; */
+"f1z-Ne-zSi.text" = "500 units";
+
+/* Class = "UILabel"; text = "$5,000"; ObjectID = "qyc-mJ-Bbl"; */
+"qyc-mJ-Bbl.text" = "$5,000";
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="16B2327e" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
+    </dependencies>
+    <scenes>
+        <!--Cute Puppies!-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="InterfaceController" title="Cute Pups!" spacing="0.0" alwaysBounce="YES" id="AgC-eL-Hgc" userLabel="Cute Puppies!" customClass="InterfaceController" customModule="Cute_Puppies_Watch_Extension">
+                    <items>
+                        <table alignment="center" spacing="6" id="e83-yS-25C">
+                            <items>
+                                <tableRow identifier="VideoRowController" id="TjO-V2-2v7" customClass="VideoRowController" customModule="Cute_Puppies_Watch_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" spacing="0.0" id="rhd-T1-VIR">
+                                        <items>
+                                            <group width="1" height="90" alignment="left" layout="vertical" spacing="0.0" id="SWq-4g-ItY">
+                                                <items>
+                                                    <imageView width="1" height="1" alignment="left" contentMode="scaleAspectFill" id="9LK-jf-zgp"/>
+                                                    <label width="1" height="1" alignment="center" verticalAlignment="center" textAlignment="center" id="pjK-Ko-tQ3"/>
+                                                </items>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                                        <edgeInsets key="margins" left="4" right="4" top="4" bottom="4"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="image" destination="9LK-jf-zgp" id="bo5-81-oHQ"/>
+                                        <outlet property="textLabel" destination="pjK-Ko-tQ3" id="Z3C-tS-KaO"/>
+                                        <segue destination="fFW-wZ-2OM" kind="push" identifier="PlayerInterfaceSegue" id="evJ-76-vXr"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="e83-yS-25C" id="chw-cF-iSa"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="171" y="302"/>
+        </scene>
+        <!--PlayerInterfaceController-->
+        <scene sceneID="dMw-nr-OHx">
+            <objects>
+                <controller identifier="PlayerInterfaceController" id="fFW-wZ-2OM" customClass="PlayerInterfaceController" customModule="Cute_Puppies_Watch_Extension">
+                    <items>
+                        <inlineMovie width="1" height="0.69999999999999996" alignment="center" semanticContentAttribute="spatial" id="sLH-zi-rpO">
+                            <gestureRecognizers>
+                                <tapGestureRecognizer id="Gq0-Rd-9HY">
+                                    <connections>
+                                        <action selector="onTap:" destination="fFW-wZ-2OM" id="Rh8-8T-i8Q"/>
+                                    </connections>
+                                </tapGestureRecognizer>
+                            </gestureRecognizers>
+                        </inlineMovie>
+                        <label alignment="left" text="Label" textAlignment="left" numberOfLines="0" id="MHD-QY-EqP">
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="inlineMovie" destination="sLH-zi-rpO" id="xbD-4N-JVp"/>
+                        <outlet property="textLabel" destination="MHD-QY-EqP" id="Ho1-fR-AYK"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="439" y="302"/>
+        </scene>
+    </scenes>
+</document>

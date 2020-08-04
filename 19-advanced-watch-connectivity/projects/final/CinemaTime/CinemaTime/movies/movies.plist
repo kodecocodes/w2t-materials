@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>time</key>
+		<string>1:00 PM</string>
+		<key>movies</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>31413</string>
+				<key>title</key>
+				<string>Angel On My Shoulder</string>
+				<key>director</key>
+				<string>Archie Mayo</string>
+				<key>actors</key>
+				<string>Paul Muni, Anne Baxter, Claude Rains</string>
+				<key>synopsis</key>
+				<string>The devil (Claude Rains) offers a deceased gangster (Paul Muni) the chance to return in the body of a judge. Black &amp; White.</string>
+				<key>poster</key>
+				<string>angel_on_my_shoulder.jpg</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>2:00 PM</string>
+		<key>movies</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>23415</string>
+				<key>title</key>
+				<string>Baby Face Morgan</string>
+				<key>director</key>
+				<string>Arthur Dreifuss</string>
+				<key>actors</key>
+				<string>Robert Armstrong, Mary Carlisle, Richard Cromwell</string>
+				<key>synopsis</key>
+				<string>Aging mobsters try to bring back the good old days by setting up a naive yokel as the kingpin. Black &amp; White.</string>
+				<key>poster</key>
+				<string>baby_face_morgan.jpg</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>3:00 PM</string>
+		<key>movies</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>23523</string>
+				<key>title</key>
+				<string>Africa Screams</string>
+				<key>director</key>
+				<string>Charles Barton</string>
+				<key>actors</key>
+				<string>Bud Abbott, Lou Costello</string>
+				<key>synopsis</key>
+				<string>Basic crazy Abbott and Costello movie that also features a couple of the three stooges. Black &amp; White.</string>
+				<key>poster</key>
+				<string>africa_screams.jpg</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>4:00 PM</string>
+		<key>movies</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>87934</string>
+				<key>title</key>
+				<string>The Flying Deuces</string>
+				<key>director</key>
+				<string>A. Edward Sullivan</string>
+				<key>actors</key>
+				<string>Stan Laurel, Oliver Hardy</string>
+				<key>synopsis</key>
+				<string>Oliver&apos;s heart is broken when he finds that his love Georgette is already married to Francois, a dashing Foreign Legion officer. He runs off to join the Foreign Legion, taking Stanley with him. Their zany antics get them charged with desertion and sentenced to a firing squad. Black &amp; White.</string>
+				<key>poster</key>
+				<string>the_flying_deuces.jpg</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>5:00 PM</string>
+		<key>movies</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>34340</string>
+				<key>title</key>
+				<string>The General</string>
+				<key>director</key>
+				<string>Clyde Bruckman</string>
+				<key>actors</key>
+				<string>Marion Mack, Charles Henry Smity, Richard Allen, Buster Keaton</string>
+				<key>synopsis</key>
+				<string>Civil War film. The General is a locomotive, and Buster Keaton is its engineer. Union soliders steal the locomotive, and Buster is on the chase--not knowing that his girl friend is being held captive aboard The General. Black &amp; White. Silent.</string>
+				<key>poster</key>
+				<string>the_general.jpg</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>6:00 PM</string>
+		<key>movies</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>99900</string>
+				<key>title</key>
+				<string>One Body Too Many</string>
+				<key>director</key>
+				<string>Frank McDonald</string>
+				<key>actors</key>
+				<string>Jack Haley, Jean Parker, Bela Lugosi</string>
+				<key>synopsis</key>
+				<string>An insurance saleman is hired to protect a millionaire. Black &amp; White.</string>
+				<key>poster</key>
+				<string>one_body_too_many.jpg</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>7:00 PM</string>
+		<key>movies</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>77788</string>
+				<key>title</key>
+				<string>The Royal Bed</string>
+				<key>director</key>
+				<string>Lowell Sherman</string>
+				<key>actors</key>
+				<string>Lowell Sherman, Mary Astor</string>
+				<key>synopsis</key>
+				<string>A comic farce among the royalty. Black &amp; White.</string>
+				<key>poster</key>
+				<string>the_royal_bed.jpg</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>8:00 PM</string>
+		<key>movies</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>858555</string>
+				<key>title</key>
+				<string>Something to Sing About</string>
+				<key>director</key>
+				<string>Victor Schertzinger</string>
+				<key>actors</key>
+				<string>James Cagney, Evelyn Daw, William Frawley</string>
+				<key>synopsis</key>
+				<string>Cagney stars as a New York bandleader who moves to California and butts heads with the Hollywood star making machine. Black &amp; White.</string>
+				<key>poster</key>
+				<string>something_to_sing_about.jpg</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>9:00 PM</string>
+		<key>movies</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>4443355</string>
+				<key>title</key>
+				<string>Speak Easily</string>
+				<key>director</key>
+				<string>Eward Sedgwick</string>
+				<key>actors</key>
+				<string>Buster Keaton, Jimmy Durante</string>
+				<key>synopsis</key>
+				<string>A college professor uses inherited to back a Broadway musical in the hopes of winning the love of the star. Black &amp; White.</string>
+				<key>poster</key>
+				<string>speak_easily.jpg</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D246CB5B1B9BF6A100D74C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D246CB5A1B9BF6A100D74C42 /* AppDelegate.swift */; };
+		D246CB601B9BF6A100D74C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D246CB5E1B9BF6A100D74C42 /* Main.storyboard */; };
+		D246CB621B9BF6A100D74C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D246CB611B9BF6A100D74C42 /* Assets.xcassets */; };
+		D246CB651B9BF6A100D74C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D246CB631B9BF6A100D74C42 /* LaunchScreen.storyboard */; };
+		D246CB6A1B9BF6A100D74C42 /* Populace WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D246CB691B9BF6A100D74C42 /* Populace WatchKit App.app */; };
+		D246CB701B9BF6A100D74C42 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D246CB6E1B9BF6A100D74C42 /* Interface.storyboard */; };
+		D246CB721B9BF6A100D74C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D246CB711B9BF6A100D74C42 /* Assets.xcassets */; };
+		D246CB791B9BF6A100D74C42 /* Populace WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D246CB781B9BF6A100D74C42 /* Populace WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D246CB801B9BF6A100D74C42 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D246CB7F1B9BF6A100D74C42 /* ExtensionDelegate.swift */; };
+		D246CB821B9BF6A100D74C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D246CB811B9BF6A100D74C42 /* Assets.xcassets */; };
+		D29FDD8B1B9BF86D00A78A53 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDD871B9BF86D00A78A53 /* ConfigurationViewController.swift */; };
+		D29FDD8C1B9BF86D00A78A53 /* PopulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDD881B9BF86D00A78A53 /* PopulationViewController.swift */; };
+		D29FDD8D1B9BF86D00A78A53 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDD8A1B9BF86D00A78A53 /* ImageCell.swift */; };
+		D29FDD951B9BF8B600A78A53 /* ConfigurationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDD901B9BF8B600A78A53 /* ConfigurationController.swift */; };
+		D29FDD961B9BF8B600A78A53 /* PopulationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDD911B9BF8B600A78A53 /* PopulationController.swift */; };
+		D29FDD971B9BF8B600A78A53 /* ChartRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDD931B9BF8B600A78A53 /* ChartRowController.swift */; };
+		D29FDD981B9BF8B600A78A53 /* PopulationFactRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDD941B9BF8B600A78A53 /* PopulationFactRowController.swift */; };
+		D29FDDA91B9BF8D200A78A53 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDD9C1B9BF8D200A78A53 /* WebService.swift */; };
+		D29FDDAA1B9BF8D200A78A53 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDD9C1B9BF8D200A78A53 /* WebService.swift */; };
+		D29FDDAB1B9BF8D200A78A53 /* GoogleChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDD9F1B9BF8D200A78A53 /* GoogleChartService.swift */; };
+		D29FDDAC1B9BF8D200A78A53 /* GoogleChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDD9F1B9BF8D200A78A53 /* GoogleChartService.swift */; };
+		D29FDDAD1B9BF8D200A78A53 /* PopulationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDDA11B9BF8D200A78A53 /* PopulationConfiguration.swift */; };
+		D29FDDAE1B9BF8D200A78A53 /* PopulationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDDA11B9BF8D200A78A53 /* PopulationConfiguration.swift */; };
+		D29FDDAF1B9BF8D200A78A53 /* PopulationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDDA21B9BF8D200A78A53 /* PopulationData.swift */; };
+		D29FDDB01B9BF8D200A78A53 /* PopulationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDDA21B9BF8D200A78A53 /* PopulationData.swift */; };
+		D29FDDB11B9BF8D200A78A53 /* PopulationTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDDA31B9BF8D200A78A53 /* PopulationTable.swift */; };
+		D29FDDB21B9BF8D200A78A53 /* PopulationTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDDA31B9BF8D200A78A53 /* PopulationTable.swift */; };
+		D29FDDB31B9BF8D200A78A53 /* WorldPopulationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDDA51B9BF8D200A78A53 /* WorldPopulationService.swift */; };
+		D29FDDB41B9BF8D200A78A53 /* WorldPopulationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDDA51B9BF8D200A78A53 /* WorldPopulationService.swift */; };
+		D29FDDB51B9BF8D200A78A53 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDDA71B9BF8D200A78A53 /* Constants.swift */; };
+		D29FDDB61B9BF8D200A78A53 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDDA71B9BF8D200A78A53 /* Constants.swift */; };
+		D29FDDB71B9BF8D200A78A53 /* UIColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDDA81B9BF8D200A78A53 /* UIColorTools.swift */; };
+		D29FDDB81B9BF8D200A78A53 /* UIColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FDDA81B9BF8D200A78A53 /* UIColorTools.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D246CB6B1B9BF6A100D74C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D246CB4F1B9BF6A100D74C42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D246CB681B9BF6A100D74C42;
+			remoteInfo = "Populace WatchKit App";
+		};
+		D246CB7A1B9BF6A100D74C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D246CB4F1B9BF6A100D74C42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D246CB771B9BF6A100D74C42;
+			remoteInfo = "Populace WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D246CB891B9BF6A100D74C42 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D246CB791B9BF6A100D74C42 /* Populace WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D246CB8D1B9BF6A100D74C42 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D246CB6A1B9BF6A100D74C42 /* Populace WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D246CB571B9BF6A100D74C42 /* Populace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Populace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D246CB5A1B9BF6A100D74C42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D246CB5F1B9BF6A100D74C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D246CB611B9BF6A100D74C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D246CB641B9BF6A100D74C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D246CB661B9BF6A100D74C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D246CB691B9BF6A100D74C42 /* Populace WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Populace WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D246CB6F1B9BF6A100D74C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D246CB711B9BF6A100D74C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D246CB731B9BF6A100D74C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D246CB781B9BF6A100D74C42 /* Populace WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Populace WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D246CB7F1B9BF6A100D74C42 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D246CB811B9BF6A100D74C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D246CB831B9BF6A100D74C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29FDD871B9BF86D00A78A53 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		D29FDD881B9BF86D00A78A53 /* PopulationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationViewController.swift; sourceTree = "<group>"; };
+		D29FDD8A1B9BF86D00A78A53 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		D29FDD901B9BF8B600A78A53 /* ConfigurationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationController.swift; sourceTree = "<group>"; };
+		D29FDD911B9BF8B600A78A53 /* PopulationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationController.swift; sourceTree = "<group>"; };
+		D29FDD931B9BF8B600A78A53 /* ChartRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartRowController.swift; sourceTree = "<group>"; };
+		D29FDD941B9BF8B600A78A53 /* PopulationFactRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationFactRowController.swift; sourceTree = "<group>"; };
+		D29FDD9C1B9BF8D200A78A53 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		D29FDD9F1B9BF8D200A78A53 /* GoogleChartService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleChartService.swift; sourceTree = "<group>"; };
+		D29FDDA11B9BF8D200A78A53 /* PopulationConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationConfiguration.swift; sourceTree = "<group>"; };
+		D29FDDA21B9BF8D200A78A53 /* PopulationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationData.swift; sourceTree = "<group>"; };
+		D29FDDA31B9BF8D200A78A53 /* PopulationTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationTable.swift; sourceTree = "<group>"; };
+		D29FDDA51B9BF8D200A78A53 /* WorldPopulationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldPopulationService.swift; sourceTree = "<group>"; };
+		D29FDDA71B9BF8D200A78A53 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D29FDDA81B9BF8D200A78A53 /* UIColorTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorTools.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D246CB541B9BF6A100D74C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D246CB751B9BF6A100D74C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D246CB4E1B9BF6A100D74C42 = {
+			isa = PBXGroup;
+			children = (
+				D246CB591B9BF6A100D74C42 /* Populace */,
+				D246CB6D1B9BF6A100D74C42 /* Populace WatchKit App */,
+				D246CB7C1B9BF6A100D74C42 /* Populace WatchKit Extension */,
+				D29FDD991B9BF8D200A78A53 /* Shared */,
+				D246CB581B9BF6A100D74C42 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		D246CB581B9BF6A100D74C42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D246CB571B9BF6A100D74C42 /* Populace.app */,
+				D246CB691B9BF6A100D74C42 /* Populace WatchKit App.app */,
+				D246CB781B9BF6A100D74C42 /* Populace WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D246CB591B9BF6A100D74C42 /* Populace */ = {
+			isa = PBXGroup;
+			children = (
+				D246CB5A1B9BF6A100D74C42 /* AppDelegate.swift */,
+				D246CB5E1B9BF6A100D74C42 /* Main.storyboard */,
+				D246CB611B9BF6A100D74C42 /* Assets.xcassets */,
+				D246CB631B9BF6A100D74C42 /* LaunchScreen.storyboard */,
+				D246CB661B9BF6A100D74C42 /* Info.plist */,
+				D29FDD851B9BF86D00A78A53 /* Population */,
+			);
+			path = Populace;
+			sourceTree = "<group>";
+		};
+		D246CB6D1B9BF6A100D74C42 /* Populace WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D246CB6E1B9BF6A100D74C42 /* Interface.storyboard */,
+				D246CB711B9BF6A100D74C42 /* Assets.xcassets */,
+				D246CB731B9BF6A100D74C42 /* Info.plist */,
+			);
+			path = "Populace WatchKit App";
+			sourceTree = "<group>";
+		};
+		D246CB7C1B9BF6A100D74C42 /* Populace WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D246CB7F1B9BF6A100D74C42 /* ExtensionDelegate.swift */,
+				D246CB811B9BF6A100D74C42 /* Assets.xcassets */,
+				D246CB831B9BF6A100D74C42 /* Info.plist */,
+				D29FDD8E1B9BF8B600A78A53 /* Population */,
+			);
+			path = "Populace WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D29FDD851B9BF86D00A78A53 /* Population */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDD861B9BF86D00A78A53 /* Controllers */,
+				D29FDD891B9BF86D00A78A53 /* Views */,
+			);
+			path = Population;
+			sourceTree = "<group>";
+		};
+		D29FDD861B9BF86D00A78A53 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDD871B9BF86D00A78A53 /* ConfigurationViewController.swift */,
+				D29FDD881B9BF86D00A78A53 /* PopulationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D29FDD891B9BF86D00A78A53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDD8A1B9BF86D00A78A53 /* ImageCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D29FDD8E1B9BF8B600A78A53 /* Population */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDD8F1B9BF8B600A78A53 /* Controllers */,
+				D29FDD921B9BF8B600A78A53 /* Views */,
+			);
+			path = Population;
+			sourceTree = "<group>";
+		};
+		D29FDD8F1B9BF8B600A78A53 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDD901B9BF8B600A78A53 /* ConfigurationController.swift */,
+				D29FDD911B9BF8B600A78A53 /* PopulationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D29FDD921B9BF8B600A78A53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDD931B9BF8B600A78A53 /* ChartRowController.swift */,
+				D29FDD941B9BF8B600A78A53 /* PopulationFactRowController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D29FDD991B9BF8D200A78A53 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDD9A1B9BF8D200A78A53 /* BaseClasses */,
+				D29FDD9D1B9BF8D200A78A53 /* Chart */,
+				D29FDDA01B9BF8D200A78A53 /* Population */,
+				D29FDDA61B9BF8D200A78A53 /* Utilities */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D29FDD9A1B9BF8D200A78A53 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDD9B1B9BF8D200A78A53 /* Service */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		D29FDD9B1B9BF8D200A78A53 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDD9C1B9BF8D200A78A53 /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D29FDD9D1B9BF8D200A78A53 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDD9E1B9BF8D200A78A53 /* Services */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		D29FDD9E1B9BF8D200A78A53 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDD9F1B9BF8D200A78A53 /* GoogleChartService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D29FDDA01B9BF8D200A78A53 /* Population */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDDA11B9BF8D200A78A53 /* PopulationConfiguration.swift */,
+				D29FDDA21B9BF8D200A78A53 /* PopulationData.swift */,
+				D29FDDA31B9BF8D200A78A53 /* PopulationTable.swift */,
+				D29FDDA41B9BF8D200A78A53 /* Services */,
+			);
+			path = Population;
+			sourceTree = "<group>";
+		};
+		D29FDDA41B9BF8D200A78A53 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDDA51B9BF8D200A78A53 /* WorldPopulationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D29FDDA61B9BF8D200A78A53 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D29FDDA71B9BF8D200A78A53 /* Constants.swift */,
+				D29FDDA81B9BF8D200A78A53 /* UIColorTools.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D246CB561B9BF6A100D74C42 /* Populace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D246CB8E1B9BF6A100D74C42 /* Build configuration list for PBXNativeTarget "Populace" */;
+			buildPhases = (
+				D246CB531B9BF6A100D74C42 /* Sources */,
+				D246CB541B9BF6A100D74C42 /* Frameworks */,
+				D246CB551B9BF6A100D74C42 /* Resources */,
+				D246CB8D1B9BF6A100D74C42 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D246CB6C1B9BF6A100D74C42 /* PBXTargetDependency */,
+			);
+			name = Populace;
+			productName = Populace;
+			productReference = D246CB571B9BF6A100D74C42 /* Populace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D246CB681B9BF6A100D74C42 /* Populace WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D246CB8A1B9BF6A100D74C42 /* Build configuration list for PBXNativeTarget "Populace WatchKit App" */;
+			buildPhases = (
+				D246CB671B9BF6A100D74C42 /* Resources */,
+				D246CB891B9BF6A100D74C42 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D246CB7B1B9BF6A100D74C42 /* PBXTargetDependency */,
+			);
+			name = "Populace WatchKit App";
+			productName = "Populace WatchKit App";
+			productReference = D246CB691B9BF6A100D74C42 /* Populace WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D246CB771B9BF6A100D74C42 /* Populace WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D246CB861B9BF6A100D74C42 /* Build configuration list for PBXNativeTarget "Populace WatchKit Extension" */;
+			buildPhases = (
+				D246CB741B9BF6A100D74C42 /* Sources */,
+				D246CB751B9BF6A100D74C42 /* Frameworks */,
+				D246CB761B9BF6A100D74C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Populace WatchKit Extension";
+			productName = "Populace WatchKit Extension";
+			productReference = D246CB781B9BF6A100D74C42 /* Populace WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D246CB4F1B9BF6A100D74C42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					D246CB561B9BF6A100D74C42 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+					};
+					D246CB681B9BF6A100D74C42 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+					};
+					D246CB771B9BF6A100D74C42 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = D246CB521B9BF6A100D74C42 /* Build configuration list for PBXProject "Populace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D246CB4E1B9BF6A100D74C42;
+			productRefGroup = D246CB581B9BF6A100D74C42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D246CB561B9BF6A100D74C42 /* Populace */,
+				D246CB681B9BF6A100D74C42 /* Populace WatchKit App */,
+				D246CB771B9BF6A100D74C42 /* Populace WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D246CB551B9BF6A100D74C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D246CB651B9BF6A100D74C42 /* LaunchScreen.storyboard in Resources */,
+				D246CB621B9BF6A100D74C42 /* Assets.xcassets in Resources */,
+				D246CB601B9BF6A100D74C42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D246CB671B9BF6A100D74C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D246CB721B9BF6A100D74C42 /* Assets.xcassets in Resources */,
+				D246CB701B9BF6A100D74C42 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D246CB761B9BF6A100D74C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D246CB821B9BF6A100D74C42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D246CB531B9BF6A100D74C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29FDDAD1B9BF8D200A78A53 /* PopulationConfiguration.swift in Sources */,
+				D29FDDB51B9BF8D200A78A53 /* Constants.swift in Sources */,
+				D246CB5B1B9BF6A100D74C42 /* AppDelegate.swift in Sources */,
+				D29FDDB71B9BF8D200A78A53 /* UIColorTools.swift in Sources */,
+				D29FDD8D1B9BF86D00A78A53 /* ImageCell.swift in Sources */,
+				D29FDD8C1B9BF86D00A78A53 /* PopulationViewController.swift in Sources */,
+				D29FDDAF1B9BF8D200A78A53 /* PopulationData.swift in Sources */,
+				D29FDDB31B9BF8D200A78A53 /* WorldPopulationService.swift in Sources */,
+				D29FDDA91B9BF8D200A78A53 /* WebService.swift in Sources */,
+				D29FDD8B1B9BF86D00A78A53 /* ConfigurationViewController.swift in Sources */,
+				D29FDDAB1B9BF8D200A78A53 /* GoogleChartService.swift in Sources */,
+				D29FDDB11B9BF8D200A78A53 /* PopulationTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D246CB741B9BF6A100D74C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29FDDB01B9BF8D200A78A53 /* PopulationData.swift in Sources */,
+				D29FDDB41B9BF8D200A78A53 /* WorldPopulationService.swift in Sources */,
+				D29FDDB81B9BF8D200A78A53 /* UIColorTools.swift in Sources */,
+				D29FDDAA1B9BF8D200A78A53 /* WebService.swift in Sources */,
+				D29FDD981B9BF8B600A78A53 /* PopulationFactRowController.swift in Sources */,
+				D29FDD951B9BF8B600A78A53 /* ConfigurationController.swift in Sources */,
+				D29FDDAE1B9BF8D200A78A53 /* PopulationConfiguration.swift in Sources */,
+				D29FDD971B9BF8B600A78A53 /* ChartRowController.swift in Sources */,
+				D29FDDAC1B9BF8D200A78A53 /* GoogleChartService.swift in Sources */,
+				D246CB801B9BF6A100D74C42 /* ExtensionDelegate.swift in Sources */,
+				D29FDD961B9BF8B600A78A53 /* PopulationController.swift in Sources */,
+				D29FDDB21B9BF8D200A78A53 /* PopulationTable.swift in Sources */,
+				D29FDDB61B9BF8D200A78A53 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D246CB6C1B9BF6A100D74C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D246CB681B9BF6A100D74C42 /* Populace WatchKit App */;
+			targetProxy = D246CB6B1B9BF6A100D74C42 /* PBXContainerItemProxy */;
+		};
+		D246CB7B1B9BF6A100D74C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D246CB771B9BF6A100D74C42 /* Populace WatchKit Extension */;
+			targetProxy = D246CB7A1B9BF6A100D74C42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D246CB5E1B9BF6A100D74C42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D246CB5F1B9BF6A100D74C42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D246CB631B9BF6A100D74C42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D246CB641B9BF6A100D74C42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D246CB6E1B9BF6A100D74C42 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D246CB6F1B9BF6A100D74C42 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D246CB841B9BF6A100D74C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D246CB851B9BF6A100D74C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D246CB871B9BF6A100D74C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Populace WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Populace.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		D246CB881B9BF6A100D74C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Populace WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Populace.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		D246CB8B1B9BF6A100D74C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = Populace_WatchKit_Extension;
+				INFOPLIST_FILE = "Populace WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Populace.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		D246CB8C1B9BF6A100D74C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = Populace_WatchKit_Extension;
+				INFOPLIST_FILE = "Populace WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Populace.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		D246CB8F1B9BF6A100D74C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Populace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Populace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D246CB901B9BF6A100D74C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Populace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Populace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D246CB521B9BF6A100D74C42 /* Build configuration list for PBXProject "Populace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D246CB841B9BF6A100D74C42 /* Debug */,
+				D246CB851B9BF6A100D74C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D246CB861B9BF6A100D74C42 /* Build configuration list for PBXNativeTarget "Populace WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D246CB871B9BF6A100D74C42 /* Debug */,
+				D246CB881B9BF6A100D74C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D246CB8A1B9BF6A100D74C42 /* Build configuration list for PBXNativeTarget "Populace WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D246CB8B1B9BF6A100D74C42 /* Debug */,
+				D246CB8C1B9BF6A100D74C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D246CB8E1B9BF6A100D74C42 /* Build configuration list for PBXNativeTarget "Populace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D246CB8F1B9BF6A100D74C42 /* Debug */,
+				D246CB901B9BF6A100D74C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D246CB4F1B9BF6A100D74C42 /* Project object */;
+}

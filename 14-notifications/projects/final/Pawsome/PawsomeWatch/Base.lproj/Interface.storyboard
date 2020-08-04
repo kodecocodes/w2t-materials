@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11163.2" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11064"/>
+    </dependencies>
+    <scenes>
+        <!--Pawsome-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Pawsome" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Pawsome">
+                    <items>
+                        <table alignment="center" id="qr4-uH-JaA">
+                            <items>
+                                <tableRow identifier="CatRowType" id="5cx-VF-wqH" customClass="CatImageRowController" customModule="Pawsome">
+                                    <group key="rootItem" width="1" height="100" alignment="left" id="GAq-8c-TG2">
+                                        <items>
+                                            <imageView width="1" height="1" alignment="center" image="cat01" contentMode="scaleAspectFill" id="eK6-aV-zDU"/>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="catImage" destination="eK6-aV-zDU" id="9NO-CJ-mMS"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="qr4-uH-JaA" id="4Sw-Zf-uip"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="sUk-QC-GNu">
+            <objects>
+                <notificationController hidesWhenLoading="NO" id="1xL-ut-tlW">
+                    <items>
+                        <label alignment="center" text="Alert Label" numberOfLines="0" id="zhA-4G-oau">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <imageView alignment="center" image="cat01" contentMode="scaleAspectFill" id="x7P-6g-L8u"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="Pawsome" id="DW3-5D-YIl"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="zhA-4G-oau" id="UdB-dk-hjL"/>
+                        <segue destination="BwW-Qa-sRg" kind="relationship" relationship="dynamicNotificationInterface" id="W9w-KK-AN8"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="221" y="599"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="JaL-Pc-i9q">
+            <objects>
+                <controller hidesWhenLoading="NO" id="BwW-Qa-sRg" customClass="NotificationController" customModule="Pawsome">
+                    <items>
+                        <label alignment="center" text="&lt;message&gt;" numberOfLines="0" id="j3q-fg-nP4">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <imageView alignment="center" image="cat01" contentMode="scaleAspectFill" id="26u-iE-mHi"/>
+                    </items>
+                    <connections>
+                        <outlet property="image" destination="26u-iE-mHi" id="cIr-zJ-BtE"/>
+                        <outlet property="label" destination="j3q-fg-nP4" id="nLQ-qL-nNm"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="454" y="599"/>
+        </scene>
+    </scenes>
+</document>

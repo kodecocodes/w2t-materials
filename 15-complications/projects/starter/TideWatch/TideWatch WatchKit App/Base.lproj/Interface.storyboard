@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Tide Watch-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Tide Watch" id="AgC-eL-Hgc" customClass="MainInterfaceController" customModule="TideWatch_WatchKit_App_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Clearwater Beach" textAlignment="center" numberOfLines="0" minimumScaleFactor="0.80000000000000004" id="DAe-Bw-BzH">
+                            <color key="textColor" red="0.3529411764705882" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="center" text="FL" textAlignment="center" id="91k-Pq-EqY">
+                            <color key="textColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <imageView width="1" alignment="center" image="waves" id="OWC-1Q-ajR"/>
+                        <group width="1" alignment="left" id="CyO-85-R3J">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Water Level" id="zKR-P4-Erb">
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                </label>
+                                <label alignment="right" verticalAlignment="center" text="-0.3m" textAlignment="right" id="O2M-bk-tZj">
+                                    <color key="textColor" red="0.12549019607843137" green="0.58039215686274503" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="9Y2-wt-b2m">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="48h Average" id="5Mr-8m-x03">
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                </label>
+                                <label alignment="right" verticalAlignment="center" text="-0.2m" textAlignment="right" id="gRb-U4-rFj">
+                                    <color key="textColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="iJV-gQ-o9Q">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Tide" id="UVK-Gh-kAC">
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                </label>
+                                <label alignment="right" verticalAlignment="center" text="Falling" textAlignment="right" id="i2S-sM-Dqa">
+                                    <color key="textColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Details" id="Ba8-Ih-jgo">
+                            <color key="backgroundColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="uNB-eQ-MHV" kind="push" identifier="DetailsSegue" id="WtD-A0-8tD"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Change Station" id="cJz-nR-WHW">
+                            <connections>
+                                <segue destination="RE3-Wd-Zhx" kind="push" id="ANn-wc-aIv"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="averageWaterLevelLabel" destination="gRb-U4-rFj" id="TjG-og-PAs"/>
+                        <outlet property="nameLabel" destination="DAe-Bw-BzH" id="tDD-KY-W6l"/>
+                        <outlet property="stateLabel" destination="91k-Pq-EqY" id="kBR-dY-NWT"/>
+                        <outlet property="tideLabel" destination="i2S-sM-Dqa" id="86V-ae-1m1"/>
+                        <outlet property="waterLevelLabel" destination="O2M-bk-tZj" id="jt5-eD-OP9"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="440" y="483.5"/>
+        </scene>
+        <!--Water Levels-->
+        <scene sceneID="8Or-T3-ywW">
+            <objects>
+                <controller title="Water Levels" hidesWhenLoading="NO" id="uNB-eQ-MHV" customClass="DetailsInterfaceController" customModule="TideWatch_WatchKit_App_Extension">
+                    <items>
+                        <table alignment="left" spacing="0.0" id="3Qe-qw-jqs">
+                            <items>
+                                <tableRow identifier="WaterLevelRow" selectable="NO" id="zMp-so-mYI" customClass="WaterLevelRowController" customModule="TideWatch_WatchKit_App_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" radius="2" id="DU8-VF-3Tm">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="-1h" id="hzg-7M-Uvd">
+                                                <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                            </label>
+                                            <label alignment="right" verticalAlignment="center" text="2.2m" id="szF-lu-s3q">
+                                                <color key="textColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.019607843137254902" green="0.098039215686274508" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="dateLabel" destination="hzg-7M-Uvd" id="Xd9-GS-G1g"/>
+                                        <outlet property="group" destination="DU8-VF-3Tm" id="5wC-sU-UEb"/>
+                                        <outlet property="levelLabel" destination="szF-lu-s3q" id="jfp-9n-2Uc"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="3Qe-qw-jqs" id="KuC-ER-cbj"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="690" y="365.5"/>
+        </scene>
+        <!--Stations-->
+        <scene sceneID="Lqi-hK-T3a">
+            <objects>
+                <controller title="Stations" hidesWhenLoading="NO" id="RE3-Wd-Zhx" customClass="StationsInterfaceController" customModule="TideWatch_WatchKit_App_Extension">
+                    <items>
+                        <table alignment="left" spacing="0.0" id="T0U-Sq-dXZ">
+                            <items>
+                                <tableRow identifier="StationRow" id="llo-gQ-evY" customClass="StationRowController" customModule="TideWatch_WatchKit_App_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" spacing="0.0" id="Wi7-kM-syl">
+                                        <items>
+                                            <label alignment="left" text="Clearwater Beach" minimumScaleFactor="0.80000000000000004" id="ntI-SW-Zd8">
+                                                <color key="textColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </label>
+                                            <label alignment="left" text="FL" id="4ef-S0-TyZ">
+                                                <color key="textColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.019607843140000001" green="0.098039215690000001" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="group" destination="Wi7-kM-syl" id="EIp-4t-1z6"/>
+                                        <outlet property="nameLabel" destination="ntI-SW-Zd8" id="x2h-Go-oHC"/>
+                                        <outlet property="stateLabel" destination="4ef-S0-TyZ" id="wQ4-g4-oPc"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="T0U-Sq-dXZ" id="phW-rY-Y6p"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="690" y="602.5"/>
+        </scene>
+    </scenes>
+</document>

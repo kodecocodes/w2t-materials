@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8121.20" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8066.14"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ColorPicker_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="30" height="30" alignment="left" id="PJ2-l6-7c4">
+                            <color key="backgroundColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </group>
+                        <label alignment="left" text="#00FFFF" id="ixd-MP-uaa"/>
+                        <button width="1" alignment="left" title="More" id="TMk-Zv-vAH"/>
+                        <button width="1" alignment="left" title="Change Color" id="rAh-Mx-JCw"/>
+                    </items>
+                    <connections>
+                        <outlet property="colorGroup" destination="PJ2-l6-7c4" id="DAB-py-W1O"/>
+                        <outlet property="label" destination="ixd-MP-uaa" id="mnx-5p-HBL"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="342" y="387"/>
+        </scene>
+    </scenes>
+</document>

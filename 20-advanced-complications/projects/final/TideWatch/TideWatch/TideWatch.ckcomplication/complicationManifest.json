@@ -1,0 +1,7 @@
+{
+  "supported complication families" : {
+    "2" : "5A1D1D1A-5692-4675-8D49-6B69F4CA8F48.json",
+    "3" : "DDDF9A69-8814-4058-BDFB-183C8D38BACE.json"
+  },
+  "client ID" : "com.razeware.TideWatch.watchkitapp.watchkitextension"
+}

@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A03F2611D33CB7400428B8F /* cat images in Resources */ = {isa = PBXBuildFile; fileRef = 4A03F2601D33CB7400428B8F /* cat images */; };
+		4A03F2621D33D37F00428B8F /* cat images in Resources */ = {isa = PBXBuildFile; fileRef = 4A03F2601D33CB7400428B8F /* cat images */; };
+		4A4AA6D51B7D02B000E2C604 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4AA6D41B7D02B000E2C604 /* NotificationController.swift */; };
+		4AF08C041B3F03280062A0AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF08C031B3F03280062A0AB /* AppDelegate.swift */; };
+		4AF08C061B3F03280062A0AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF08C051B3F03280062A0AB /* ViewController.swift */; };
+		4AF08C091B3F03280062A0AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF08C071B3F03280062A0AB /* Main.storyboard */; };
+		4AF08C0B1B3F03280062A0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF08C0A1B3F03280062A0AB /* Assets.xcassets */; };
+		4AF08C0E1B3F03280062A0AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF08C0C1B3F03280062A0AB /* LaunchScreen.storyboard */; };
+		4AF08C2D1B3F0FEE0062A0AB /* CatPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF08C2C1B3F0FEE0062A0AB /* CatPhotoCell.swift */; };
+		4AF08C2F1B3F14C40062A0AB /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF08C2E1B3F14C40062A0AB /* PhotoViewController.swift */; };
+		4AF08C361B3F1B4A0062A0AB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF08C341B3F1B4A0062A0AB /* Interface.storyboard */; };
+		4AF08C381B3F1B4A0062A0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF08C371B3F1B4A0062A0AB /* Assets.xcassets */; };
+		4AF08C3F1B3F1B4A0062A0AB /* Pawsome.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4AF08C3E1B3F1B4A0062A0AB /* Pawsome.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4AF08C461B3F1B4A0062A0AB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF08C451B3F1B4A0062A0AB /* InterfaceController.swift */; };
+		4AF08C4C1B3F1B4A0062A0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF08C4B1B3F1B4A0062A0AB /* Assets.xcassets */; };
+		4AF08C501B3F1B4A0062A0AB /* Pawsome.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4AF08C321B3F1B4A0062A0AB /* Pawsome.app */; };
+		4AF08C5A1B3F1EC40062A0AB /* CatImageRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF08C591B3F1EC40062A0AB /* CatImageRowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AF08C401B3F1B4A0062A0AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AF08BF81B3F03280062A0AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF08C3D1B3F1B4A0062A0AB;
+			remoteInfo = "CatNapWatch Extension";
+		};
+		4AF08C4E1B3F1B4A0062A0AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AF08BF81B3F03280062A0AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF08C311B3F1B4A0062A0AB;
+			remoteInfo = CatNapWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4AF08C541B3F1B4A0062A0AB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4AF08C3F1B3F1B4A0062A0AB /* Pawsome.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF08C581B3F1B4A0062A0AB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4AF08C501B3F1B4A0062A0AB /* Pawsome.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A03F2601D33CB7400428B8F /* cat images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "cat images"; sourceTree = "<group>"; };
+		4A4AA6D31B7CEECF00E2C604 /* PawsomeNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PawsomeNotificationPayload.apns; sourceTree = "<group>"; };
+		4A4AA6D41B7D02B000E2C604 /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4AF08C001B3F03280062A0AB /* Pawsome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pawsome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF08C031B3F03280062A0AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AF08C051B3F03280062A0AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AF08C081B3F03280062A0AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AF08C0A1B3F03280062A0AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AF08C0D1B3F03280062A0AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AF08C0F1B3F03280062A0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF08C2C1B3F0FEE0062A0AB /* CatPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatPhotoCell.swift; sourceTree = "<group>"; };
+		4AF08C2E1B3F14C40062A0AB /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		4AF08C321B3F1B4A0062A0AB /* Pawsome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pawsome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF08C351B3F1B4A0062A0AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4AF08C371B3F1B4A0062A0AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AF08C391B3F1B4A0062A0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF08C3E1B3F1B4A0062A0AB /* Pawsome.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Pawsome.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF08C451B3F1B4A0062A0AB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4AF08C4B1B3F1B4A0062A0AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AF08C4D1B3F1B4A0062A0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF08C591B3F1EC40062A0AB /* CatImageRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatImageRowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AF08BFD1B3F03280062A0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF08C3B1B3F1B4A0062A0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AF08BF71B3F03280062A0AB = {
+			isa = PBXGroup;
+			children = (
+				4AF08C021B3F03280062A0AB /* Pawsome */,
+				4AF08C331B3F1B4A0062A0AB /* PawsomeWatch */,
+				4AF08C421B3F1B4A0062A0AB /* PawsomeWatch Extension */,
+				4AF08C011B3F03280062A0AB /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		4AF08C011B3F03280062A0AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF08C001B3F03280062A0AB /* Pawsome.app */,
+				4AF08C321B3F1B4A0062A0AB /* Pawsome.app */,
+				4AF08C3E1B3F1B4A0062A0AB /* Pawsome.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AF08C021B3F03280062A0AB /* Pawsome */ = {
+			isa = PBXGroup;
+			children = (
+				4AF08C031B3F03280062A0AB /* AppDelegate.swift */,
+				4AF08C051B3F03280062A0AB /* ViewController.swift */,
+				4AF08C2C1B3F0FEE0062A0AB /* CatPhotoCell.swift */,
+				4AF08C2E1B3F14C40062A0AB /* PhotoViewController.swift */,
+				4AF08C071B3F03280062A0AB /* Main.storyboard */,
+				4AF08C0A1B3F03280062A0AB /* Assets.xcassets */,
+				4AF08C0C1B3F03280062A0AB /* LaunchScreen.storyboard */,
+				4AF08C0F1B3F03280062A0AB /* Info.plist */,
+			);
+			path = Pawsome;
+			sourceTree = "<group>";
+		};
+		4AF08C331B3F1B4A0062A0AB /* PawsomeWatch */ = {
+			isa = PBXGroup;
+			children = (
+				4AF08C341B3F1B4A0062A0AB /* Interface.storyboard */,
+				4AF08C371B3F1B4A0062A0AB /* Assets.xcassets */,
+				4AF08C391B3F1B4A0062A0AB /* Info.plist */,
+			);
+			path = PawsomeWatch;
+			sourceTree = "<group>";
+		};
+		4AF08C421B3F1B4A0062A0AB /* PawsomeWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4A03F2601D33CB7400428B8F /* cat images */,
+				4AF08C451B3F1B4A0062A0AB /* InterfaceController.swift */,
+				4AF08C591B3F1EC40062A0AB /* CatImageRowController.swift */,
+				4A4AA6D41B7D02B000E2C604 /* NotificationController.swift */,
+				4AF08C4B1B3F1B4A0062A0AB /* Assets.xcassets */,
+				4AF08C4D1B3F1B4A0062A0AB /* Info.plist */,
+				4AF08C431B3F1B4A0062A0AB /* Supporting Files */,
+			);
+			path = "PawsomeWatch Extension";
+			sourceTree = "<group>";
+		};
+		4AF08C431B3F1B4A0062A0AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A4AA6D31B7CEECF00E2C604 /* PawsomeNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AF08BFF1B3F03280062A0AB /* Pawsome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF08C121B3F03280062A0AB /* Build configuration list for PBXNativeTarget "Pawsome" */;
+			buildPhases = (
+				4AF08BFC1B3F03280062A0AB /* Sources */,
+				4AF08BFD1B3F03280062A0AB /* Frameworks */,
+				4AF08BFE1B3F03280062A0AB /* Resources */,
+				4AF08C581B3F1B4A0062A0AB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF08C4F1B3F1B4A0062A0AB /* PBXTargetDependency */,
+			);
+			name = Pawsome;
+			productName = CatNap;
+			productReference = 4AF08C001B3F03280062A0AB /* Pawsome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AF08C311B3F1B4A0062A0AB /* PawsomeWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF08C551B3F1B4A0062A0AB /* Build configuration list for PBXNativeTarget "PawsomeWatch" */;
+			buildPhases = (
+				4AF08C301B3F1B4A0062A0AB /* Resources */,
+				4AF08C541B3F1B4A0062A0AB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF08C411B3F1B4A0062A0AB /* PBXTargetDependency */,
+			);
+			name = PawsomeWatch;
+			productName = CatNapWatch;
+			productReference = 4AF08C321B3F1B4A0062A0AB /* Pawsome.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4AF08C3D1B3F1B4A0062A0AB /* PawsomeWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF08C511B3F1B4A0062A0AB /* Build configuration list for PBXNativeTarget "PawsomeWatch Extension" */;
+			buildPhases = (
+				4AF08C3A1B3F1B4A0062A0AB /* Sources */,
+				4AF08C3B1B3F1B4A0062A0AB /* Frameworks */,
+				4AF08C3C1B3F1B4A0062A0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PawsomeWatch Extension";
+			productName = "CatNapWatch Extension";
+			productReference = 4AF08C3E1B3F1B4A0062A0AB /* Pawsome.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AF08BF81B3F03280062A0AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					4AF08BFF1B3F03280062A0AB = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+					};
+					4AF08C311B3F1B4A0062A0AB = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+					};
+					4AF08C3D1B3F1B4A0062A0AB = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 4AF08BFB1B3F03280062A0AB /* Build configuration list for PBXProject "Pawsome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AF08BF71B3F03280062A0AB;
+			productRefGroup = 4AF08C011B3F03280062A0AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AF08BFF1B3F03280062A0AB /* Pawsome */,
+				4AF08C311B3F1B4A0062A0AB /* PawsomeWatch */,
+				4AF08C3D1B3F1B4A0062A0AB /* PawsomeWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AF08BFE1B3F03280062A0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A03F2621D33D37F00428B8F /* cat images in Resources */,
+				4AF08C0E1B3F03280062A0AB /* LaunchScreen.storyboard in Resources */,
+				4AF08C0B1B3F03280062A0AB /* Assets.xcassets in Resources */,
+				4AF08C091B3F03280062A0AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF08C301B3F1B4A0062A0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF08C381B3F1B4A0062A0AB /* Assets.xcassets in Resources */,
+				4AF08C361B3F1B4A0062A0AB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF08C3C1B3F1B4A0062A0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A03F2611D33CB7400428B8F /* cat images in Resources */,
+				4AF08C4C1B3F1B4A0062A0AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AF08BFC1B3F03280062A0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF08C061B3F03280062A0AB /* ViewController.swift in Sources */,
+				4AF08C2F1B3F14C40062A0AB /* PhotoViewController.swift in Sources */,
+				4AF08C041B3F03280062A0AB /* AppDelegate.swift in Sources */,
+				4AF08C2D1B3F0FEE0062A0AB /* CatPhotoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF08C3A1B3F1B4A0062A0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4AA6D51B7D02B000E2C604 /* NotificationController.swift in Sources */,
+				4AF08C5A1B3F1EC40062A0AB /* CatImageRowController.swift in Sources */,
+				4AF08C461B3F1B4A0062A0AB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AF08C411B3F1B4A0062A0AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AF08C3D1B3F1B4A0062A0AB /* PawsomeWatch Extension */;
+			targetProxy = 4AF08C401B3F1B4A0062A0AB /* PBXContainerItemProxy */;
+		};
+		4AF08C4F1B3F1B4A0062A0AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AF08C311B3F1B4A0062A0AB /* PawsomeWatch */;
+			targetProxy = 4AF08C4E1B3F1B4A0062A0AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AF08C071B3F03280062A0AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF08C081B3F03280062A0AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AF08C0C1B3F03280062A0AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF08C0D1B3F03280062A0AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4AF08C341B3F1B4A0062A0AB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF08C351B3F1B4A0062A0AB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AF08C101B3F03280062A0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AF08C111B3F03280062A0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AF08C131B3F03280062A0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pawsome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Pawsome;
+				PRODUCT_NAME = Pawsome;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4AF08C141B3F03280062A0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pawsome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Pawsome;
+				PRODUCT_NAME = Pawsome;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		4AF08C521B3F1B4A0062A0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "PawsomeWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Pawsome.watchkitapp.watchkitextension;
+				PRODUCT_NAME = Pawsome;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		4AF08C531B3F1B4A0062A0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "PawsomeWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Pawsome.watchkitapp.watchkitextension;
+				PRODUCT_NAME = Pawsome;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		4AF08C561B3F1B4A0062A0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = PawsomeWatch_Extension;
+				INFOPLIST_FILE = PawsomeWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Pawsome.watchkitapp;
+				PRODUCT_NAME = Pawsome;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		4AF08C571B3F1B4A0062A0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = PawsomeWatch_Extension;
+				INFOPLIST_FILE = PawsomeWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Pawsome.watchkitapp;
+				PRODUCT_NAME = Pawsome;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AF08BFB1B3F03280062A0AB /* Build configuration list for PBXProject "Pawsome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF08C101B3F03280062A0AB /* Debug */,
+				4AF08C111B3F03280062A0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF08C121B3F03280062A0AB /* Build configuration list for PBXNativeTarget "Pawsome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF08C131B3F03280062A0AB /* Debug */,
+				4AF08C141B3F03280062A0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF08C511B3F1B4A0062A0AB /* Build configuration list for PBXNativeTarget "PawsomeWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF08C521B3F1B4A0062A0AB /* Debug */,
+				4AF08C531B3F1B4A0062A0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF08C551B3F1B4A0062A0AB /* Build configuration list for PBXNativeTarget "PawsomeWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF08C561B3F1B4A0062A0AB /* Debug */,
+				4AF08C571B3F1B4A0062A0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AF08BF81B3F03280062A0AB /* Project object */;
+}

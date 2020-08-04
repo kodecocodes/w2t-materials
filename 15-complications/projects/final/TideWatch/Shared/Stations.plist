@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>9415020,Point Reyes,CA</string>
+	<string>9414575,Coyote Creek,CA</string>
+	<string>9444090,Port Angeles,WA</string>
+	<string>8771013,Eagle Point,TX</string>
+	<string>8726724,Clearwater Beach,FL</string>
+	<string>8723214,Virginia Key,FL</string>
+	<string>8661070,Springmaid Pier,SC</string>
+	<string>8594900,Washington, DC</string>
+	<string>8518750,The Battery,NY</string>
+	<string>8651370,Duck,NC</string>
+</array>
+</plist>

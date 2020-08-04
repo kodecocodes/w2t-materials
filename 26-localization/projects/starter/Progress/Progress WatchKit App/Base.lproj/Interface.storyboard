@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="15A282b" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bg9-F2-wCd">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Initial Interface Controller-->
+        <scene sceneID="uap-GX-6He">
+            <objects>
+                <controller hidesWhenLoading="NO" id="bg9-F2-wCd" customClass="InitialInterfaceController" customModule="Progress_WatchKit_Extension"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="307.5"/>
+        </scene>
+        <!--[Today]-->
+        <scene sceneID="88R-S4-fab">
+            <objects>
+                <controller identifier="progressController" title="[Today]" id="DXG-kF-5CJ" customClass="ProgressInterfaceController" customModule="Progress_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="138" alignment="left" backgroundImage="ring120" contentMode="scaleAspectFit" layout="vertical" id="0Fp-aR-bMT">
+                            <items>
+                                <label alignment="center" verticalAlignment="center" text="[$5,000]" id="prK-lm-cFb">
+                                    <fontDescription key="font" type="system" pointSize="22"/>
+                                </label>
+                                <label alignment="center" verticalAlignment="center" text="[OF $7,500]" id="9gh-b4-lkI">
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="font" type="system" pointSize="11"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" spacing="24" id="0b9-uk-w6L">
+                            <items>
+                                <group width="1" alignment="left" layout="vertical" spacing="0.0" id="NL8-MV-fz7">
+                                    <items>
+                                        <label width="1" alignment="left" text="date" textAlignment="center" id="MDy-Ox-NCo">
+                                            <color key="textColor" red="0.86274509799999999" green="0.72941176470000002" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label width="1" alignment="left" text="[9/8/15]" textAlignment="center" id="Iqe-Ka-Tww">
+                                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" layout="vertical" spacing="0.0" id="yOK-c6-sZW">
+                                    <items>
+                                        <label width="1" alignment="left" text="units sold" textAlignment="center" id="hIX-JX-irH">
+                                            <color key="textColor" red="0.86274509799999999" green="0.72941176470000002" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label width="1" alignment="left" text="[500 units]" textAlignment="center" id="1Rq-ED-A0c">
+                                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" layout="vertical" spacing="0.0" id="yAZ-By-xIg">
+                                    <items>
+                                        <label width="1" alignment="left" text="average selling price" textAlignment="center" numberOfLines="0" id="iUN-qV-iR3">
+                                            <color key="textColor" red="0.86274509799999999" green="0.72941176470000002" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label width="1" alignment="left" text="[$50]" textAlignment="center" id="s21-Oj-wwh">
+                                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                        </label>
+                                    </items>
+                                </group>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="24" bottom="6"/>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="1" right="1" top="6" bottom="0.0"/>
+                    <connections>
+                        <outlet property="averageSellingPriceLabel" destination="s21-Oj-wwh" id="NFO-hz-a3J"/>
+                        <outlet property="dateLabel" destination="Iqe-Ka-Tww" id="ZWj-5v-FpZ"/>
+                        <outlet property="goalGroup" destination="0Fp-aR-bMT" id="kqA-8P-YI4"/>
+                        <outlet property="goalLabel" destination="9gh-b4-lkI" id="P5F-87-5N6"/>
+                        <outlet property="statusLabel" destination="prK-lm-cFb" id="eWD-of-NMd"/>
+                        <outlet property="unitsLabel" destination="1Rq-ED-A0c" id="vw8-w4-I6M"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="364" y="307.5"/>
+        </scene>
+    </scenes>
+</document>
