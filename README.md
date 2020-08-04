@@ -1,15 +1,12 @@
-# BOOK: Materials
+# watchOS by Tutorials: Materials
 
-> __TODO:__ Create a new repo from this template, create the requisite editions/x.x branch, add the book team with Write access, and update references in this readme as appropriate.
-
-
-This repo contains all the downloadable materials and projects associated with the **[BOOK](https://store.raywenderlich.com/)** from [raywenderlich.com](https://www.raywenderlich.com).
+This repo contains all the downloadable materials and projects associated with the **[watchOS by Tutorials](https://store.raywenderlich.com/products/watchos-by-tutorials)** from [raywenderlich.com](https://www.raywenderlich.com).
 
 Each edition has its own branch, named `editions/[EDITION]`. The default branch for this repo is for the most recent edition.
 
 ## Release History
 
-| Branch                                                                            | Edition | Release Date |
-| --------------------------------------------------------------------------------- |:-------:|:------------:|
-| [editions/1.0](https://github.com/raywenderlich/TODO-materials/tree/editions/1.0) | 1.0     | YYYY-MM-DD   |
+| Branch                                                                           | Edition | Release Date |
+| -------------------------------------------------------------------------------- |:-------:|:------------:|
+| [editions/3.0](https://github.com/raywenderlich/w2t-materials/tree/editions/3.0) | 3.0     | 2017-12-08   |
 
